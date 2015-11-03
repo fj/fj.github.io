@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Solving the "Cheryl's Birthday" Problem with Prolog</title>
+  <meta name="description" content="Personal site for John Feminella: software engineer · enthusiastic technologist · curiosity advocate">
+
+  <link rel="stylesheet" href="https://s3.amazonaws.com/assets.jxf.me/stylesheets/c.min.css?t=1446533481">
+  <link rel="canonical" href="http://jxf.me/entries/cheryls-birthday/">
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      jax: ["input/TeX", "output/SVG", "output/HTML-CSS", "output/NativeMML"],
+    });
+  </script>
+  <script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
+  </script>
+</head>
+
+  <body>
+    
+
+
+
+<header class="header">
+  <div class="measure--lg">
+    <div class="header-brand">
+      <a href="/" title="John Feminella">{ jxf }</a>
+    </div>
+    <nav class="header-nav">
+      <div class="header-nav-item">
+        <a href="/blog.html"  class="active" title="Blog">Blog</a>
+      </div>
+      <div class="header-nav-item">
+        <a href="/portfolio.html"  title="Work">Work</a>
+      </div>
+      <div class="header-nav-item">
+        <a href="/meta.html"  title="Meta">Meta</a>
+      </div>
+      <div class="header-nav-item">
+        <a href="/self.html"  title="Self">Self</a>
+      </div>
+    </nav>
+    <div class="clearfix"></div>
+  </div>
+</header>
+
+    <main>
+      <div class="measure--lg">
+  <div class="media-object">
+    <div class="media-object-figure mr1 txt--right">
+      <h3 class="list-item-title--compact">
+        
+
+
+    
+  
+
+<i class="jf-i jf-i-file"></i>
+
+      </h3>
+      <div class="muted--2x">
+        <time datetime="2015-04-17 04:00:00 -0400" title="04-17-15 @ 04:00:00">2015-04-17</time>
+<br>
+        2,266 words
+        <div class="post-categories">
+          
+            <div class="post-category">
+              <a href="/tag/post" title="post" class="dotted-link caps">post</a>
+            </div>
+          
+            <div class="post-category">
+              <a href="/tag/prolog" title="prolog" class="dotted-link caps">prolog</a>
+            </div>
+          
+            <div class="post-category">
+              <a href="/tag/experiments" title="experiments" class="dotted-link caps">experiments</a>
+            </div>
+          
+            <div class="post-category">
+              <a href="/tag/software" title="software" class="dotted-link caps">software</a>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="media-object-body">
+      <h3 class="list-item-title--compact list-item-solo-title">
+        Solving the "Cheryl's Birthday" Problem with Prolog
+      </h3>
+      <div class="list-item-description">
+      </div>
+      <article class="markdown-content">
+        <p>The “Cheryl’s Birthday” problem has attracted a lot of press, with <a href="http://www.cnn.com/2015/04/15/living/feat-cheryl-birthday-math-problem-goes-viral/">CNN</a>, the <a href="http://www.washingtonpost.com/news/morning-mix/wp/2015/04/14/when-is-cheryls-birthday-the-math-problem-that-stumped-the-internet/">Washington Post</a>, <a href="http://www.slate.com/articles/video/video/2015/04/cheryl_s_birthday_answer_singapore_logic_math_problem_solved_video.html">Slate</a>, and the <a href="http://www.telegraph.co.uk/education/educationnews/11534378/When-is-Cheryls-birthday-The-tricky-math-problem-that-has-everyone-stumped.html">Telegraph</a> and <a href="https://twitter.com/search?q=%23cherylsbirthday">countless others</a> weighing in.</p>
+
+<p>There’s plenty of explanations that give a good overview of the problem and show you how to work out the solution to the problem via a series of logical deductions. But what if we could just ask a computer to find the answer for us?</p>
+
+<p><img src="//s3.amazonaws.com/assets.jxf.me/images/entries/000004/cheryl.jpg" alt="chocolate cake with the text 'Happy Birthday, Cheryl' written in frosting" /></p>
+
+<h1 id="the-problem">The problem</h1>
+
+<p>To briefly recap, the problem statement is as follows:</p>
+
+<blockquote>
+  <p>Albert and Bernard have just met Cheryl. “When is your birthday?” Albert asked Cheryl. Cheryl thought for a moment and said, “I won’t tell you, but I’ll give you some clues”. She wrote down a list of ten dates:</p>
+
+  <ul>
+    <li>May 15, May 16, May 19</li>
+    <li>June 17, June 18</li>
+    <li>July 14, July 16</li>
+    <li>August 14, August 15, August 17</li>
+  </ul>
+
+  <p>“One of these is my birthday,” she said.</p>
+
+  <p>Cheryl whispered in Albert’s ear the month, and only the month, of her birthday. To Bernard, she whispered the day, and only the day. “Can you figure it out now?” she asked Albert.</p>
+
+  <ul>
+    <li><strong>Albert:</strong> “I don’t know when your birthday is, but I know Bernard doesn’t know, either.”</li>
+    <li><strong>Bernard:</strong> “I didn’t know originally, but now I do.”</li>
+    <li><strong>Albert:</strong> “Well, now I know, too!”</li>
+  </ul>
+
+  <p>When is Cheryl’s birthday?</p>
+</blockquote>
+
+<p>The heart of the problem are the statements exchanged by Albert and Bernard. Initially, neither Albert and Bernard know when Cheryl’s birthday is, but through deduction they mutually arrive at a unique, correct answer.</p>
+
+<p>This must mean that, somehow, the set of possibilities offered by Cheryl satisfies some set of properties that make it possible for Albert and Bernard to arrive at the answer. If we can write these properties down into a form that a computer can understand, we can have these deductions done for us. Wouldn’t that be nice?</p>
+
+<p>Enter <a href="http://en.wikipedia.org/wiki/Prolog">Prolog</a>! It’s pretty rare that I ever pick it up, but this seemed like a great excuse to try it out again. Let’s see where we get!</p>
+
+<h1 id="prolog">Prolog</h1>
+
+<aside>If you want to install Prolog yourself and follow along, follow the directions <a href="http://www.swi-prolog.org/build/">here</a>. You can load Prolog programs with <code class="shell">prolog -e x.pl</code>.</aside>
+
+<p>Prolog belongs to a relatively rare breed of <em>logic programming languages</em>, in contrast to <em>imperative</em> programming languages. Broadly, imperative languages require that your program take the form of a series of explicit instructions that describe what to do. For example, an imperative program to find the smallest element in a list might take a form like this:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>smallest(list):
+  * Declare `result`.
+  * Set `result` to the first element of `list`.
+  * For each element `e` in `list`:
+    * Set `result` to be `e`, if `e` is smaller than `result`.
+  * Answer: `result`.
+</code></pre>
+</div>
+
+<p>With <em>logic</em> languages, however, you describe a set of facts and ask whether there is a consistent conclusion that can be reached from those facts. The logic-programming version of the same program might be something like:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>smallest(list):
+  * Answer: the element `e` in `list` such that for all other
+      elements `E`, `e` &lt;= `E`.
+</code></pre>
+</div>
+
+<p>This is an interesting inversion of responsibilities relative to imperative programs: instead of <em>telling a computer what to do</em>, we say <em>what the answer has to look like</em>. Then the computer is free to decide how to arrive at the answer.</p>
+
+<aside><code>;</code> is disjunction in Prolog, similar to the <code>or</code> keyword elsewhere; <code>,</code> is conjunction, like <code>and</code>.</aside>
+
+<p>All Prolog programs adopt this approach. We describe a series of true statements, then ask Prolog to evaluate a question to see if there is an answer that is consistent with everything we described. Those statements can take the form of either <em>facts</em> or <em>rules</em>.</p>
+
+<ul>
+  <li>
+    <p>Facts are true statements in the universe of the program, like “grass is green”, “Bob is a person”, or “Alice is Bob’s sister”. In Prolog, we might express these as <code class="highlighter-rouge">green(grass)</code>, <code class="highlighter-rouge">person(bob)</code>, and <code class="highlighter-rouge">sibling(alice, bob)</code>, respectively.</p>
+  </li>
+  <li>
+    <p>Rules tell you how to evaluate a set of circumstances to decide if they’re true or not. For example, we might define a rule like <code class="highlighter-rouge">parent(X, Y) :- mother(X, Y); father(X, Y).</code>; this could be used to express the rule “X is Y’s parent if (a) X is Y’s mother, or (b) X is Y’s father”. Facts are like rules whose body is just the predicate <code class="highlighter-rouge">true</code>.</p>
+  </li>
+</ul>
+
+<p>That’s about it. Let’s see if we can use Prolog to help us solve Cheryl’s birthday.</p>
+
+<h1 id="getting-to-an-answer">Getting to an answer</h1>
+
+<p>Doing anything useful in Prolog is about constructing the correct set of facts and rules to describe the universe you want to talk about. Our task is to represent the problem statements as facts or rules so that we can arrive at the correct answer.</p>
+
+<h2 id="cheryls-list-of-birthdays">Cheryl’s list of birthdays</h2>
+
+<p>First, Cheryl says that her birthday is one of the previously mentioned ten distinct possibilities. To represent this in Prolog, we’ll just enumerate them as individual facts:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="ss">candidate_birthday</span><span class="p">(</span><span class="ss">'May'</span><span class="p">,</span> <span class="m">15</span><span class="p">).</span>
+<span class="ss">candidate_birthday</span><span class="p">(</span><span class="ss">'May'</span><span class="p">,</span> <span class="m">16</span><span class="p">).</span>
+<span class="ss">candidate_birthday</span><span class="p">(</span><span class="ss">'May'</span><span class="p">,</span> <span class="m">19</span><span class="p">).</span>
+<span class="cm">/*</span><span class="err"> ... </span><span class="cm">*/</span>
+<span class="ss">candidate_birthday</span><span class="p">(</span><span class="ss">'August'</span><span class="p">,</span> <span class="m">17</span><span class="p">).</span>
+</code></pre>
+</div>
+
+<p>If we wanted to cut down on the repetition, we can also write this as a <em>rule</em> instead of a series of facts. The rule is that a month and a day are a candidate birthday if they belong to the set of candidate birthdays:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="ss">candidate_birthday</span><span class="p">(</span><span class="nv">Month</span><span class="p">,</span> <span class="nv">Day</span><span class="p">)</span> <span class="p">:-</span>
+  <span class="ss">member</span><span class="p">(</span><span class="nv">Month</span><span class="o">/</span><span class="nv">Day</span><span class="p">,</span>
+    <span class="p">[</span>
+      <span class="ss">'May'</span><span class="o">/</span><span class="m">15</span><span class="p">,</span> <span class="ss">'May'</span><span class="o">/</span><span class="m">16</span><span class="p">,</span> <span class="ss">'May'</span><span class="o">/</span><span class="m">19</span><span class="p">,</span>
+      <span class="ss">'June'</span><span class="o">/</span><span class="m">17</span><span class="p">,</span> <span class="ss">'June'</span><span class="o">/</span><span class="m">18</span><span class="p">,</span>
+      <span class="ss">'July'</span><span class="o">/</span><span class="m">14</span><span class="p">,</span> <span class="ss">'July'</span><span class="o">/</span><span class="m">16</span><span class="p">,</span>
+      <span class="ss">'August'</span><span class="o">/</span><span class="m">14</span><span class="p">,</span> <span class="ss">'August'</span><span class="o">/</span><span class="m">15</span><span class="p">,</span> <span class="ss">'August'</span><span class="o">/</span><span class="m">17</span>
+    <span class="p">]</span>
+  <span class="p">).</span>
+</code></pre>
+</div>
+
+<p>The rule form is nicer if we have a lot of birthdays to check, since we can just add an element to the list.</p>
+
+<p>Next, we have the dialogue between Albert and Bernard:</p>
+
+<blockquote>
+  <p><strong>Albert:</strong> “I don’t know when your birthday is, but I know Bernard doesn’t know, either.”<br />
+<strong>Bernard:</strong> “I didn’t know originally, but now I do.”<br />
+<strong>Albert:</strong> “Well, now I know, too!”</p>
+</blockquote>
+
+<p>We’ll need to transform each of these three statements into Prolog to find the answer.</p>
+
+<h2 id="first-statement-alberts-stumped-but-knows-bernard-is-too">First statement: Albert’s stumped, but knows Bernard is too</h2>
+
+<p>We’re looking for a <code class="highlighter-rouge">&lt;month, day&gt;</code> combination that makes it possible for each of the three statements to be true, so we should use some rules to represent that. We’ll start with Albert’s first statement.</p>
+
+<p>We know that the final answer must be one of the days Cheryl named, so let’s start with that constraint:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="ss">s1</span><span class="p">(</span><span class="nv">Month</span><span class="p">,</span> <span class="nv">Day</span><span class="p">):-</span>
+  <span class="ss">candidate_birthday</span><span class="p">(</span><span class="nv">Month</span><span class="p">,</span> <span class="nv">Day</span><span class="p">),</span>
+  <span class="cm">/*</span><span class="err"> ... </span><span class="cm">*/</span>
+</code></pre>
+</div>
+
+<p>Next, we know that Albert knows the month but not the day of Cheryl’s birthday, so he only has one half of the answer. However, even if Albert didn’t know the day, he could know the answer if his month only had one possible day. But since every month has at least two possible choices for the day, he doesn’t know the answer. So it must be the case that Albert’s month has two or more choices for the day:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="ss">s1</span><span class="p">(</span><span class="nv">Month</span><span class="p">,</span> <span class="nv">Day</span><span class="p">):-</span>
+  <span class="ss">candidate_birthday</span><span class="p">(</span><span class="nv">Month</span><span class="p">,</span> <span class="nv">Day</span><span class="p">),</span>
+  <span class="ss">findall</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="ss">candidate_birthday</span><span class="p">(</span><span class="nv">Month</span><span class="p">,</span> <span class="nv">X</span><span class="p">),</span> <span class="p">[</span><span class="nv">_</span><span class="p">,</span> <span class="nv">_</span> <span class="p">|</span> <span class="nv">_</span><span class="p">]),</span>
+  <span class="cm">/*</span><span class="err"> ... </span><span class="cm">*/</span>
+</code></pre>
+</div>
+
+<p>The <code class="highlighter-rouge">findall</code> predicate produces a list that satisfies all the constraints of the goal, the second parameter. In this case the predicate is true if the list of candidate birthdays has two or more elements. The <code class="highlighter-rouge">[...]</code> syntax denotes a list, while underscores mean “an arbitrary result”, so <code class="highlighter-rouge">[_ , _]</code> means “a list with exactly two results”.</p>
+
+<p>Adding the list constructor <code class="highlighter-rouge">|</code> here means “the rest of the list”, so <code class="highlighter-rouge">[_, _ | _]</code> means “a list with exactly two results, followed by zero or more results”. So the overall effect is what we want: only candidate birthday months that have at least two elements.</p>
+
+<p>This accounts for the first half of Albert’s statement – that he didn’t know what Cheryl’s birthday was, because there is not yet a unique answer. We also need to account for the second half of Albert’s statement: Albert knows Bernard doesn’t know the answer, either. The only way Albert could know that is if Bernard had a unique answer. And Bernard could only have a unique answer if his day uniquely determined his month.</p>
+
+<p>There are two unique dates: the 19th only appears in May, and the 18th only appears in June. Albert therefore doesn’t have May or June; if he did, Bernard could be holding either 18 or 19, and thus have a unique answer. But since Albert doesn’t have May or June, he knows Bernard can’t deduce the answer yet. So Albert knows that he holds a month which does not decide the day. We can write a rule that represents this idea:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="ss">month_has_deciding_day</span><span class="p">(</span><span class="nv">Month</span><span class="p">):-</span>
+    <span class="ss">candidate_birthday</span><span class="p">(</span><span class="nv">Month</span><span class="p">,</span> <span class="nv">Day</span><span class="p">),</span>
+    <span class="ss">findall</span><span class="p">(</span><span class="nv">M</span><span class="p">,</span> <span class="ss">candidate_birthday</span><span class="p">(</span><span class="nv">M</span><span class="p">,</span> <span class="nv">Day</span><span class="p">),</span> <span class="p">[</span><span class="nv">_</span><span class="p">]).</span>
+</code></pre>
+</div>
+
+<p>and then we can invoke the negation of the rule to finish off Albert’s first statement:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="ss">s1</span><span class="p">(</span><span class="nv">Month</span><span class="p">,</span> <span class="nv">Day</span><span class="p">):-</span>
+  <span class="ss">candidate_birthday</span><span class="p">(</span><span class="nv">Month</span><span class="p">,</span> <span class="nv">Day</span><span class="p">),</span>
+  <span class="ss">findall</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="ss">candidate_birthday</span><span class="p">(</span><span class="nv">Month</span><span class="p">,</span> <span class="nv">X</span><span class="p">),</span> <span class="p">[</span><span class="nv">_</span><span class="p">,</span> <span class="nv">_</span> <span class="p">|</span> <span class="nv">_</span><span class="p">]),</span>
+  <span class="ss">not</span><span class="p">(</span><span class="ss">month_has_deciding_day</span><span class="p">(</span><span class="nv">Month</span><span class="p">)).</span>
+</code></pre>
+</div>
+
+<p>This leaves us with five possible answers – the dates in July and August. We can ask Prolog to verify this for us at the console:</p>
+
+<div class="shell highlighter-rouge"><pre class="highlight"><code>$ prolog -e cheryl.pl
+
+?- s1(Month, Day).
+Month = 'July',
+Day = 14 ;
+Month = 'July',
+Day = 16 ;
+Month = 'August',
+Day = 14 ;
+Month = 'August',
+Day = 15 ;
+Month = 'August',
+Day = 17.
+</code></pre>
+</div>
+
+<h2 id="second-statement-bernard-was-stumped-but-now-he-isnt">Second statement: Bernard was stumped, but now he isn’t</h2>
+
+<p>Bernard now says he knows the answer. He knows that Albert must hold a month which doesn’t decide the day – so he knows Albert is holding July or August. Since he knows the answer, it must be because every date uniquely decides a month at this point. Therefore, Bernard can’t be holding 14, because that could be either July or August.</p>
+
+<p>So our rule must therefore be able to determine the month at this point:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="ss">s2</span><span class="p">(</span><span class="nv">Month</span><span class="p">,</span> <span class="nv">Day</span><span class="p">):-</span>
+  <span class="ss">candidate_birthday</span><span class="p">(</span><span class="nv">Month</span><span class="p">,</span> <span class="nv">Day</span><span class="p">),</span>
+  <span class="ss">findall</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="ss">s1</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="nv">Day</span><span class="p">),</span> <span class="p">[</span><span class="nv">Month</span><span class="p">]).</span>
+</code></pre>
+</div>
+
+<p>This rule returns true if the month and day of a given birthday are in the candidate list and if they uniquely determine the month after taking into account the first statement. Only three possible dates remain at this point: July 16, August 15, and August 17 – the remaining dates which uniquely determine their month. We can verify this at the console:</p>
+
+<div class="shell highlighter-rouge"><pre class="highlight"><code>$ prolog -e cheryl.pl
+
+?- s2(Month, Day).
+Month = 'July',
+Day = 16 ;
+Month = 'August',
+Day = 15 ;
+Month = 'August',
+Day = 17.
+</code></pre>
+</div>
+
+<h2 id="third-statement-alberts-got-it-too">Third statement: Albert’s got it too</h2>
+
+<p>We’re getting close! We just need to show that Albert can deduce the answer too. Since Albert holds the month, he could only know the answer for sure if his month uniquely determines the day:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="ss">s3</span><span class="p">(</span><span class="nv">Month</span><span class="p">,</span> <span class="nv">Day</span><span class="p">):-</span>
+  <span class="ss">candidate_birthday</span><span class="p">(</span><span class="nv">Month</span><span class="p">,</span> <span class="nv">Day</span><span class="p">),</span>
+  <span class="ss">findall</span><span class="p">(</span><span class="nv">X</span><span class="p">,</span> <span class="ss">s2</span><span class="p">(</span><span class="nv">Month</span><span class="p">,</span> <span class="nv">X</span><span class="p">),</span> <span class="p">[</span><span class="nv">Day</span><span class="p">]).</span>
+</code></pre>
+</div>
+
+<p>This rule returns true if the month and day of a given birthday are in the candidate list, and if they uniquely determine the day after taking into account the second statement.</p>
+
+<p>Albert can’t be holding August, therefore, because that wouldn’t uniquely determine the day – it could be either August 15 or August 17. So he must be holding July, which in turn means that Cheryl’s birthday must be July 16. And, indeed, that’s what we get:</p>
+
+<div class="shell highlighter-rouge"><pre class="highlight"><code>?- s3(Month, Day).
+Month = 'July',
+Day = 16 .
+</code></pre>
+</div>
+
+<p>Fantastic! Logic programming isn’t suitable for everything, but it unquestionably shines at solving constraint-based problems like this one.</p>
+
+<h1 id="additional-resources">Additional resources</h1>
+
+<p>You can see the GitHub repository for our script <a href="https://github.com/fj/cheryls-birthday-prolog/">here</a> if you’d like to experiment with things yourself. It is borrowed almost completely from <a href="https://github.com/perng">Charles Perng</a>’s <a href="https://github.com/perng/prolog_collection/blob/master/cheryls_birthday.pl">version</a>.</p>
+
+<p>And finally, if you’d like to read more about Prolog, there are a lot of great resources around the web. The one that helped me the most was <a href="http://www.learnprolognow.org/">Learn Prolog Now!</a> by <a href="http://www.patrickblackburn.org/">Patrick Blackburn</a>, <a href="http://www.let.rug.nl/bos/">Johan Bos</a>, and <a href="http://cs.union.edu/~striegnk/">Kristina Striegnitz</a>. You can also check out the very excellent IRC channel, which is <code class="highlighter-rouge">##prolog</code> on <a href="https://freenode.net/">Freenode</a>.</p>
+
+<p>Happy hacking, friends.</p>
+
+      </article>
+
+      <div class="relative-navigation my2 clearfix">
+        
+        <a style="float: left;" href="/entries/custom-collections-jekyll/">&laquo; Fully-Featured Custom Collections in Jekyll</a>
+        
+
+        
+        <a style="float: right;" href="/entries/the-infinity-zoo/">The Infinity Zoo: What is Infinity? &raquo;</a>
+        
+      </div>
+
+      
+        <div class="subscribers my2 muted--2x" style="border: 1px solid gray; padding: 1rem">
+          <h2>Want more?</h2>
+          <!-- Begin MailChimp Signup Form -->
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+  <form action="//jxf.us10.list-manage.com/subscribe/post?u=976324169876d6bacad33756b&amp;id=14b2565550" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+      <p>Want a gentle ping whenever I write something especially cool?</p>
+      <p>I'll never sell or give away your address, or may the wrath of a thousand suns befall me.</p>
+      <div class="mc-field-group">
+        <label for="mce-EMAIL" style="font-weight: bold">email: </label>
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="height: 1.5rem; width: 15rem;">
+        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="color: white; background-color:#505050; border:1px solid #353535; border-radius:5px; padding: 0.5rem;">
+      </div>
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;"><input type="text" name="b_976324169876d6bacad33756b_14b2565550" tabindex="-1" value=""></div>
+    </div>
+  </form>
+</div>
+
+<!--End mc_embed_signup-->
+        </div>
+      
+
+      
+        <div class="comments my2">
+          <h2>Comments</h2>
+          
+  
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES * * */
+        var disqus_shortname = 'jxf';
+        var disqus_url = 'http://jxf.me/entries/cheryls-birthday/';
+        var disqus_identifier = 'entries-000004';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments.</a></noscript>
+  
+
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+    </main>
+    <footer class="footer">
+  <div class="measure--lg">
+
+  </div>
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51754727-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  </body>
+</html>

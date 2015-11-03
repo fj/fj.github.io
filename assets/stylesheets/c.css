@@ -1,0 +1,3124 @@
+@charset "UTF-8";
+/*!
+ *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px|PT+Sans:400,700,400italic|Inconsolata);
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("//s3.amazonaws.com/assets.jxf.me/fonts/fontawesome-webfont.eot?v=4.3.0");
+  src: url("//s3.amazonaws.com/assets.jxf.me/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("//s3.amazonaws.com/assets.jxf.me/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("//s3.amazonaws.com/assets.jxf.me/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("//s3.amazonaws.com/assets.jxf.me/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("//s3.amazonaws.com/assets.jxf.me/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.jf-i {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0); }
+
+/* makes the font 33% larger relative to the icon container */
+.jf-i-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -15%; }
+
+.jf-i-2x {
+  font-size: 2em; }
+
+.jf-i-3x {
+  font-size: 3em; }
+
+.jf-i-4x {
+  font-size: 4em; }
+
+.jf-i-5x {
+  font-size: 5em; }
+
+.jf-i-fw {
+  width: 1.28571em;
+  text-align: center; }
+
+.jf-i-ul {
+  padding-left: 0;
+  margin-left: 2.14286em;
+  list-style-type: none; }
+  .jf-i-ul > li {
+    position: relative; }
+
+.jf-i-li {
+  position: absolute;
+  left: -2.14286em;
+  width: 2.14286em;
+  top: 0.14286em;
+  text-align: center; }
+  .jf-i-li.jf-i-lg {
+    left: -1.85714em; }
+
+.jf-i-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eee;
+  border-radius: .1em; }
+
+.pull-right {
+  float: right; }
+
+.pull-left {
+  float: left; }
+
+.jf-i.pull-left {
+  margin-right: .3em; }
+.jf-i.pull-right {
+  margin-left: .3em; }
+
+.jf-i-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear; }
+
+.jf-i-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8); }
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+.jf-i-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+.jf-i-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.jf-i-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg); }
+
+.jf-i-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1); }
+
+.jf-i-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1); }
+
+:root .jf-i-rotate-90,
+:root .jf-i-rotate-180,
+:root .jf-i-rotate-270,
+:root .jf-i-flip-horizontal,
+:root .jf-i-flip-vertical {
+  filter: none; }
+
+.jf-i-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle; }
+
+.jf-i-stack-1x, .jf-i-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center; }
+
+.jf-i-stack-1x {
+  line-height: inherit; }
+
+.jf-i-stack-2x {
+  font-size: 2em; }
+
+.jf-i-inverse {
+  color: #fff; }
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+.jf-i-glass:before {
+  content: ""; }
+
+.jf-i-music:before {
+  content: ""; }
+
+.jf-i-search:before {
+  content: ""; }
+
+.jf-i-envelope-o:before {
+  content: ""; }
+
+.jf-i-heart:before {
+  content: ""; }
+
+.jf-i-star:before {
+  content: ""; }
+
+.jf-i-star-o:before {
+  content: ""; }
+
+.jf-i-user:before {
+  content: ""; }
+
+.jf-i-film:before {
+  content: ""; }
+
+.jf-i-th-large:before {
+  content: ""; }
+
+.jf-i-th:before {
+  content: ""; }
+
+.jf-i-th-list:before {
+  content: ""; }
+
+.jf-i-check:before {
+  content: ""; }
+
+.jf-i-remove:before,
+.jf-i-close:before,
+.jf-i-times:before {
+  content: ""; }
+
+.jf-i-search-plus:before {
+  content: ""; }
+
+.jf-i-search-minus:before {
+  content: ""; }
+
+.jf-i-power-off:before {
+  content: ""; }
+
+.jf-i-signal:before {
+  content: ""; }
+
+.jf-i-gear:before,
+.jf-i-cog:before {
+  content: ""; }
+
+.jf-i-trash-o:before {
+  content: ""; }
+
+.jf-i-home:before {
+  content: ""; }
+
+.jf-i-file-o:before {
+  content: ""; }
+
+.jf-i-clock-o:before {
+  content: ""; }
+
+.jf-i-road:before {
+  content: ""; }
+
+.jf-i-download:before {
+  content: ""; }
+
+.jf-i-arrow-circle-o-down:before {
+  content: ""; }
+
+.jf-i-arrow-circle-o-up:before {
+  content: ""; }
+
+.jf-i-inbox:before {
+  content: ""; }
+
+.jf-i-play-circle-o:before {
+  content: ""; }
+
+.jf-i-rotate-right:before,
+.jf-i-repeat:before {
+  content: ""; }
+
+.jf-i-refresh:before {
+  content: ""; }
+
+.jf-i-list-alt:before {
+  content: ""; }
+
+.jf-i-lock:before {
+  content: ""; }
+
+.jf-i-flag:before {
+  content: ""; }
+
+.jf-i-headphones:before {
+  content: ""; }
+
+.jf-i-volume-off:before {
+  content: ""; }
+
+.jf-i-volume-down:before {
+  content: ""; }
+
+.jf-i-volume-up:before {
+  content: ""; }
+
+.jf-i-qrcode:before {
+  content: ""; }
+
+.jf-i-barcode:before {
+  content: ""; }
+
+.jf-i-tag:before {
+  content: ""; }
+
+.jf-i-tags:before {
+  content: ""; }
+
+.jf-i-book:before {
+  content: ""; }
+
+.jf-i-bookmark:before {
+  content: ""; }
+
+.jf-i-print:before {
+  content: ""; }
+
+.jf-i-camera:before {
+  content: ""; }
+
+.jf-i-font:before {
+  content: ""; }
+
+.jf-i-bold:before {
+  content: ""; }
+
+.jf-i-italic:before {
+  content: ""; }
+
+.jf-i-text-height:before {
+  content: ""; }
+
+.jf-i-text-width:before {
+  content: ""; }
+
+.jf-i-align-left:before {
+  content: ""; }
+
+.jf-i-align-center:before {
+  content: ""; }
+
+.jf-i-align-right:before {
+  content: ""; }
+
+.jf-i-align-justify:before {
+  content: ""; }
+
+.jf-i-list:before {
+  content: ""; }
+
+.jf-i-dedent:before,
+.jf-i-outdent:before {
+  content: ""; }
+
+.jf-i-indent:before {
+  content: ""; }
+
+.jf-i-video-camera:before {
+  content: ""; }
+
+.jf-i-photo:before,
+.jf-i-image:before,
+.jf-i-picture-o:before {
+  content: ""; }
+
+.jf-i-pencil:before {
+  content: ""; }
+
+.jf-i-map-marker:before {
+  content: ""; }
+
+.jf-i-adjust:before {
+  content: ""; }
+
+.jf-i-tint:before {
+  content: ""; }
+
+.jf-i-edit:before,
+.jf-i-pencil-square-o:before {
+  content: ""; }
+
+.jf-i-share-square-o:before {
+  content: ""; }
+
+.jf-i-check-square-o:before {
+  content: ""; }
+
+.jf-i-arrows:before {
+  content: ""; }
+
+.jf-i-step-backward:before {
+  content: ""; }
+
+.jf-i-fast-backward:before {
+  content: ""; }
+
+.jf-i-backward:before {
+  content: ""; }
+
+.jf-i-play:before {
+  content: ""; }
+
+.jf-i-pause:before {
+  content: ""; }
+
+.jf-i-stop:before {
+  content: ""; }
+
+.jf-i-forward:before {
+  content: ""; }
+
+.jf-i-fast-forward:before {
+  content: ""; }
+
+.jf-i-step-forward:before {
+  content: ""; }
+
+.jf-i-eject:before {
+  content: ""; }
+
+.jf-i-chevron-left:before {
+  content: ""; }
+
+.jf-i-chevron-right:before {
+  content: ""; }
+
+.jf-i-plus-circle:before {
+  content: ""; }
+
+.jf-i-minus-circle:before {
+  content: ""; }
+
+.jf-i-times-circle:before {
+  content: ""; }
+
+.jf-i-check-circle:before {
+  content: ""; }
+
+.jf-i-question-circle:before {
+  content: ""; }
+
+.jf-i-info-circle:before {
+  content: ""; }
+
+.jf-i-crosshairs:before {
+  content: ""; }
+
+.jf-i-times-circle-o:before {
+  content: ""; }
+
+.jf-i-check-circle-o:before {
+  content: ""; }
+
+.jf-i-ban:before {
+  content: ""; }
+
+.jf-i-arrow-left:before {
+  content: ""; }
+
+.jf-i-arrow-right:before {
+  content: ""; }
+
+.jf-i-arrow-up:before {
+  content: ""; }
+
+.jf-i-arrow-down:before {
+  content: ""; }
+
+.jf-i-mail-forward:before,
+.jf-i-share:before {
+  content: ""; }
+
+.jf-i-expand:before {
+  content: ""; }
+
+.jf-i-compress:before {
+  content: ""; }
+
+.jf-i-plus:before {
+  content: ""; }
+
+.jf-i-minus:before {
+  content: ""; }
+
+.jf-i-asterisk:before {
+  content: ""; }
+
+.jf-i-exclamation-circle:before {
+  content: ""; }
+
+.jf-i-gift:before {
+  content: ""; }
+
+.jf-i-leaf:before {
+  content: ""; }
+
+.jf-i-fire:before {
+  content: ""; }
+
+.jf-i-eye:before {
+  content: ""; }
+
+.jf-i-eye-slash:before {
+  content: ""; }
+
+.jf-i-warning:before,
+.jf-i-exclamation-triangle:before {
+  content: ""; }
+
+.jf-i-plane:before {
+  content: ""; }
+
+.jf-i-calendar:before {
+  content: ""; }
+
+.jf-i-random:before {
+  content: ""; }
+
+.jf-i-comment:before {
+  content: ""; }
+
+.jf-i-magnet:before {
+  content: ""; }
+
+.jf-i-chevron-up:before {
+  content: ""; }
+
+.jf-i-chevron-down:before {
+  content: ""; }
+
+.jf-i-retweet:before {
+  content: ""; }
+
+.jf-i-shopping-cart:before {
+  content: ""; }
+
+.jf-i-folder:before {
+  content: ""; }
+
+.jf-i-folder-open:before {
+  content: ""; }
+
+.jf-i-arrows-v:before {
+  content: ""; }
+
+.jf-i-arrows-h:before {
+  content: ""; }
+
+.jf-i-bar-chart-o:before,
+.jf-i-bar-chart:before {
+  content: ""; }
+
+.jf-i-twitter-square:before {
+  content: ""; }
+
+.jf-i-facebook-square:before {
+  content: ""; }
+
+.jf-i-camera-retro:before {
+  content: ""; }
+
+.jf-i-key:before {
+  content: ""; }
+
+.jf-i-gears:before,
+.jf-i-cogs:before {
+  content: ""; }
+
+.jf-i-comments:before {
+  content: ""; }
+
+.jf-i-thumbs-o-up:before {
+  content: ""; }
+
+.jf-i-thumbs-o-down:before {
+  content: ""; }
+
+.jf-i-star-half:before {
+  content: ""; }
+
+.jf-i-heart-o:before {
+  content: ""; }
+
+.jf-i-sign-out:before {
+  content: ""; }
+
+.jf-i-linkedin-square:before {
+  content: ""; }
+
+.jf-i-thumb-tack:before {
+  content: ""; }
+
+.jf-i-external-link:before {
+  content: ""; }
+
+.jf-i-sign-in:before {
+  content: ""; }
+
+.jf-i-trophy:before {
+  content: ""; }
+
+.jf-i-github-square:before {
+  content: ""; }
+
+.jf-i-upload:before {
+  content: ""; }
+
+.jf-i-lemon-o:before {
+  content: ""; }
+
+.jf-i-phone:before {
+  content: ""; }
+
+.jf-i-square-o:before {
+  content: ""; }
+
+.jf-i-bookmark-o:before {
+  content: ""; }
+
+.jf-i-phone-square:before {
+  content: ""; }
+
+.jf-i-twitter:before {
+  content: ""; }
+
+.jf-i-facebook-f:before,
+.jf-i-facebook:before {
+  content: ""; }
+
+.jf-i-github:before {
+  content: ""; }
+
+.jf-i-unlock:before {
+  content: ""; }
+
+.jf-i-credit-card:before {
+  content: ""; }
+
+.jf-i-rss:before {
+  content: ""; }
+
+.jf-i-hdd-o:before {
+  content: ""; }
+
+.jf-i-bullhorn:before {
+  content: ""; }
+
+.jf-i-bell:before {
+  content: ""; }
+
+.jf-i-certificate:before {
+  content: ""; }
+
+.jf-i-hand-o-right:before {
+  content: ""; }
+
+.jf-i-hand-o-left:before {
+  content: ""; }
+
+.jf-i-hand-o-up:before {
+  content: ""; }
+
+.jf-i-hand-o-down:before {
+  content: ""; }
+
+.jf-i-arrow-circle-left:before {
+  content: ""; }
+
+.jf-i-arrow-circle-right:before {
+  content: ""; }
+
+.jf-i-arrow-circle-up:before {
+  content: ""; }
+
+.jf-i-arrow-circle-down:before {
+  content: ""; }
+
+.jf-i-globe:before {
+  content: ""; }
+
+.jf-i-wrench:before {
+  content: ""; }
+
+.jf-i-tasks:before {
+  content: ""; }
+
+.jf-i-filter:before {
+  content: ""; }
+
+.jf-i-briefcase:before {
+  content: ""; }
+
+.jf-i-arrows-alt:before {
+  content: ""; }
+
+.jf-i-group:before,
+.jf-i-users:before {
+  content: ""; }
+
+.jf-i-chain:before,
+.jf-i-link:before {
+  content: ""; }
+
+.jf-i-cloud:before {
+  content: ""; }
+
+.jf-i-flask:before {
+  content: ""; }
+
+.jf-i-cut:before,
+.jf-i-scissors:before {
+  content: ""; }
+
+.jf-i-copy:before,
+.jf-i-files-o:before {
+  content: ""; }
+
+.jf-i-paperclip:before {
+  content: ""; }
+
+.jf-i-save:before,
+.jf-i-floppy-o:before {
+  content: ""; }
+
+.jf-i-square:before {
+  content: ""; }
+
+.jf-i-navicon:before,
+.jf-i-reorder:before,
+.jf-i-bars:before {
+  content: ""; }
+
+.jf-i-list-ul:before {
+  content: ""; }
+
+.jf-i-list-ol:before {
+  content: ""; }
+
+.jf-i-strikethrough:before {
+  content: ""; }
+
+.jf-i-underline:before {
+  content: ""; }
+
+.jf-i-table:before {
+  content: ""; }
+
+.jf-i-magic:before {
+  content: ""; }
+
+.jf-i-truck:before {
+  content: ""; }
+
+.jf-i-pinterest:before {
+  content: ""; }
+
+.jf-i-pinterest-square:before {
+  content: ""; }
+
+.jf-i-google-plus-square:before {
+  content: ""; }
+
+.jf-i-google-plus:before {
+  content: ""; }
+
+.jf-i-money:before {
+  content: ""; }
+
+.jf-i-caret-down:before {
+  content: ""; }
+
+.jf-i-caret-up:before {
+  content: ""; }
+
+.jf-i-caret-left:before {
+  content: ""; }
+
+.jf-i-caret-right:before {
+  content: ""; }
+
+.jf-i-columns:before {
+  content: ""; }
+
+.jf-i-unsorted:before,
+.jf-i-sort:before {
+  content: ""; }
+
+.jf-i-sort-down:before,
+.jf-i-sort-desc:before {
+  content: ""; }
+
+.jf-i-sort-up:before,
+.jf-i-sort-asc:before {
+  content: ""; }
+
+.jf-i-envelope:before {
+  content: ""; }
+
+.jf-i-linkedin:before {
+  content: ""; }
+
+.jf-i-rotate-left:before,
+.jf-i-undo:before {
+  content: ""; }
+
+.jf-i-legal:before,
+.jf-i-gavel:before {
+  content: ""; }
+
+.jf-i-dashboard:before,
+.jf-i-tachometer:before {
+  content: ""; }
+
+.jf-i-comment-o:before {
+  content: ""; }
+
+.jf-i-comments-o:before {
+  content: ""; }
+
+.jf-i-flash:before,
+.jf-i-bolt:before {
+  content: ""; }
+
+.jf-i-sitemap:before {
+  content: ""; }
+
+.jf-i-umbrella:before {
+  content: ""; }
+
+.jf-i-paste:before,
+.jf-i-clipboard:before {
+  content: ""; }
+
+.jf-i-lightbulb-o:before {
+  content: ""; }
+
+.jf-i-exchange:before {
+  content: ""; }
+
+.jf-i-cloud-download:before {
+  content: ""; }
+
+.jf-i-cloud-upload:before {
+  content: ""; }
+
+.jf-i-user-md:before {
+  content: ""; }
+
+.jf-i-stethoscope:before {
+  content: ""; }
+
+.jf-i-suitcase:before {
+  content: ""; }
+
+.jf-i-bell-o:before {
+  content: ""; }
+
+.jf-i-coffee:before {
+  content: ""; }
+
+.jf-i-cutlery:before {
+  content: ""; }
+
+.jf-i-file-text-o:before {
+  content: ""; }
+
+.jf-i-building-o:before {
+  content: ""; }
+
+.jf-i-hospital-o:before {
+  content: ""; }
+
+.jf-i-ambulance:before {
+  content: ""; }
+
+.jf-i-medkit:before {
+  content: ""; }
+
+.jf-i-fighter-jet:before {
+  content: ""; }
+
+.jf-i-beer:before {
+  content: ""; }
+
+.jf-i-h-square:before {
+  content: ""; }
+
+.jf-i-plus-square:before {
+  content: ""; }
+
+.jf-i-angle-double-left:before {
+  content: ""; }
+
+.jf-i-angle-double-right:before {
+  content: ""; }
+
+.jf-i-angle-double-up:before {
+  content: ""; }
+
+.jf-i-angle-double-down:before {
+  content: ""; }
+
+.jf-i-angle-left:before {
+  content: ""; }
+
+.jf-i-angle-right:before {
+  content: ""; }
+
+.jf-i-angle-up:before {
+  content: ""; }
+
+.jf-i-angle-down:before {
+  content: ""; }
+
+.jf-i-desktop:before {
+  content: ""; }
+
+.jf-i-laptop:before {
+  content: ""; }
+
+.jf-i-tablet:before {
+  content: ""; }
+
+.jf-i-mobile-phone:before,
+.jf-i-mobile:before {
+  content: ""; }
+
+.jf-i-circle-o:before {
+  content: ""; }
+
+.jf-i-quote-left:before {
+  content: ""; }
+
+.jf-i-quote-right:before {
+  content: ""; }
+
+.jf-i-spinner:before {
+  content: ""; }
+
+.jf-i-circle:before {
+  content: ""; }
+
+.jf-i-mail-reply:before,
+.jf-i-reply:before {
+  content: ""; }
+
+.jf-i-github-alt:before {
+  content: ""; }
+
+.jf-i-folder-o:before {
+  content: ""; }
+
+.jf-i-folder-open-o:before {
+  content: ""; }
+
+.jf-i-smile-o:before {
+  content: ""; }
+
+.jf-i-frown-o:before {
+  content: ""; }
+
+.jf-i-meh-o:before {
+  content: ""; }
+
+.jf-i-gamepad:before {
+  content: ""; }
+
+.jf-i-keyboard-o:before {
+  content: ""; }
+
+.jf-i-flag-o:before {
+  content: ""; }
+
+.jf-i-flag-checkered:before {
+  content: ""; }
+
+.jf-i-terminal:before {
+  content: ""; }
+
+.jf-i-code:before {
+  content: ""; }
+
+.jf-i-mail-reply-all:before,
+.jf-i-reply-all:before {
+  content: ""; }
+
+.jf-i-star-half-empty:before,
+.jf-i-star-half-full:before,
+.jf-i-star-half-o:before {
+  content: ""; }
+
+.jf-i-location-arrow:before {
+  content: ""; }
+
+.jf-i-crop:before {
+  content: ""; }
+
+.jf-i-code-fork:before {
+  content: ""; }
+
+.jf-i-unlink:before,
+.jf-i-chain-broken:before {
+  content: ""; }
+
+.jf-i-question:before {
+  content: ""; }
+
+.jf-i-info:before {
+  content: ""; }
+
+.jf-i-exclamation:before {
+  content: ""; }
+
+.jf-i-superscript:before {
+  content: ""; }
+
+.jf-i-subscript:before {
+  content: ""; }
+
+.jf-i-eraser:before {
+  content: ""; }
+
+.jf-i-puzzle-piece:before {
+  content: ""; }
+
+.jf-i-microphone:before {
+  content: ""; }
+
+.jf-i-microphone-slash:before {
+  content: ""; }
+
+.jf-i-shield:before {
+  content: ""; }
+
+.jf-i-calendar-o:before {
+  content: ""; }
+
+.jf-i-fire-extinguisher:before {
+  content: ""; }
+
+.jf-i-rocket:before {
+  content: ""; }
+
+.jf-i-maxcdn:before {
+  content: ""; }
+
+.jf-i-chevron-circle-left:before {
+  content: ""; }
+
+.jf-i-chevron-circle-right:before {
+  content: ""; }
+
+.jf-i-chevron-circle-up:before {
+  content: ""; }
+
+.jf-i-chevron-circle-down:before {
+  content: ""; }
+
+.jf-i-html5:before {
+  content: ""; }
+
+.jf-i-css3:before {
+  content: ""; }
+
+.jf-i-anchor:before {
+  content: ""; }
+
+.jf-i-unlock-alt:before {
+  content: ""; }
+
+.jf-i-bullseye:before {
+  content: ""; }
+
+.jf-i-ellipsis-h:before {
+  content: ""; }
+
+.jf-i-ellipsis-v:before {
+  content: ""; }
+
+.jf-i-rss-square:before {
+  content: ""; }
+
+.jf-i-play-circle:before {
+  content: ""; }
+
+.jf-i-ticket:before {
+  content: ""; }
+
+.jf-i-minus-square:before {
+  content: ""; }
+
+.jf-i-minus-square-o:before {
+  content: ""; }
+
+.jf-i-level-up:before {
+  content: ""; }
+
+.jf-i-level-down:before {
+  content: ""; }
+
+.jf-i-check-square:before {
+  content: ""; }
+
+.jf-i-pencil-square:before {
+  content: ""; }
+
+.jf-i-external-link-square:before {
+  content: ""; }
+
+.jf-i-share-square:before {
+  content: ""; }
+
+.jf-i-compass:before {
+  content: ""; }
+
+.jf-i-toggle-down:before,
+.jf-i-caret-square-o-down:before {
+  content: ""; }
+
+.jf-i-toggle-up:before,
+.jf-i-caret-square-o-up:before {
+  content: ""; }
+
+.jf-i-toggle-right:before,
+.jf-i-caret-square-o-right:before {
+  content: ""; }
+
+.jf-i-euro:before,
+.jf-i-eur:before {
+  content: ""; }
+
+.jf-i-gbp:before {
+  content: ""; }
+
+.jf-i-dollar:before,
+.jf-i-usd:before {
+  content: ""; }
+
+.jf-i-rupee:before,
+.jf-i-inr:before {
+  content: ""; }
+
+.jf-i-cny:before,
+.jf-i-rmb:before,
+.jf-i-yen:before,
+.jf-i-jpy:before {
+  content: ""; }
+
+.jf-i-ruble:before,
+.jf-i-rouble:before,
+.jf-i-rub:before {
+  content: ""; }
+
+.jf-i-won:before,
+.jf-i-krw:before {
+  content: ""; }
+
+.jf-i-bitcoin:before,
+.jf-i-btc:before {
+  content: ""; }
+
+.jf-i-file:before {
+  content: ""; }
+
+.jf-i-file-text:before {
+  content: ""; }
+
+.jf-i-sort-alpha-asc:before {
+  content: ""; }
+
+.jf-i-sort-alpha-desc:before {
+  content: ""; }
+
+.jf-i-sort-amount-asc:before {
+  content: ""; }
+
+.jf-i-sort-amount-desc:before {
+  content: ""; }
+
+.jf-i-sort-numeric-asc:before {
+  content: ""; }
+
+.jf-i-sort-numeric-desc:before {
+  content: ""; }
+
+.jf-i-thumbs-up:before {
+  content: ""; }
+
+.jf-i-thumbs-down:before {
+  content: ""; }
+
+.jf-i-youtube-square:before {
+  content: ""; }
+
+.jf-i-youtube:before {
+  content: ""; }
+
+.jf-i-xing:before {
+  content: ""; }
+
+.jf-i-xing-square:before {
+  content: ""; }
+
+.jf-i-youtube-play:before {
+  content: ""; }
+
+.jf-i-dropbox:before {
+  content: ""; }
+
+.jf-i-stack-overflow:before {
+  content: ""; }
+
+.jf-i-instagram:before {
+  content: ""; }
+
+.jf-i-flickr:before {
+  content: ""; }
+
+.jf-i-adn:before {
+  content: ""; }
+
+.jf-i-bitbucket:before {
+  content: ""; }
+
+.jf-i-bitbucket-square:before {
+  content: ""; }
+
+.jf-i-tumblr:before {
+  content: ""; }
+
+.jf-i-tumblr-square:before {
+  content: ""; }
+
+.jf-i-long-arrow-down:before {
+  content: ""; }
+
+.jf-i-long-arrow-up:before {
+  content: ""; }
+
+.jf-i-long-arrow-left:before {
+  content: ""; }
+
+.jf-i-long-arrow-right:before {
+  content: ""; }
+
+.jf-i-apple:before {
+  content: ""; }
+
+.jf-i-windows:before {
+  content: ""; }
+
+.jf-i-android:before {
+  content: ""; }
+
+.jf-i-linux:before {
+  content: ""; }
+
+.jf-i-dribbble:before {
+  content: ""; }
+
+.jf-i-skype:before {
+  content: ""; }
+
+.jf-i-foursquare:before {
+  content: ""; }
+
+.jf-i-trello:before {
+  content: ""; }
+
+.jf-i-female:before {
+  content: ""; }
+
+.jf-i-male:before {
+  content: ""; }
+
+.jf-i-gittip:before,
+.jf-i-gratipay:before {
+  content: ""; }
+
+.jf-i-sun-o:before {
+  content: ""; }
+
+.jf-i-moon-o:before {
+  content: ""; }
+
+.jf-i-archive:before {
+  content: ""; }
+
+.jf-i-bug:before {
+  content: ""; }
+
+.jf-i-vk:before {
+  content: ""; }
+
+.jf-i-weibo:before {
+  content: ""; }
+
+.jf-i-renren:before {
+  content: ""; }
+
+.jf-i-pagelines:before {
+  content: ""; }
+
+.jf-i-stack-exchange:before {
+  content: ""; }
+
+.jf-i-arrow-circle-o-right:before {
+  content: ""; }
+
+.jf-i-arrow-circle-o-left:before {
+  content: ""; }
+
+.jf-i-toggle-left:before,
+.jf-i-caret-square-o-left:before {
+  content: ""; }
+
+.jf-i-dot-circle-o:before {
+  content: ""; }
+
+.jf-i-wheelchair:before {
+  content: ""; }
+
+.jf-i-vimeo-square:before {
+  content: ""; }
+
+.jf-i-turkish-lira:before,
+.jf-i-try:before {
+  content: ""; }
+
+.jf-i-plus-square-o:before {
+  content: ""; }
+
+.jf-i-space-shuttle:before {
+  content: ""; }
+
+.jf-i-slack:before {
+  content: ""; }
+
+.jf-i-envelope-square:before {
+  content: ""; }
+
+.jf-i-wordpress:before {
+  content: ""; }
+
+.jf-i-openid:before {
+  content: ""; }
+
+.jf-i-institution:before,
+.jf-i-bank:before,
+.jf-i-university:before {
+  content: ""; }
+
+.jf-i-mortar-board:before,
+.jf-i-graduation-cap:before {
+  content: ""; }
+
+.jf-i-yahoo:before {
+  content: ""; }
+
+.jf-i-google:before {
+  content: ""; }
+
+.jf-i-reddit:before {
+  content: ""; }
+
+.jf-i-reddit-square:before {
+  content: ""; }
+
+.jf-i-stumbleupon-circle:before {
+  content: ""; }
+
+.jf-i-stumbleupon:before {
+  content: ""; }
+
+.jf-i-delicious:before {
+  content: ""; }
+
+.jf-i-digg:before {
+  content: ""; }
+
+.jf-i-pied-piper:before {
+  content: ""; }
+
+.jf-i-pied-piper-alt:before {
+  content: ""; }
+
+.jf-i-drupal:before {
+  content: ""; }
+
+.jf-i-joomla:before {
+  content: ""; }
+
+.jf-i-language:before {
+  content: ""; }
+
+.jf-i-fax:before {
+  content: ""; }
+
+.jf-i-building:before {
+  content: ""; }
+
+.jf-i-child:before {
+  content: ""; }
+
+.jf-i-paw:before {
+  content: ""; }
+
+.jf-i-spoon:before {
+  content: ""; }
+
+.jf-i-cube:before {
+  content: ""; }
+
+.jf-i-cubes:before {
+  content: ""; }
+
+.jf-i-behance:before {
+  content: ""; }
+
+.jf-i-behance-square:before {
+  content: ""; }
+
+.jf-i-steam:before {
+  content: ""; }
+
+.jf-i-steam-square:before {
+  content: ""; }
+
+.jf-i-recycle:before {
+  content: ""; }
+
+.jf-i-automobile:before,
+.jf-i-car:before {
+  content: ""; }
+
+.jf-i-cab:before,
+.jf-i-taxi:before {
+  content: ""; }
+
+.jf-i-tree:before {
+  content: ""; }
+
+.jf-i-spotify:before {
+  content: ""; }
+
+.jf-i-deviantart:before {
+  content: ""; }
+
+.jf-i-soundcloud:before {
+  content: ""; }
+
+.jf-i-database:before {
+  content: ""; }
+
+.jf-i-file-pdf-o:before {
+  content: ""; }
+
+.jf-i-file-word-o:before {
+  content: ""; }
+
+.jf-i-file-excel-o:before {
+  content: ""; }
+
+.jf-i-file-powerpoint-o:before {
+  content: ""; }
+
+.jf-i-file-photo-o:before,
+.jf-i-file-picture-o:before,
+.jf-i-file-image-o:before {
+  content: ""; }
+
+.jf-i-file-zip-o:before,
+.jf-i-file-archive-o:before {
+  content: ""; }
+
+.jf-i-file-sound-o:before,
+.jf-i-file-audio-o:before {
+  content: ""; }
+
+.jf-i-file-movie-o:before,
+.jf-i-file-video-o:before {
+  content: ""; }
+
+.jf-i-file-code-o:before {
+  content: ""; }
+
+.jf-i-vine:before {
+  content: ""; }
+
+.jf-i-codepen:before {
+  content: ""; }
+
+.jf-i-jsfiddle:before {
+  content: ""; }
+
+.jf-i-life-bouy:before,
+.jf-i-life-buoy:before,
+.jf-i-life-saver:before,
+.jf-i-support:before,
+.jf-i-life-ring:before {
+  content: ""; }
+
+.jf-i-circle-o-notch:before {
+  content: ""; }
+
+.jf-i-ra:before,
+.jf-i-rebel:before {
+  content: ""; }
+
+.jf-i-ge:before,
+.jf-i-empire:before {
+  content: ""; }
+
+.jf-i-git-square:before {
+  content: ""; }
+
+.jf-i-git:before {
+  content: ""; }
+
+.jf-i-hacker-news:before {
+  content: ""; }
+
+.jf-i-tencent-weibo:before {
+  content: ""; }
+
+.jf-i-qq:before {
+  content: ""; }
+
+.jf-i-wechat:before,
+.jf-i-weixin:before {
+  content: ""; }
+
+.jf-i-send:before,
+.jf-i-paper-plane:before {
+  content: ""; }
+
+.jf-i-send-o:before,
+.jf-i-paper-plane-o:before {
+  content: ""; }
+
+.jf-i-history:before {
+  content: ""; }
+
+.jf-i-genderless:before,
+.jf-i-circle-thin:before {
+  content: ""; }
+
+.jf-i-header:before {
+  content: ""; }
+
+.jf-i-paragraph:before {
+  content: ""; }
+
+.jf-i-sliders:before {
+  content: ""; }
+
+.jf-i-share-alt:before {
+  content: ""; }
+
+.jf-i-share-alt-square:before {
+  content: ""; }
+
+.jf-i-bomb:before {
+  content: ""; }
+
+.jf-i-soccer-ball-o:before,
+.jf-i-futbol-o:before {
+  content: ""; }
+
+.jf-i-tty:before {
+  content: ""; }
+
+.jf-i-binoculars:before {
+  content: ""; }
+
+.jf-i-plug:before {
+  content: ""; }
+
+.jf-i-slideshare:before {
+  content: ""; }
+
+.jf-i-twitch:before {
+  content: ""; }
+
+.jf-i-yelp:before {
+  content: ""; }
+
+.jf-i-newspaper-o:before {
+  content: ""; }
+
+.jf-i-wifi:before {
+  content: ""; }
+
+.jf-i-calculator:before {
+  content: ""; }
+
+.jf-i-paypal:before {
+  content: ""; }
+
+.jf-i-google-wallet:before {
+  content: ""; }
+
+.jf-i-cc-visa:before {
+  content: ""; }
+
+.jf-i-cc-mastercard:before {
+  content: ""; }
+
+.jf-i-cc-discover:before {
+  content: ""; }
+
+.jf-i-cc-amex:before {
+  content: ""; }
+
+.jf-i-cc-paypal:before {
+  content: ""; }
+
+.jf-i-cc-stripe:before {
+  content: ""; }
+
+.jf-i-bell-slash:before {
+  content: ""; }
+
+.jf-i-bell-slash-o:before {
+  content: ""; }
+
+.jf-i-trash:before {
+  content: ""; }
+
+.jf-i-copyright:before {
+  content: ""; }
+
+.jf-i-at:before {
+  content: ""; }
+
+.jf-i-eyedropper:before {
+  content: ""; }
+
+.jf-i-paint-brush:before {
+  content: ""; }
+
+.jf-i-birthday-cake:before {
+  content: ""; }
+
+.jf-i-area-chart:before {
+  content: ""; }
+
+.jf-i-pie-chart:before {
+  content: ""; }
+
+.jf-i-line-chart:before {
+  content: ""; }
+
+.jf-i-lastfm:before {
+  content: ""; }
+
+.jf-i-lastfm-square:before {
+  content: ""; }
+
+.jf-i-toggle-off:before {
+  content: ""; }
+
+.jf-i-toggle-on:before {
+  content: ""; }
+
+.jf-i-bicycle:before {
+  content: ""; }
+
+.jf-i-bus:before {
+  content: ""; }
+
+.jf-i-ioxhost:before {
+  content: ""; }
+
+.jf-i-angellist:before {
+  content: ""; }
+
+.jf-i-cc:before {
+  content: ""; }
+
+.jf-i-shekel:before,
+.jf-i-sheqel:before,
+.jf-i-ils:before {
+  content: ""; }
+
+.jf-i-meanpath:before {
+  content: ""; }
+
+.jf-i-buysellads:before {
+  content: ""; }
+
+.jf-i-connectdevelop:before {
+  content: ""; }
+
+.jf-i-dashcube:before {
+  content: ""; }
+
+.jf-i-forumbee:before {
+  content: ""; }
+
+.jf-i-leanpub:before {
+  content: ""; }
+
+.jf-i-sellsy:before {
+  content: ""; }
+
+.jf-i-shirtsinbulk:before {
+  content: ""; }
+
+.jf-i-simplybuilt:before {
+  content: ""; }
+
+.jf-i-skyatlas:before {
+  content: ""; }
+
+.jf-i-cart-plus:before {
+  content: ""; }
+
+.jf-i-cart-arrow-down:before {
+  content: ""; }
+
+.jf-i-diamond:before {
+  content: ""; }
+
+.jf-i-ship:before {
+  content: ""; }
+
+.jf-i-user-secret:before {
+  content: ""; }
+
+.jf-i-motorcycle:before {
+  content: ""; }
+
+.jf-i-street-view:before {
+  content: ""; }
+
+.jf-i-heartbeat:before {
+  content: ""; }
+
+.jf-i-venus:before {
+  content: ""; }
+
+.jf-i-mars:before {
+  content: ""; }
+
+.jf-i-mercury:before {
+  content: ""; }
+
+.jf-i-transgender:before {
+  content: ""; }
+
+.jf-i-transgender-alt:before {
+  content: ""; }
+
+.jf-i-venus-double:before {
+  content: ""; }
+
+.jf-i-mars-double:before {
+  content: ""; }
+
+.jf-i-venus-mars:before {
+  content: ""; }
+
+.jf-i-mars-stroke:before {
+  content: ""; }
+
+.jf-i-mars-stroke-v:before {
+  content: ""; }
+
+.jf-i-mars-stroke-h:before {
+  content: ""; }
+
+.jf-i-neuter:before {
+  content: ""; }
+
+.jf-i-facebook-official:before {
+  content: ""; }
+
+.jf-i-pinterest-p:before {
+  content: ""; }
+
+.jf-i-whatsapp:before {
+  content: ""; }
+
+.jf-i-server:before {
+  content: ""; }
+
+.jf-i-user-plus:before {
+  content: ""; }
+
+.jf-i-user-times:before {
+  content: ""; }
+
+.jf-i-hotel:before,
+.jf-i-bed:before {
+  content: ""; }
+
+.jf-i-viacoin:before {
+  content: ""; }
+
+.jf-i-train:before {
+  content: ""; }
+
+.jf-i-subway:before {
+  content: ""; }
+
+.jf-i-medium:before {
+  content: ""; }
+
+.hero {
+  background-color: #fafafa;
+  text-align: center; }
+
+.hero-image {
+  border-radius: 50%;
+  width: 200px; }
+
+.hero-description {
+  font-size: 1.121rem;
+  width: auto; }
+
+@media screen and (min-width: 48rem) {
+  .hero-description {
+    margin: 0 auto;
+    width: 75%; } }
+.header {
+  padding: 1rem 0; }
+
+.header-brand,
+.header-nav-item {
+  line-height: 2;
+  vertical-align: middle; }
+
+.header-brand {
+  float: left;
+  font-weight: bold; }
+
+.header-nav {
+  float: right;
+  list-style-type: none;
+  margin: 0; }
+
+.header-nav-item {
+  display: inline;
+  padding: 0 .5rem; }
+
+.header-nav-item {
+  padding-right: 0; }
+
+.header-nav-item .active {
+  font-weight: bold; }
+
+.header a,
+.header a:visited {
+  color: #444; }
+
+.header a:focus,
+.header a:hover,
+.header a:active {
+  color: #3498db; }
+
+.header-nav-item:after {
+  content: ' \0000b7';
+  margin-left: .5rem; }
+
+.header-nav-item:last-child:after {
+  content: ''; }
+
+.list-meta-title {
+  margin-top: 2.414rem; }
+
+.list-meta-title {
+  border-bottom: thin solid #e0e0e0; }
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.list-item:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+.list-item:last-child {
+  border-bottom: none;
+  padding-bottom: 2.827rem; }
+
+.list-item {
+  margin: 0;
+  padding: 0 0 1rem; }
+
+.list-item--compact {
+  margin: 0;
+  padding: 0; }
+
+.list-item-title--compact {
+  margin: 0;
+  padding: .5rem 0; }
+
+.list-item-title {
+  margin: 0;
+  padding: 1rem 0; }
+
+.list-item-solo-title {
+  border-bottom: 1px solid #e0e0e0; }
+
+.list-item-description-content {
+  margin-top: 1.5rem; }
+
+.list-item a:not(.link),
+.list-item a:not(.link):visited {
+  color: #444; }
+
+.list-item a:not(.link):focus,
+.list-item a:not(.link):hover,
+.list-item a:not(.link):active {
+  color: #3498db; }
+
+.relative-navigation {
+  width: 75%; }
+
+[class^="jf-i-"], [class*=" jf-i-"] {
+  font-family: 'fontawesome';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.social {
+  padding: 1rem 0 0; }
+
+.social-link,
+.social-link:visited {
+  margin: 0 .2rem; }
+
+.social-link-icon {
+  margin: 0 .3rem; }
+
+.media-object {
+  display: flex;
+  align-items: flex-start; }
+
+.media-object-figure {
+  margin-right: 1em;
+  flex: 1 0 0; }
+
+.media-object-body {
+  flex: 4 0 0; }
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+table {
+  margin: 2rem 0;
+  font-size: 1rem;
+  padding: 0; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr th {
+      background-color: #f8f8f8;
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+
+table.rotated-text tr:first-child {
+  border: none; }
+table.rotated-text th {
+  height: 6em;
+  border: none;
+  background: none;
+  transform: translateX(1em) rotate(-45deg);
+  transform-origin: left bottom;
+  vertical-align: bottom;
+  white-space: nowrap; }
+table.rotated-text th:first-child {
+  transform: none; }
+
+table tr th :first-child,
+table tr td :first-child {
+  margin-top: 0; }
+
+table tr th :last-child,
+table tr td :last-child {
+  margin-bottom: 0; }
+
+.bg--gray {
+  background-color: #444; }
+
+.bg--off-white {
+  background-color: #f0f0f0; }
+
+.bg--off-white-light, blockquote {
+  background-color: #f8f8f8; }
+
+.gray, .social-link,
+.social-link:visited {
+  color: #444; }
+
+.blue, .social-link:hover,
+.social-link:focus,
+.social-link:active {
+  color: #3498db; }
+
+.white {
+  color: #fff; }
+
+.off-white {
+  color: #f0f0f0; }
+
+.p0 {
+  padding: 0; }
+
+.px0 {
+  padding-left: 0;
+  padding-right: 0; }
+
+.py0 {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.p1 {
+  padding: 0.8rem; }
+
+.px1 {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem; }
+
+.py1 {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem; }
+
+.p2, .hero {
+  padding: 1.6rem; }
+
+.px2 {
+  padding-left: 1.6rem;
+  padding-right: 1.6rem; }
+
+.py2 {
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem; }
+
+.m0 {
+  margin: 0; }
+
+.mx0 {
+  margin-left: 0;
+  margin-right: 0; }
+
+.my0 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.m1 {
+  margin: 1rem; }
+
+.mx1 {
+  margin-left: 1rem;
+  margin-right: 1rem; }
+
+.my1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.mr1 {
+  margin-right: 1rem; }
+
+.ml1 {
+  margin-left: 1rem; }
+
+.m2 {
+  margin: 2rem; }
+
+.mx2 {
+  margin-left: 2rem;
+  margin-right: 2rem; }
+
+.my2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.muted, .list-meta-title, .list-item-description {
+  opacity: .9; }
+
+.muted--2x, .markdown-content aside {
+  opacity: .75; }
+
+.muted--3x {
+  opacity: .6; }
+
+.right, .list-meta-all {
+  float: right; }
+
+.left {
+  float: left; }
+
+.italic {
+  font-style: italic; }
+
+.thin, .list-meta-all {
+  font-weight: 100; }
+
+.bold, .list-meta-title {
+  font-weight: bold; }
+
+.caps, .list-meta-title {
+  font-variant: small-caps;
+  letter-spacing: 1px; }
+
+.justify {
+  text-align: justify; }
+
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.light {
+  color: #8e8fa5; }
+
+.caption {
+  border-bottom: thin solid #f0f0f0;
+  line-height: 1;
+  padding: 0rem 0 .5rem;
+  margin-top: .5rem; }
+
+.txt--right {
+  text-align: right; }
+
+.txt--left {
+  text-align: left; }
+
+.txt--center {
+  text-align: center; }
+
+img,
+canvas,
+iframe,
+video,
+svg,
+select,
+textarea {
+  max-width: 100%; }
+
+.measure,
+.measure--lg {
+  margin: 0 auto;
+  padding: 0 .5rem; }
+
+.measure {
+  max-width: 48rem; }
+
+.measure--lg {
+  max-width: 64rem; }
+
+.block {
+  display: block;
+  width: 100%; }
+
+.g {
+  padding-left: 0;
+  padding-right: 0; }
+
+.g-r {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%; }
+
+.g-r-c-1-12 {
+  max-width: 8.3333333333%;
+  flex-basis: 8.3333333333%; }
+
+.g-r-c-2-12 {
+  max-width: 16.6666666667%;
+  flex-basis: 16.6666666667%; }
+
+.g-r-c-3-12 {
+  max-width: 25%;
+  flex-basis: 25%; }
+
+.g-r-c-4-12 {
+  max-width: 33.3333333333%;
+  flex-basis: 33.3333333333%; }
+
+.g-r-c-5-12 {
+  max-width: 41.6666666667%;
+  flex-basis: 41.6666666667%; }
+
+.g-r-c-6-12 {
+  max-width: 50%;
+  flex-basis: 50%; }
+
+.g-r-c-7-12 {
+  max-width: 58.3333333333%;
+  flex-basis: 58.3333333333%; }
+
+.g-r-c-8-12 {
+  max-width: 66.6666666667%;
+  flex-basis: 66.6666666667%; }
+
+.g-r-c-9-12 {
+  max-width: 75%;
+  flex-basis: 75%; }
+
+.g-r-c-10-12 {
+  max-width: 83.3333333333%;
+  flex-basis: 83.3333333333%; }
+
+.g-r-c-11-12 {
+  max-width: 91.6666666667%;
+  flex-basis: 91.6666666667%; }
+
+.g-r-c-12 {
+  max-width: 100%;
+  flex-basis: 100%; }
+
+.g-r-c-1-12, .g-r-c-1-12--sm, .g-r-c-1-12--md, .g-r-c-1-12--lg, .g-r-c-2-12, .g-r-c-2-12--sm, .g-r-c-2-12--md, .g-r-c-2-12--lg, .g-r-c-3-12, .g-r-c-3-12--sm, .g-r-c-3-12--md, .g-r-c-3-12--lg, .g-r-c-4-12, .g-r-c-4-12--sm, .g-r-c-4-12--md, .g-r-c-4-12--lg, .g-r-c-5-12, .g-r-c-5-12--sm, .g-r-c-5-12--md, .g-r-c-5-12--lg, .g-r-c-6-12, .g-r-c-6-12--sm, .g-r-c-6-12--md, .g-r-c-6-12--lg, .g-r-c-7-12, .g-r-c-7-12--sm, .g-r-c-7-12--md, .g-r-c-7-12--lg, .g-r-c-8-12, .g-r-c-8-12--sm, .g-r-c-8-12--md, .g-r-c-8-12--lg, .g-r-c-9-12, .g-r-c-9-12--sm, .g-r-c-9-12--md, .g-r-c-9-12--lg, .g-r-c-10-12, .g-r-c-10-12--sm, .g-r-c-10-12--md, .g-r-c-10-12--lg, .g-r-c-11-12, .g-r-c-11-12--sm, .g-r-c-11-12--md, .g-r-c-11-12--lg, .g-r-c-12, .g-r-c-12--sm, .g-r-c-12--md, .g-r-c-12--lg {
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box; }
+
+.g-r-c-1-12--sm, .g-r-c-1-12--md, .g-r-c-1-12--lg, .g-r-c-2-12--sm, .g-r-c-2-12--md, .g-r-c-2-12--lg, .g-r-c-3-12--sm, .g-r-c-3-12--md, .g-r-c-3-12--lg, .g-r-c-4-12--sm, .g-r-c-4-12--md, .g-r-c-4-12--lg, .g-r-c-5-12--sm, .g-r-c-5-12--md, .g-r-c-5-12--lg, .g-r-c-6-12--sm, .g-r-c-6-12--md, .g-r-c-6-12--lg, .g-r-c-7-12--sm, .g-r-c-7-12--md, .g-r-c-7-12--lg, .g-r-c-8-12--sm, .g-r-c-8-12--md, .g-r-c-8-12--lg, .g-r-c-9-12--sm, .g-r-c-9-12--md, .g-r-c-9-12--lg, .g-r-c-10-12--sm, .g-r-c-10-12--md, .g-r-c-10-12--lg, .g-r-c-11-12--sm, .g-r-c-11-12--md, .g-r-c-11-12--lg, .g-r-c-12--sm, .g-r-c-12--md, .g-r-c-12--lg {
+  max-width: 100%;
+  flex-basis: 100%; }
+
+@media screen and (min-width: 24rem) {
+  .g-r-c-1-12--sm {
+    max-width: 8.3333333333%;
+    flex-basis: 8.3333333333%; }
+
+  .g-r-c-2-12--sm {
+    max-width: 16.6666666667%;
+    flex-basis: 16.6666666667%; }
+
+  .g-r-c-3-12--sm {
+    max-width: 25%;
+    flex-basis: 25%; }
+
+  .g-r-c-4-12--sm {
+    max-width: 33.3333333333%;
+    flex-basis: 33.3333333333%; }
+
+  .g-r-c-5-12--sm {
+    max-width: 41.6666666667%;
+    flex-basis: 41.6666666667%; }
+
+  .g-r-c-6-12--sm {
+    max-width: 50%;
+    flex-basis: 50%; }
+
+  .g-r-c-7-12--sm {
+    max-width: 58.3333333333%;
+    flex-basis: 58.3333333333%; }
+
+  .g-r-c-8-12--sm {
+    max-width: 66.6666666667%;
+    flex-basis: 66.6666666667%; }
+
+  .g-r-c-9-12--sm {
+    max-width: 75%;
+    flex-basis: 75%; }
+
+  .g-r-c-10-12--sm {
+    max-width: 83.3333333333%;
+    flex-basis: 83.3333333333%; }
+
+  .g-r-c-11-12--sm {
+    max-width: 91.6666666667%;
+    flex-basis: 91.6666666667%; }
+
+  .g-r-c-12--sm {
+    max-width: 100%;
+    flex-basis: 100%; } }
+@media screen and (min-width: 48rem) {
+  .g-r-c-1-12--md {
+    max-width: 8.3333333333%;
+    flex-basis: 8.3333333333%; }
+
+  .g-r-c-2-12--md {
+    max-width: 16.6666666667%;
+    flex-basis: 16.6666666667%; }
+
+  .g-r-c-3-12--md {
+    max-width: 25%;
+    flex-basis: 25%; }
+
+  .g-r-c-4-12--md {
+    max-width: 33.3333333333%;
+    flex-basis: 33.3333333333%; }
+
+  .g-r-c-5-12--md {
+    max-width: 41.6666666667%;
+    flex-basis: 41.6666666667%; }
+
+  .g-r-c-6-12--md {
+    max-width: 50%;
+    flex-basis: 50%; }
+
+  .g-r-c-7-12--md {
+    max-width: 58.3333333333%;
+    flex-basis: 58.3333333333%; }
+
+  .g-r-c-8-12--md {
+    max-width: 66.6666666667%;
+    flex-basis: 66.6666666667%; }
+
+  .g-r-c-9-12--md {
+    max-width: 75%;
+    flex-basis: 75%; }
+
+  .g-r-c-10-12--md {
+    max-width: 83.3333333333%;
+    flex-basis: 83.3333333333%; }
+
+  .g-r-c-11-12--md {
+    max-width: 91.6666666667%;
+    flex-basis: 91.6666666667%; }
+
+  .g-r-c-12--md {
+    max-width: 100%;
+    flex-basis: 100%; } }
+@media screen and (min-width: 64rem) {
+  .g-r-c-1-12--lg {
+    max-width: 8.3333333333%;
+    flex-basis: 8.3333333333%; }
+
+  .g-r-c-2-12--lg {
+    max-width: 16.6666666667%;
+    flex-basis: 16.6666666667%; }
+
+  .g-r-c-3-12--lg {
+    max-width: 25%;
+    flex-basis: 25%; }
+
+  .g-r-c-4-12--lg {
+    max-width: 33.3333333333%;
+    flex-basis: 33.3333333333%; }
+
+  .g-r-c-5-12--lg {
+    max-width: 41.6666666667%;
+    flex-basis: 41.6666666667%; }
+
+  .g-r-c-6-12--lg {
+    max-width: 50%;
+    flex-basis: 50%; }
+
+  .g-r-c-7-12--lg {
+    max-width: 58.3333333333%;
+    flex-basis: 58.3333333333%; }
+
+  .g-r-c-8-12--lg {
+    max-width: 66.6666666667%;
+    flex-basis: 66.6666666667%; }
+
+  .g-r-c-9-12--lg {
+    max-width: 75%;
+    flex-basis: 75%; }
+
+  .g-r-c-10-12--lg {
+    max-width: 83.3333333333%;
+    flex-basis: 83.3333333333%; }
+
+  .g-r-c-11-12--lg {
+    max-width: 91.6666666667%;
+    flex-basis: 91.6666666667%; }
+
+  .g-r-c-12--lg {
+    max-width: 100%;
+    flex-basis: 100%; } }
+a,
+a:visited,
+.link,
+.link:visited {
+  color: #3498db;
+  text-decoration: none; }
+
+a:focus,
+a:hover,
+a:active,
+.link:focus,
+.link:hover,
+.link:active {
+  color: #2980b9;
+  text-decoration: none; }
+
+a {
+  transition: color .2s ease-out; }
+
+.markdown-content a {
+  border-bottom: thin #444 dotted; }
+
+.dotted-link,
+.dotted-links a {
+  color: #444;
+  border-bottom: thin #444 dotted; }
+
+.dotted-link:focus,
+.dotted-links a:focus,
+.dotted-link:hover,
+.dotted-links a:hover,
+.dotted-link:active
+.dotted-links a:active {
+  color: #3498db;
+  border-bottom: thin #3498db dotted; }
+
+@media screen and (min-width: 32rem) {
+  .markdown-content > aside {
+    border-left: 2px solid #fafafa;
+    float: right;
+    margin-left: .5rem;
+    max-width: 20%;
+    padding: .5rem; }
+
+  .markdown-content > :not(aside):not(canvas):not(.full-width) {
+    margin-left: 0;
+    width: 75%; }
+
+  .markdown-content p img {
+    max-width: 100%; } }
+img, canvas {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+article img {
+  margin-top: 0.5rem;
+  border-top: thin solid #f0f0f0;
+  border-bottom: thin solid #f0f0f0; }
+
+.brdr--circle {
+  border-radius: 50%; }
+
+.portfolio-category + .portfolio-category:before {
+  content: ' · '; }
+
+html {
+  color: #444;
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, sans-serif; }
+
+.sans, .list-meta-title {
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, sans-serif; }
+
+pre,
+code,
+.monospace {
+  font-family: "Inconsolata", "Monaco", "Courier New", monospace; }
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+.social-link,
+.social-link:visited,
+h4,
+.h4,
+.g-item-title,
+h5,
+.h5,
+.g-item-subtitle,
+h6,
+.h6,
+.markdown-content aside,
+.serif {
+  font-family: "Slabo 27px", "Georgia", serif; }
+
+html {
+  font-size: 12px; }
+
+@media screen and (min-width: 32rem) and (max-width: 48rem) {
+  html {
+    font-size: 15px; } }
+@media screen and (min-width: 48rem) {
+  html {
+    font-size: 16px; } }
+body {
+  line-height: 1.7; }
+
+.header-brand {
+  font-size: 1.2rem; }
+
+.media-object-body {
+  font-size: 1.2rem; }
+
+p,
+.p {
+  margin-bottom: 1.3rem; }
+
+p > img {
+  margin-bottom: -.65rem; }
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+.social-link,
+.social-link:visited,
+h4,
+.h4,
+.g-item-title {
+  margin: .5rem 0 .5rem;
+  font-weight: inherit;
+  line-height: 1.42; }
+
+h1,
+.h1 {
+  margin-top: 0;
+  font-size: 3.998rem; }
+
+h2,
+.h2 {
+  font-size: 2.0rem; }
+
+h3,
+.h3,
+.social-link,
+.social-link:visited {
+  font-size: 1.7rem; }
+
+h4,
+.h4,
+.g-item-title {
+  font-size: 1.414rem; }
+
+h5,
+.h5,
+.g-item-subtitle {
+  font-size: 1.121rem; }
+
+h6,
+.h6,
+.markdown-content aside {
+  font-size: .88rem; }
+
+article h1, article h2, article h3, article h4, article h5, article h6 {
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  border-bottom: 1px solid #e0e0e0; }
+article h1 {
+  font-size: 1.700rem; }
+article h2 {
+  font-size: 1.414rem; }
+article h3 {
+  font-size: 1.121rem; }
+article h4, article h5, article h6 {
+  font-size: 1rem; }
+
+small,
+.small,
+.caption,
+.g-item-description,
+blockquote footer cite {
+  font-size: .75em; }
+
+.g-item-row {
+  border: 0;
+  border-top: thin solid #e0e0e0; }
+
+.g-item-row:first-child {
+  border: 0; }
+
+.g-item-row:last-child {
+  border-bottom: 0; }
+
+.g-item-object {
+  padding: 1.6rem; }
+
+.g-item-title {
+  padding-top: 0;
+  margin-top: .75rem; }
+
+.g-item-subtitle {
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: .75rem; }
+
+.g-item-description {
+  padding-top: 0;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1rem; }
+
+pre,
+code {
+  background-color: #f0f0f0;
+  color: #5e5e5e; }
+
+pre {
+  line-height: 1.25;
+  overflow-x: auto;
+  padding: .5rem; }
+
+code {
+  padding: .2rem .5rem;
+  margin: 0 .5rem; }
+
+pre code {
+  padding: 0;
+  margin: 0; }
+
+div.shell pre,
+div.shell code,
+code.shell,
+pre.shell {
+  background-color: #222;
+  color: white; }
+
+blockquote {
+  color: #8e8fa5;
+  margin: 1rem auto 1rem;
+  padding: 1rem 1.5rem; }
+
+blockquote *:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+blockquote *:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0; }
+
+blockquote footer cite {
+  font-style: normal; }
+
+blockquote footer cite:before {
+  content: '&emdash; '; }
+
+.highlight .c {
+  color: #998;
+  font-style: italic; }
+.highlight .err {
+  color: #a61717;
+  background-color: #e3d2d2; }
+.highlight .k {
+  font-weight: bold; }
+.highlight .o {
+  font-weight: bold; }
+.highlight .cm {
+  color: #998;
+  font-style: italic; }
+.highlight .cp {
+  color: #999;
+  font-weight: bold; }
+.highlight .c1 {
+  color: #998;
+  font-style: italic; }
+.highlight .cs {
+  color: #999;
+  font-weight: bold;
+  font-style: italic; }
+.highlight .gd {
+  color: #000;
+  background-color: #fdd; }
+.highlight .gd .x {
+  color: #000;
+  background-color: #faa; }
+.highlight .ge {
+  font-style: italic; }
+.highlight .gr {
+  color: #a00; }
+.highlight .gh {
+  color: #999; }
+.highlight .gi {
+  color: #000;
+  background-color: #dfd; }
+.highlight .gi .x {
+  color: #000;
+  background-color: #afa; }
+.highlight .go {
+  color: #888; }
+.highlight .gp {
+  color: #555; }
+.highlight .gs {
+  font-weight: bold; }
+.highlight .gu {
+  color: #aaa; }
+.highlight .gt {
+  color: #a00; }
+.highlight .kc {
+  font-weight: bold; }
+.highlight .kd {
+  font-weight: bold; }
+.highlight .kp {
+  font-weight: bold; }
+.highlight .kr {
+  font-weight: bold; }
+.highlight .kt {
+  color: #458;
+  font-weight: bold; }
+.highlight .m {
+  color: #099; }
+.highlight .s {
+  color: #d14; }
+.highlight .na {
+  color: #008080; }
+.highlight .nb {
+  color: #0086B3; }
+.highlight .nc {
+  color: #458;
+  font-weight: bold; }
+.highlight .no {
+  color: #008080; }
+.highlight .ni {
+  color: #800080; }
+.highlight .ne {
+  color: #900;
+  font-weight: bold; }
+.highlight .nf {
+  color: #900;
+  font-weight: bold; }
+.highlight .nn {
+  color: #555; }
+.highlight .nt {
+  color: #000080; }
+.highlight .nv {
+  color: #008080; }
+.highlight .ow {
+  font-weight: bold; }
+.highlight .w {
+  color: #bbb; }
+.highlight .mf {
+  color: #099; }
+.highlight .mh {
+  color: #099; }
+.highlight .mi {
+  color: #099; }
+.highlight .mo {
+  color: #099; }
+.highlight .sb {
+  color: #d14; }
+.highlight .sc {
+  color: #d14; }
+.highlight .sd {
+  color: #d14; }
+.highlight .s2 {
+  color: #d14; }
+.highlight .se {
+  color: #d14; }
+.highlight .sh {
+  color: #d14; }
+.highlight .si {
+  color: #d14; }
+.highlight .sx {
+  color: #d14; }
+.highlight .sr {
+  color: #009926; }
+.highlight .s1 {
+  color: #d14; }
+.highlight .ss {
+  color: #990073; }
+.highlight .bp {
+  color: #999; }
+.highlight .vc {
+  color: #008080; }
+.highlight .vg {
+  color: #008080; }
+.highlight .vi {
+  color: #008080; }
+.highlight .il {
+  color: #099; }
+
+/*# sourceMappingURL=c.css.map */

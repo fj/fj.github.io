@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Time Passes</title>
+  <meta name="description" content="Personal site for John Feminella: software engineer · enthusiastic technologist · curiosity advocate">
+
+  <link rel="stylesheet" href="https://s3.amazonaws.com/assets.jxf.me/stylesheets/c.min.css?t=1446533481">
+  <link rel="canonical" href="http://jxf.me/entries/time-passes/">
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      jax: ["input/TeX", "output/SVG", "output/HTML-CSS", "output/NativeMML"],
+    });
+  </script>
+  <script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
+  </script>
+</head>
+
+  <body>
+    
+
+
+
+<header class="header">
+  <div class="measure--lg">
+    <div class="header-brand">
+      <a href="/" title="John Feminella">{ jxf }</a>
+    </div>
+    <nav class="header-nav">
+      <div class="header-nav-item">
+        <a href="/blog.html"  class="active" title="Blog">Blog</a>
+      </div>
+      <div class="header-nav-item">
+        <a href="/portfolio.html"  title="Work">Work</a>
+      </div>
+      <div class="header-nav-item">
+        <a href="/meta.html"  title="Meta">Meta</a>
+      </div>
+      <div class="header-nav-item">
+        <a href="/self.html"  title="Self">Self</a>
+      </div>
+    </nav>
+    <div class="clearfix"></div>
+  </div>
+</header>
+
+    <main>
+      <div class="measure--lg">
+  <div class="media-object">
+    <div class="media-object-figure mr1 txt--right">
+      <h3 class="list-item-title--compact">
+        
+
+
+    
+  
+
+<i class="jf-i jf-i-code"></i>
+
+      </h3>
+      <div class="muted--2x">
+        <time datetime="2015-04-05 03:00:00 -0400" title="04-05-15 @ 03:00:00">2015-04-05</time>
+<br>
+        2,161 words
+        <div class="post-categories">
+          
+            <div class="post-category">
+              <a href="/tag/experiment" title="experiment" class="dotted-link caps">experiment</a>
+            </div>
+          
+            <div class="post-category">
+              <a href="/tag/thoughts" title="thoughts" class="dotted-link caps">thoughts</a>
+            </div>
+          
+            <div class="post-category">
+              <a href="/tag/experiment" title="experiment" class="dotted-link caps">experiment</a>
+            </div>
+          
+            <div class="post-category">
+              <a href="/tag/js" title="js" class="dotted-link caps">js</a>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="media-object-body">
+      <h3 class="list-item-title--compact list-item-solo-title">
+        Time Passes
+      </h3>
+      <div class="list-item-description">
+      </div>
+      <article class="markdown-content">
+        <p>Every once in a while, I’ll think about a somewhat morbid and yet universal question: how long do I have left to live? While no one knows for sure when their time will eventually run out, everyone confronts the reality of their ultimate fate <a href="http://www.theonion.com/articles/world-death-rate-holding-steady-at-100-percent,1670/">sooner or later</a>, willingly or not.</p>
+
+<p>Thanks to its continuous presence in all human lives, people have thought about death quite a bit. One of my favorite ruminations on the subject is Longfellow’s <a href="http://www.bartleby.com/102/55.html"><em>Psalm of Life</em></a>:</p>
+
+<blockquote>
+  <div style="white-space: pre">Art is long, and Time is fleeting,
+  And our hearts, though stout and brave,
+Still, like muffled drums, are beating
+  Funeral marches to the grave.</div>
+</blockquote>
+
+<p>This excerpt, at first glance, sounds rather depressing and hopeless – it suggests that we’re inevitably and inextricably on a track towards doom. But on reading the full poem, we can see that it’s actually an exhortation to make the most of the time we do have, no matter how long or short:</p>
+
+<blockquote>
+  <div style="white-space: pre">Lives of great men all remind us
+  We can make our lives sublime,	 
+And, departing, leave behind us	 
+  Footprints on the sands of time.</div>
+</blockquote>
+
+<p>I started reflecting about some other events that have been “footprints in the sands of time”, and like any developer, decided to write a little code to investigate things. Below are the approximate dates of some historical and predicted future events, and how far away we are from them.</p>
+
+<aside>The dates given are approximations, of course; we don't know exact values for the first few events in the table.</aside>
+
+<table>
+  <thead>
+    <tr>
+      <th>event</th>
+      <th style="text-align: right">Δ time (in <a id="set-countdown-seconds" href="#">sec</a> · <a id="set-countdown-days" href="#">days</a> · <a id="set-countdown-years" href="#">yr</a>)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>first humans evolve from primates</td>
+      <td style="text-align: right"><span id="cd-first-humans">·</span></td>
+    </tr>
+    <tr>
+      <td>first <a href="http://en.wikipedia.org/wiki/Clock#Early_mechanical_clocks">mechanical clock</a></td>
+      <td style="text-align: right"><span id="cd-first-mechanical-clock">·</span></td>
+    </tr>
+    <tr>
+      <td>first <a href="http://en.wikipedia.org/wiki/Printing_press">movable-type printing press</a></td>
+      <td style="text-align: right"><span id="cd-first-printing-press">·</span></td>
+    </tr>
+    <tr>
+      <td>first e-mail over <a href="http://en.wikipedia.org/wiki/ARPANET">ARPANET</a></td>
+      <td style="text-align: right"><span id="cd-arpanet-first-email">·</span></td>
+    </tr>
+    <tr>
+      <td>since I was born</td>
+      <td style="text-align: right"><span id="cd-birthday">·</span></td>
+    </tr>
+    <tr>
+      <td>HTTP 1.0</td>
+      <td style="text-align: right"><span id="cd-http-1-0">·</span></td>
+    </tr>
+    <tr>
+      <td>September 11th attacks</td>
+      <td style="text-align: right"><span id="cd-nine-eleven">·</span></td>
+    </tr>
+    <tr>
+      <td>Marty McFly’s arrival in <a href="http://en.wikipedia.org/wiki/Back_to_the_Future_Part_II">the future</a></td>
+      <td style="text-align: right"><span id="cd-back-to-the-future">·</span></td>
+    </tr>
+    <tr>
+      <td>2016 U.S. presidential election</td>
+      <td style="text-align: right"><span id="cd-2016-election">·</span></td>
+    </tr>
+    <tr>
+      <td><a href="http://en.wikipedia.org/wiki/Ray_Kurzweil">Ray Kurzweil</a>’s prediction for <a href="http://en.wikipedia.org/wiki/Technological_singularity">the Singularity</a></td>
+      <td style="text-align: right"><span id="cd-singularity">·</span></td>
+    </tr>
+    <tr>
+      <td>Halley’s comet returns in 21<sup>st</sup> century</td>
+      <td style="text-align: right"><span id="cd-halleys-comet">·</span></td>
+    </tr>
+    <tr>
+      <td>world population reaches 10 billion</td>
+      <td style="text-align: right"><span id="cd-10-billion-people">·</span></td>
+    </tr>
+  </tbody>
+</table>
+
+<aside>It turns out we have a hard time <a href="http://jbr.sagepub.com/content/13/5/437.short">estimating even shorter durations accurately</a>, like one hour. Success depends on factors like our mood, sleep, health, and attention span.</aside>
+
+<p>The table is an interesting starting point for getting our bearings, but big stretches of time are tough to internalize for many people. We can usually recall what we were doing a day ago with some fidelity. We can give the general outline of what happened ten days ago, maybe by consulting our calendar.</p>
+
+<p>But it would be difficult to remember what was happening one hundred days ago. And going back one thousand days – about 2.7 years – is likely to exceed any normal person’s capabilities. You can probably remember big ongoing events, like where you lived and your major relationships and friendships, but little else. These days are lost forever in the mists of time and memory.</p>
+
+<aside>Drew Houston, the CEO of Dropbox, gave the 2013 MIT <a href="http://newsoffice.mit.edu/2013/commencement-address-houston-0607">commencement address</a>, where he describes coming to the realization that he's already 9,000 days down at age 24 and resolving to make his life different as a result.</aside>
+
+<p>To put that in better perspective, citizens in the top one-third of countries by life expectancy can expect a mean lifespan of about <a href="http://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy">eighty years</a>. That’s about 30,000 days. By the time you hit your 27th birthday, you’re down about 10,000 of those days – and we can barely remember the overwhelming majority of them.</p>
+
+<p>In that milieu, what does 10,000 days mean against your total lifespan? It’s hard to get the same perspective there that we have for a single day or a week. What if we ask a more direct question: how much time do we have left, and how can we visualize that?</p>
+
+<h2 id="visualizing-your-lifespan">Visualizing your lifespan</h2>
+
+<p>I made this small <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas"><code class="highlighter-rouge">&lt;canvas&gt;</code></a> widget to help examine that question. We initially assume you’ll live to the ripe old age of eighty and that you were born on January 1, 1980. Make adjustments below as necessary for your situation.</p>
+
+<ul>
+  <li>Each colored horizontal line represents one year of your life.</li>
+  <li><em style="color: red">Red</em> years are your past: you can never get them back.</li>
+  <li><em style="color: green">Green</em> lines are your future, as yet unwritten.</li>
+  <li>The pulsing <em style="color: blue">blue</em> dot shows where you are right now at this very moment.</li>
+</ul>
+
+<div>Your birthday is <input id="user-birthday" placeholder="YYYY-MM-DD" value="1980-01-01" style="width: 20ex" />.</div>
+<div>You expect to live for <input id="user-lifespan" type="number" value="80" max="150" style="width: 6ex; text-align: center" /> years.</div>
+
+<blockquote id="time-result">&nbsp;</blockquote>
+
+<canvas id="time-result-visualization" width="400" height="650" style="border: 1px solid #ddd">Your browser doesn't support canvas elements.</canvas>
+
+<h2 id="making-the-most-of-it">Making the most of it</h2>
+
+<p>A series of lines feels like too simple a representation for something as complicated and messy as a human life. But I can’t deny that this depiction also mirrors a simple truth: everyone has a finite amount of time alive before they become a husk of inert matter. Everything we will do or have done falls somewhere on one of those thin lines. It’s ultimately up to us to make the most of it.</p>
+
+<p>And yet, this doesn’t need to be a discouraging idea. Longfellow had something to say about that, too:</p>
+
+<blockquote>
+  <div style="white-space: pre">Let us, then, be up and doing,
+  With a heart for any fate;
+Still achieving, still pursuing,
+  Learn to labor and to wait.</div>
+</blockquote>
+
+<script src="//cdn.rawgit.com/moment/moment/2.9.0/moment.js"></script>
+
+<script src="//cdn.rawgit.com/fj/8f41692b309f986c2d02/raw/c2845be8668eb838736bcf45a1d6a2b78986c82a/countdown-v2.5.2.js"></script>
+
+<script type="text/javascript">
+  var eventList = {
+    "cd-first-humans": "-200000-01-01",
+    "cd-first-mechanical-clock": "725-01-01",
+    "cd-first-printing-press": "1045-06-01",
+    "cd-arpanet-first-email": "1969-10-29",
+    "cd-birthday": "1984-09-22",
+    "cd-http-1-0": "1996-02-19",
+    "cd-nine-eleven": "2001-09-11",
+    "cd-back-to-the-future": "2015-10-21",
+    "cd-2016-election": "2016-11-08",
+    "cd-singularity": "2045-12-31",
+    "cd-halleys-comet": "2061-07-28",
+    "cd-10-billion-people": "2063-06-17"
+  };
+  
+  function setCountdownDefaultUnits(u) {
+    countdown.DEFAULTS = u;
+    refreshTimers();
+  }
+
+  countdown.setLabels(
+	  ' ms| s| min| h| d| w| mo| y|',
+    ' ms| s| min| h| d| w| mo| y|',
+    ' <strong>&middot;</strong> ',
+    ' <strong>&middot;</strong> ',
+    null,
+    function(n) { return n.toLocaleString() }
+	);
+
+  function findDateForEvent(e) {
+    return eventList[e];
+  }
+  
+  function countdownSuffix(c) {
+    return (c.start < c.end) ? 'ago' : 'to go';
+  }
+
+  function countdownForEvent(e, u) {
+    var units = u || countdown.DAYS;
+    
+    var c = countdown(
+      new Date(e),
+      null,
+      units
+    );
+    
+    return c;
+  }
+
+  function setCountdownForEvent(e) {
+    var s = "";
+    d = findDateForEvent(e);
+    c = countdownForEvent(d, countdown.DEFAULTS);
+    
+    s += c;
+    s += ' ' + countdownSuffix(c);
+    
+    document.getElementById(e).innerHTML = s;
+  }
+
+  function refreshTimers() {
+    for(var eventName in eventList) {
+      if(eventList.hasOwnProperty(eventName)) {
+        setCountdownForEvent(eventName);
+      }
+    }
+  }
+
+  window.setInterval(refreshTimers, 250);
+  document.getElementById('set-countdown-seconds').addEventListener('click', function(e) {
+    setCountdownDefaultUnits(countdown.SECONDS);
+    refreshTimers();
+    e.preventDefault();
+  });
+  
+  document.getElementById('set-countdown-days').addEventListener('click', function(e) {
+    setCountdownDefaultUnits(countdown.DAYS);
+    refreshTimers();
+    e.preventDefault();
+  });
+  
+  document.getElementById('set-countdown-years').addEventListener('click', function(e) {
+    setCountdownDefaultUnits(countdown.YEARS | countdown.WEEKS);
+    refreshTimers();
+    e.preventDefault();
+  });
+  countdown.DEFAULTS = countdown.DAYS;
+</script>
+
+<script type="text/javascript">
+  "use strict";
+
+  var getField = function(id) {
+    return document.getElementById(id);
+  }
+  
+  var refreshCanvas = function() {
+    var timer = inputConverter.getCountdownToDate(inputConverter.getBirthdateFromField());
+    var normalizedWeeks = (timer.start < timer.end) ? (timer.years * 52 + timer.weeks) : 0;
+    
+    // render text
+    textRenderer.render();
+    
+    // draw
+    if (inputConverter.validate()) {
+      console.log('weeks: ' + normalizedWeeks)
+      canvasDrawer.transitionIndex = normalizedWeeks;
+      canvasDrawer.gridRows        = inputConverter.getLifespanFromField();
+      canvasDrawer.render();
+    }
+  };
+
+  [getField('user-birthday'), getField('user-lifespan')].forEach(function(e, idx, arr) {
+    e.addEventListener('keyup', refreshCanvas);
+    e.addEventListener('change', refreshCanvas);
+  });
+
+  var inputConverter = {
+    validate: function() {
+      return (this.getBirthdateFromField().isValid() && parseInt(this.getLifespanFromField()) > 0);
+    },
+    
+    getMomentFromField: function(id) {
+      return moment.utc(getField(id).value, 'YYYY-MM-DD', true);
+    },
+    
+    getBirthdateFromField: function() {
+      return this.getMomentFromField('user-birthday');
+    },
+    
+    getLifespanFromField: function() {
+      return getField('user-lifespan').value;
+    },
+    
+    getDifferenceInUnits: function(u) {
+      return parseInt(moment().diff(this.getBirthdateFromField(), u));
+    },
+    
+    getDeathdate: function() {
+      return moment(this.getBirthdateFromField()).add(this.getLifespanFromField(), 'years');
+    },
+    
+    getCountdownToDate: function(d1) {
+      return countdownForEvent(new Date(d1), countdown.YEARS | countdown.WEEKS);
+    },
+  };
+  
+  var textRenderer = {
+    render: function() {
+      var birthdate = inputConverter.getBirthdateFromField();
+      var lifespan  = inputConverter.getLifespanFromField();
+      var deathdate = inputConverter.getDeathdate();
+      
+      var fmt = function(m) {
+        return m.isValid() ? m.format('YYYY-MM-DD') : '{invalid date}';
+      }
+      
+      var s = "";
+      if (!birthdate.isValid()) {
+        s += "Enter a valid birthdate (YYYY-MM-DD).<br>";
+        getField('time-result').innerHTML = s;
+        return;
+      }
+      
+      if (birthdate < moment.utc()) {
+        s += "You were born on <strong>" + fmt(birthdate) + "</strong>.<br>";
+      } else {
+        s += "You aren't born yet. You'll be born on <strong>" + fmt(birthdate) + "</strong>.<br>";
+        getField('time-result').innerHTML = s;
+        return;
+      }
+      
+      if (deathdate > moment.utc()) {
+        s += "If you live for <strong>" + lifespan + "</strong> years, you will die on <strong>" + fmt(deathdate) + "</strong>.<br>";
+      } else {
+        s += "You already died, on <strong>" + fmt(deathdate) + "</strong>. RIP, friend.<br>";
+        getField('time-result').innerHTML = s;
+        return;
+      }
+      
+      var timer = inputConverter.getCountdownToDate(fmt(deathdate))
+      s += "You have <strong>" + timer.toString() + "</strong> remaining."
+      getField('time-result').innerHTML = s;
+    }
+  };
+
+  // canvas drawing
+  var canvasDrawer = {
+    transitionIndex: 0,
+    
+    gridRows: 80,
+    gridCols: 52,
+    boxSize: {x: 5, y: 3},
+    canvasPaddingSpacing: {x: 3, y: 3},
+    minorSpacing: {x: 0, y: 3},
+    majorSpacing: {x: 0, y: 10},
+    minorSpacingFrequency: {x: 1, y: 1},
+    majorSpacingFrequency: {x: 1, y: 5},
+    ySeparatorFrequency: 10,
+    
+    stroke: "rgb(120, 120, 120)",
+    
+    animateFrame: window.requestAnimationFrame || 
+      window.mozRequestAnimationFrame || 
+      window.webkitRequestAnimationFrame || 
+      window.msRequestAnimationFrame,
+      
+    cancelAnimateFrame: window.cancelAnimationFrame || 
+                window.mozCancelAnimationFrame || 
+                window.webkitCancelAnimationFrame || 
+                window.msCancelAnimationFrame,
+      
+    circleAngle: 0,
+    
+    animating: false,
+    
+    render: function() {
+      if (this.animating) {
+        console.log('canceling animation ' + this.animating);
+        this.cancelAnimateFrame.call(window, this.animating);
+        this.animating = false;
+      }
+      var context = this.getCanvasElement().getContext('2d');
+      context.canvas.height = this.getCanvasHeight();
+      this.draw();
+    },
+    
+    draw: function() {
+      var context = this.getCanvasElement().getContext('2d');
+      
+      this.clearCanvas(context);
+      this.drawGrid(context);
+      this.drawAnimatedCircleWithAngle(context, this.circleAngle);
+      this.circleAngle += 1;
+      
+      this.animating = this.animateFrame.call(window, this.draw.bind(this));
+    },
+    
+    getCanvasHeight: function() {
+      var spacing = this.calculateBaseSpacing(this.gridCols, this.gridRows);
+      return spacing.y + this.canvasPaddingSpacing.y;
+    },
+    
+    getCanvasElement: function() {
+      return getField('time-result-visualization');
+    },
+    
+    countMajorSpacing: function(x_i, y_i) {
+      return {
+        x: Math.floor(x_i / this.majorSpacingFrequency.x),
+        y: Math.floor(y_i / this.majorSpacingFrequency.y),
+      };
+    },
+    
+    countMinorSpacing: function(x_i, y_i) {
+      return {
+        x: Math.floor(x_i / this.minorSpacingFrequency.x),
+        y: Math.floor(y_i / this.minorSpacingFrequency.y),
+      };
+    },
+    
+    spacingSize: function(x_i, y_i) {
+      var minorSpaces = this.countMinorSpacing(x_i, y_i);
+      var majorSpaces = this.countMajorSpacing(x_i, y_i);
+      
+      var xSpacing = this.minorSpacing.x * minorSpaces.x + this.majorSpacing.x * majorSpaces.x;
+      var ySpacing = this.minorSpacing.y * minorSpaces.y + this.majorSpacing.y * majorSpaces.y;
+      
+      return {
+        x: xSpacing,
+        y: ySpacing
+      };
+    },
+    
+    fill: function(index, limit) {
+      var sign = (index && index !== limit) ? index < limit ? -1 : 1 : 0;
+      
+      switch (sign) {
+        case -1:
+          return "rgba(150, 0, 0, 0.2)";
+        case 0:
+          return "rgba(100, 100, 100, 0.6)";
+        case 1:
+          return "rgba(0, 150, 0, 0.5)";
+        default:
+          return undefined;
+      }
+    },
+    
+    clearCanvas: function(context) {
+      var h = context.canvas.height;
+      var w = context.canvas.width;
+      
+      context.setLineDash([]);
+      context.lineWidth = 1;
+      context.clearRect(0, 0, w, h);
+    },
+    
+    drawPath: function(path) {
+      return path();
+    },
+    
+    horizontalLinePath: function(context, stroke, lineY) {
+      context.beginPath();
+      
+      context.moveTo(0, lineY);
+      context.lineTo(context.canvas.width, lineY);
+      context.setLineDash([4,4]);
+      context.stroke();
+      
+      return context;
+    },
+    
+    rightTextLabelPath: function(context, fill, textY, text) {
+      context.beginPath();
+      
+      context.font = "16px 'PTSans'";
+      context.textAlign = 'right';
+      context.textBaseline = 'bottom';
+      context.fillStyle = fill;
+      var padding = 10;
+      
+      var px = context.canvas.width - padding;
+      var py = textY;
+
+      context.fillText(text + " years", px, py);
+      
+      return context;
+    },
+    
+    squarePath: function(context, stroke, fill, rect) {
+      context.beginPath();
+      
+      context.rect.apply(context, rect);
+      context.strokeStyle = stroke;
+      context.fillStyle = fill;
+      //context.stroke();
+      context.fill();
+      
+      return context;
+    },
+    
+    calculateSquare: function(x_i, y_i) {
+      var spacing = this.calculateBaseSpacing(x_i, y_i);
+      
+      return [
+        spacing.x,
+        spacing.y,
+        this.boxSize.x,
+        this.boxSize.y
+      ];
+    },
+    
+    calculateCenterBoxSpacing: function(x_i, y_i) {
+      var spacing = this.calculateBaseSpacing(x_i, y_i);
+      
+      return {
+        x: spacing.x + (this.boxSize.x / 2),
+        y: spacing.y + (this.boxSize.y / 2),
+      };
+    },
+    
+    calculateTransitionBoxPosition: function(transitionIndex) {
+      var y_i = Math.floor(transitionIndex / this.gridCols);
+      var x_i = transitionIndex - y_i * this.gridCols - 1;
+      
+      return this.calculateCenterBoxSpacing(x_i, y_i);
+    },
+    
+    calculateLineSpacing: function(x_i, y_i) {
+      var spacing = this.calculateBaseSpacing(x_i, y_i);
+      var previousSpacing = this.calculateBaseSpacing(x_i, y_i - 1);
+      var yMidpoint = ((previousSpacing.y + this.boxSize.y) + (spacing.y)) / 2
+      
+      return {
+        x: spacing.x,
+        y: yMidpoint,
+      };
+    },
+    
+    calculateBaseSpacing: function(x_i, y_i) {
+      var spacingSize = this.spacingSize(x_i, y_i);
+      
+      var xSpacing =
+        this.canvasPaddingSpacing.x + 
+        spacingSize.x +
+        this.boxSize.x * x_i
+      
+      var ySpacing =
+        this.canvasPaddingSpacing.y + 
+        spacingSize.y +
+        this.boxSize.y * y_i
+      
+      return {
+        x: xSpacing,
+        y: ySpacing,
+      };
+    },
+    
+    drawGrid: function(context) {
+      /// Draw a grid of squares on the context, taking into account the spacing parameters previously specified.
+      /// Also draw a line and some text labels at frequencies determined by the ySeparatorFrequency.
+      
+      for (var y = 0; y < this.gridRows; y++) {
+        for (var x = 0; x < this.gridCols; x++) {
+          var fill   = this.fill(y * this.gridCols + x + 1, this.transitionIndex)
+          
+          var sPath = this.squarePath.bind(null, context, this.stroke, fill, this.calculateSquare(x, y));
+          this.drawPath(sPath);
+        }
+        
+        // Make sure we draw an extra line if that would equal the last row.
+        if (y > 0 && (y + 1) % this.ySeparatorFrequency === 0) {
+          var forY    = y + 1;
+          var spacing = this.calculateLineSpacing(x, forY);
+          
+          var lPath = this.horizontalLinePath.bind(null, context, this.stroke, spacing.y);
+          this.drawPath(lPath);
+          
+          var textPath = this.rightTextLabelPath.bind(null, context, "rgba(150, 150, 150, 1)", spacing.y, forY.toString());
+          this.drawPath(textPath);
+        }
+      }
+    },
+     
+    drawAnimatedCircleWithAngle: function(context, angle) {
+      /// Draw a circle on the context.
+      /// Use `angle` to vary the size of the circle, by making the radius depend on the angle.
+      
+      var arcSegments = 128.0;
+      var arcFraction = ((angle % arcSegments) / arcSegments) * 2 * Math.PI;
+      
+      var radius = Math.max(this.boxSize.x, this.boxSize.y) + 2 * Math.abs(Math.cos(arcFraction));
+      var p = this.calculateTransitionBoxPosition(this.transitionIndex);
+      
+      
+      // Draw a dot on the center.
+      context.beginPath();
+      context.arc(p.x, p.y, radius, 0, Math.PI * 2);
+      context.closePath();
+      context.fillStyle = 'blue';
+      context.fill();
+    }
+  };
+  
+  refreshCanvas();
+</script>
+
+
+      </article>
+
+      <div class="relative-navigation my2 clearfix">
+        
+        <a style="float: left;" href="/entries/in-the-beginning/">&laquo; In the Beginning</a>
+        
+
+        
+        <a style="float: right;" href="/entries/custom-collections-jekyll/">Fully-Featured Custom Collections in Jekyll &raquo;</a>
+        
+      </div>
+
+      
+        <div class="subscribers my2 muted--2x" style="border: 1px solid gray; padding: 1rem">
+          <h2>Want more?</h2>
+          <!-- Begin MailChimp Signup Form -->
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+  <form action="//jxf.us10.list-manage.com/subscribe/post?u=976324169876d6bacad33756b&amp;id=14b2565550" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+      <p>Want a gentle ping whenever I write something especially cool?</p>
+      <p>I'll never sell or give away your address, or may the wrath of a thousand suns befall me.</p>
+      <div class="mc-field-group">
+        <label for="mce-EMAIL" style="font-weight: bold">email: </label>
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="height: 1.5rem; width: 15rem;">
+        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="color: white; background-color:#505050; border:1px solid #353535; border-radius:5px; padding: 0.5rem;">
+      </div>
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;"><input type="text" name="b_976324169876d6bacad33756b_14b2565550" tabindex="-1" value=""></div>
+    </div>
+  </form>
+</div>
+
+<!--End mc_embed_signup-->
+        </div>
+      
+
+      
+        <div class="comments my2">
+          <h2>Comments</h2>
+          
+  
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES * * */
+        var disqus_shortname = 'jxf';
+        var disqus_url = 'http://jxf.me/entries/time-passes/';
+        var disqus_identifier = 'entries-000002';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments.</a></noscript>
+  
+
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+    </main>
+    <footer class="footer">
+  <div class="measure--lg">
+
+  </div>
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51754727-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  </body>
+</html>

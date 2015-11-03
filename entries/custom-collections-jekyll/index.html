@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Fully-Featured Custom Collections in Jekyll</title>
+  <meta name="description" content="Personal site for John Feminella: software engineer · enthusiastic technologist · curiosity advocate">
+
+  <link rel="stylesheet" href="https://s3.amazonaws.com/assets.jxf.me/stylesheets/c.min.css?t=1446533481">
+  <link rel="canonical" href="http://jxf.me/entries/custom-collections-jekyll/">
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      jax: ["input/TeX", "output/SVG", "output/HTML-CSS", "output/NativeMML"],
+    });
+  </script>
+  <script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
+  </script>
+</head>
+
+  <body>
+    
+
+
+
+<header class="header">
+  <div class="measure--lg">
+    <div class="header-brand">
+      <a href="/" title="John Feminella">{ jxf }</a>
+    </div>
+    <nav class="header-nav">
+      <div class="header-nav-item">
+        <a href="/blog.html"  class="active" title="Blog">Blog</a>
+      </div>
+      <div class="header-nav-item">
+        <a href="/portfolio.html"  title="Work">Work</a>
+      </div>
+      <div class="header-nav-item">
+        <a href="/meta.html"  title="Meta">Meta</a>
+      </div>
+      <div class="header-nav-item">
+        <a href="/self.html"  title="Self">Self</a>
+      </div>
+    </nav>
+    <div class="clearfix"></div>
+  </div>
+</header>
+
+    <main>
+      <div class="measure--lg">
+  <div class="media-object">
+    <div class="media-object-figure mr1 txt--right">
+      <h3 class="list-item-title--compact">
+        
+
+
+    
+  
+
+<i class="jf-i jf-i-file"></i>
+
+      </h3>
+      <div class="muted--2x">
+        <time datetime="2015-04-10 03:00:00 -0400" title="04-10-15 @ 03:00:00">2015-04-10</time>
+<br>
+        1,393 words
+        <div class="post-categories">
+          
+            <div class="post-category">
+              <a href="/tag/post" title="post" class="dotted-link caps">post</a>
+            </div>
+          
+            <div class="post-category">
+              <a href="/tag/jekyll" title="jekyll" class="dotted-link caps">jekyll</a>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="media-object-body">
+      <h3 class="list-item-title--compact list-item-solo-title">
+        Fully-Featured Custom Collections in Jekyll
+      </h3>
+      <div class="list-item-description">
+      </div>
+      <article class="markdown-content">
+        <p><a href="https://github.com/jekyll/jekyll">Jekyll</a> is a popular static site generator written in Ruby and in wide use. A major selling point for Jekyll adoption is that it provides some excellent defaults out of the box, heavily geared towards the assumption that you’re writing a blog. It does this largely by taking a convention-over-configuration approach; the defaults are designed to be sensible choices for the majority of its users. However, like many convention-over-configuration systems, it can be tough to make it behave the way you want as soon as you step outside of the prescribed boundaries.</p>
+
+<p><img src="http://jekyllrb.com/img/logo-2x.png" alt="Jekyll logo" /></p>
+
+<p>Because it’s so easy to get started with Jekyll, it feels frustrating when you’re eventually hamstrung by framework limitations. Unfortunately, while knee-deep in writing this site, I found myself in exactly that situation with respect to Jekyll’s collections. I wanted to make my own custom collections, but very few of the features available to the default collections are available to the custom collections.</p>
+
+<h1 id="jekylls-default-collections">Jekyll’s default collections</h1>
+
+<p>Jekyll ships with two types of collections by default:</p>
+
+<ul>
+  <li>
+    <p><em>Posts</em> are static files that live in your <code class="highlighter-rouge">_posts</code> directory by default and have the form <code class="highlighter-rouge">&lt;YYYY&gt;-&lt;MM&gt;-&lt;DD&gt;-&lt;title&gt;.&lt;extension&gt;</code>. Jekyll steers people towards the use of posts in blog environments thanks to comfortable defaults, and for that reason, most people write up their blog’s entries as posts since it’s the best fit. In your Liquid templates, the list of posts is available via <code class="highlighter-rouge">site.posts</code>, which is sorted in reverse chronological order.</p>
+  </li>
+  <li>
+    <p><em>Pages</em> are static input files that get processed and mapped to correspondingly named output files. For example, if you have <code class="highlighter-rouge">contact.markdown</code> as an input file, it’ll get mapped to <code class="highlighter-rouge">contact.html</code> in the output folder. In your Liquid templates, you can get the list of pages by iterating over the <code class="highlighter-rouge">site.pages</code> collection.</p>
+  </li>
+</ul>
+
+<h1 id="limitations-of-default-collections">Limitations of default collections</h1>
+
+<p>Pages and posts suffice for most use cases. However, these have some limitations.</p>
+
+<h2 id="inflexible-post-filename-formats">Inflexible post filename formats</h2>
+
+<p>First, every post file must be named according to the format string <code class="highlighter-rouge">&lt;YYYY&gt;-&lt;MM&gt;-&lt;DD&gt;-&lt;title&gt;.&lt;extension&gt;</code>. Any post which doesn’t have this form is invalid and throws an error.</p>
+
+<p>I found this to be an obnoxious limitation because I don’t usually finish a post on the same day I start it. That means that the filename I make the post with reflects the day I started the post, not the day I finished the post. You can override the date that Jekyll actually outputs by using <code class="highlighter-rouge">date</code> in your <a href="http://jekyllrb.com/docs/frontmatter/">YAML front matter</a>, but then there’s no point in also having a date in the filename, since it’s redundant and never used.</p>
+
+<h2 id="inconsistent-domain-model-of-posts-and-pages">Inconsistent domain model of posts and pages</h2>
+
+<p>Pages don’t have access to most of the Liquid attributes that posts do. This means that your templates must special-case pages and posts to a degree that requires a lot of repetition. In my layouts, a post is merely a page that has some extra metadata shown, so I wanted to avoid special-casing things if I could.</p>
+
+<p>The crux of the issue can be found in the Jekyll code for <a href="https://github.com/jekyll/jekyll/blob/0d1586a5c471d322a79177e3e9c2f5813c697c32/lib/jekyll/post.rb#L9-L28">posts</a> and <a href="https://github.com/jekyll/jekyll/blob/0d1586a5c471d322a79177e3e9c2f5813c697c32/lib/jekyll/page.rb#L10-L17">pages</a>. Posts get fourteen attributes to work with:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="no">ATTRIBUTES_FOR_LIQUID</span> <span class="o">=</span> <span class="sx">%w[
+  title url dir date id
+  categories tags
+  next previous
+  path
+
+  content
+  excerpt
+  excerpt_separator
+  draft?
+]</span>
+</code></pre>
+</div>
+
+<p>But pages only get a small subset of these, plus a confusing <code class="highlighter-rouge">name</code> attribute that is distinct from the <code class="highlighter-rouge">title</code> found on posts.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="no">ATTRIBUTES_FOR_LIQUID</span> <span class="o">=</span> <span class="sx">%w[
+  content
+  dir
+  name
+  path
+  url
+]</span>
+</code></pre>
+</div>
+
+<p>There is an open issue for <a href="https://github.com/jekyll/jekyll/issues/3169">Jekyll 3</a> discussing the possibility of unifying collections of different kinds, but it’s not yet resolved, so the status quo is still a vast gulf of difference.</p>
+
+<h2 id="inconvenient-sorting-defaults">Inconvenient sorting defaults</h2>
+
+<p>While most of Jekyll’s defaults are sensible, the sorting defaults can be undesirable. The sort key on a given post is the date of the post, which is either generated from the filename or from the <code class="highlighter-rouge">date</code> attribute. Jekyll sorts posts in ascending date order, so in a list of posts, a post dated January 15 comes after, e.g., one dated January 2, even though January 2 is lexicographically later.</p>
+
+<p>But for pages, the sort key is the filename, so <code class="highlighter-rouge">january-2.html</code> is sorted after <code class="highlighter-rouge">january-15.html</code>, which is the reverse of how posts behave. So if you want to get away from the special-casing of posts and have everything be a page, you’d have to accept some behavior changes.</p>
+
+<p>The way this behavior is implemented isn’t very convenient, however. Jekyll recommends using the <a href="http://jekyllrb.com/docs/templates/"><code class="highlighter-rouge">sort</code> filter</a> in your Liquid templates. If you want pages to be sorted by, say, their <code class="highlighter-rouge">foo</code> property, you can do:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span>p<span class="w"> </span>in<span class="w"> </span>site.pages<span class="w"> </span>|<span class="w"> </span><span class="na">sort</span><span class="o">:</span><span class="w"> </span><span class="s1">'foo'</span><span class="w"> </span><span class="p">%}</span>
+</code></pre>
+</div>
+
+<p>This requires you to make sure you have a <code class="highlighter-rouge">foo</code> property in your YAML front matter for each page, which can be tedious. If you forget to add this for even a single post, there won’t be any hints or warnings – your site’s ordering will just silently break.</p>
+
+<h2 id="no-relative-navigation-available">No relative navigation available</h2>
+
+<p>Anything that’s not in the <code class="highlighter-rouge">_posts</code> collection doesn’t get <code class="highlighter-rouge">next</code> or <code class="highlighter-rouge">previous</code> attributes to it, as we saw before. That means there’s no way to get an ordering over the items in your collection, which is obnoxious if your collection has a natural ordering over some field. For example, you almost always want blog posts to be ordered by their <code class="highlighter-rouge">date</code> field, but you won’t get this ability on your pages.</p>
+
+<h1 id="custom-collections-to-the-rescue">Custom collections to the rescue</h1>
+
+<p>What do you do if the thing you want to add is neither a page nor a post? You can add <em>custom collections</em> – Jekyll’s term for a set of things of the same kind, like “blog entries”, “soccer matches”, or “team members”. While Jekyll’s documentation is usually very good, it doesn’t cover how to do this in a manner that retained most of the features of the default collections without having to rewrite it myself.</p>
+
+<p>To make a custom collection, first <em>decide on a name</em> for your collection. Then make a folder named <code class="highlighter-rouge">_&lt;name&gt;</code> in your source directory. For instance, if you want to make a collection representing the authors on your site, you might have an <code class="highlighter-rouge">authors</code> collection, so you would want a directory named <code class="highlighter-rouge">_authors</code>.</p>
+
+<p>Second, <em>configure the collection</em> in your project’s <code class="highlighter-rouge">_config.yml</code> under a hash named <code class="highlighter-rouge">collections</code>. Each key in this hash is the name of a collection you’ll use in Jekyll. For example, a minimal <code class="highlighter-rouge">authors</code> collection would look like this in your <code class="highlighter-rouge">_config.yml</code>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="s">collections</span><span class="pi">:</span>
+  <span class="s">authors</span>
+</code></pre>
+</div>
+
+<p>If you have other collections, you can add them here too, one collection per key.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="s">collections</span><span class="pi">:</span>
+  <span class="s">authors</span><span class="pi">:</span>
+  <span class="s">entries</span><span class="pi">:</span>
+  <span class="s">recipes</span><span class="pi">:</span>
+</code></pre>
+</div>
+
+<p>If the files in a collection should generate corresponding output files, then add <code class="highlighter-rouge">output: true</code> to each custom collection for which that’s true. For example, if you want to generate a page for each author, your collection can be:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="s">collections</span><span class="pi">:</span>
+  <span class="s">authors</span><span class="pi">:</span>
+    <span class="s">output</span><span class="pi">:</span> <span class="s">true</span>
+</code></pre>
+</div>
+
+<p>At this point, you’ve got a custom collection, but it’s not very useful – it has none of the nice default behavior from <code class="highlighter-rouge">posts</code> that we mentioned before, and it lacks even basic things like being able to sort your collection by date.</p>
+
+<h1 id="making-custom-collections-useful">Making custom collections useful</h1>
+
+<p>To fix this, I wrote the <a href="https://github.com/fj/spicy-jekyll">SpicyJekyll plugin</a>: this augments your custom collection with five useful behaviors to make them behave more like you might expect:</p>
+
+<ol>
+  <li>Orders your collections by <code class="highlighter-rouge">date</code> (or a custom sort key of your own choosing).</li>
+  <li>Adds <code class="highlighter-rouge">next</code> and <code class="highlighter-rouge">previous</code> references to your collection’s documents so you can use them in lists or archives.</li>
+  <li>Checks for a <code class="highlighter-rouge">title</code> property on each document.</li>
+  <li>Adds stable, filename-based permalinks that won’t change if you change the title.</li>
+  <li>Logs what it’s doing to diagnose collection problems if there are any issues.</li>
+</ol>
+
+<p>To use it, just drop it into your plugins directory. Give it a spin on your own custom collections!</p>
+
+      </article>
+
+      <div class="relative-navigation my2 clearfix">
+        
+        <a style="float: left;" href="/entries/time-passes/">&laquo; Time Passes</a>
+        
+
+        
+        <a style="float: right;" href="/entries/cheryls-birthday/">Solving the "Cheryl's Birthday" Problem with Prolog &raquo;</a>
+        
+      </div>
+
+      
+        <div class="subscribers my2 muted--2x" style="border: 1px solid gray; padding: 1rem">
+          <h2>Want more?</h2>
+          <!-- Begin MailChimp Signup Form -->
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+  <form action="//jxf.us10.list-manage.com/subscribe/post?u=976324169876d6bacad33756b&amp;id=14b2565550" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+      <p>Want a gentle ping whenever I write something especially cool?</p>
+      <p>I'll never sell or give away your address, or may the wrath of a thousand suns befall me.</p>
+      <div class="mc-field-group">
+        <label for="mce-EMAIL" style="font-weight: bold">email: </label>
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="height: 1.5rem; width: 15rem;">
+        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="color: white; background-color:#505050; border:1px solid #353535; border-radius:5px; padding: 0.5rem;">
+      </div>
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;"><input type="text" name="b_976324169876d6bacad33756b_14b2565550" tabindex="-1" value=""></div>
+    </div>
+  </form>
+</div>
+
+<!--End mc_embed_signup-->
+        </div>
+      
+
+      
+        <div class="comments my2">
+          <h2>Comments</h2>
+          
+  
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES * * */
+        var disqus_shortname = 'jxf';
+        var disqus_url = 'http://jxf.me/entries/custom-collections-jekyll/';
+        var disqus_identifier = 'entries-000003';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments.</a></noscript>
+  
+
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+    </main>
+    <footer class="footer">
+  <div class="measure--lg">
+
+  </div>
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51754727-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  </body>
+</html>

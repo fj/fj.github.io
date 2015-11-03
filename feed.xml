@@ -1,0 +1,2070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John Feminella</title>
+    <description>software engineer · enthusiastic technologist · curiosity advocate</description>
+    <link>http://jxf.me/</link>
+    <atom:link href="http://jxf.me/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 23 Oct 2015 16:05:12 -0400</pubDate>
+    <lastBuildDate>Fri, 23 Oct 2015 16:05:12 -0400</lastBuildDate>
+    <generator>Jekyll v3.0.0.pre.beta2</generator>
+    
+    
+      <item>
+        <title>Pivotal</title>
+        <description>&lt;p&gt;I like to think of myself as a relatively curious person, and as a professional who builds software, that often has a lot of benefits. But one big downside is that I have a lot of itches to scratch, and I’ve never been able to satisfy them by doing just one thing. I love what our team has built at &lt;a href=&quot;http://uphex.com&quot;&gt;UpHex&lt;/a&gt; and the work we’re doing to make analytics monitoring easy for businesses everywhere. I wanted to continue using that expertise in a way that was bigger than any one company, but I wasn’t sure how to do it.&lt;/p&gt;
+
+&lt;p&gt;I recently caught up with a friend and colleague at &lt;a href=&quot;https://pivotal.io&quot;&gt;Pivotal&lt;/a&gt; over lunch, and was astounded to hear about some of the things they’re working on. While I can’t disclose all of the internal details of what’s happening under the covers, there’s already a lot of public evidence that Pivotal is an engineering powerhouse that’s building incredible things. They are primary contributors to some of the biggest open-source enterprise projects, like &lt;a href=&quot;https://spring.io&quot;&gt;Spring&lt;/a&gt;, &lt;a href=&quot;https://www.cloudfoundry.org/&quot;&gt;Cloud Foundry&lt;/a&gt;, and &lt;a href=&quot;http://geode.incubator.apache.org/&quot;&gt;Geode&lt;/a&gt;. And they provide one of the core infrastructure pieces of many modern software projects: &lt;a href=&quot;https://www.pivotaltracker.com&quot;&gt;Pivotal Tracker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Overall, they’re a startup that’s serious about a business strategy with open source at its core. That’s something almost no other company can say, and I was impressed by the depth of the commitment there. Even more importantly, Pivotal’s jam-packed full of people smarter than I am. Everyone learns differently, but I do it primarily by immersing myself in folks that are more experienced than I am, and then immersing myself in a difficult problem while surrounded by those folks. Pivotal looked like a great fit from this perspective.&lt;/p&gt;
+
+&lt;p&gt;After learning more about each other and explaining our goals, Pivotal asked if I’d consider becoming an advisory field engineer. I loved the idea of combining strategic, high-level exploration of business needs with practical, real-world engineering solutions, and it was an instant yes for me.&lt;/p&gt;
+
+&lt;p&gt;So, effective August 1, 2015, I’ve joined Pivotal. Of course, I’ll continue to be a principal in UpHex with my wonderful cofounder &lt;a href=&quot;https://twitter.com/justthekipp&quot;&gt;Bradley Kipp&lt;/a&gt;, who is both a marvelous human being and a whip-smart businessperson. I’m looking forward to more new and exciting adventures with both companies!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Aug 2015 06:00:00 -0400</pubDate>
+        <link>http://jxf.me/entries/pivotal/</link>
+        <guid isPermaLink="true">http://jxf.me/entries/pivotal/</guid>
+        
+        <category>post</category>
+        
+        <category>pivotal</category>
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>Comprehensive Technologist&#39;s Guide to Charlottesville for Prospective Citizens</title>
+        <description>&lt;p&gt;I frequently get questions from my other technologist friends in SF, Boulder, NY, and elsewhere about what it’s like in Charlottesville. I’ve lived here for a little over a decade now, and while New York will always be my home, Charlottesville has many things to recommend it.&lt;/p&gt;
+
+&lt;p&gt;The technology profession has the great advantage of not requiring us to be tethered to a specific physical location; if you’ve got a laptop and Internet, chances are good you can work from anywhere. So if you can work anywhere, does it make sense to put this city on your shortlist? I think the answer is yes.&lt;/p&gt;
+
+&lt;p&gt;It’s difficult to describe the advantages and disadvantages of Charlottesville succinctly, but in this post I’d like to give as good a summary as I can. What follows are some of the notable qualitative and quantitative highlights of this interesting city from the perspective of a technologist.&lt;/p&gt;
+
+&lt;h1 id=&quot;brief-local-history&quot;&gt;Brief local history&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;//s3.amazonaws.com/assets.jxf.me/images/entries/000007/charlottesville-serpentine.jpeg&quot; alt=&quot;serpentine walls at the University of Virginia&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;Serpentine walls at the University of Virginia. &lt;a href=&quot;https://en.wikipedia.org/wiki/University_of_Virginia#/media/File:Serpentine_wall_UVa_daffodils_2010.jpg&quot;&gt;Source.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Charlottesville was founded in 1762 to serve as the seat of Albemarle County and named after Queen Charlotte, the wife of &lt;a href=&quot;https://en.wikipedia.org/wiki/George_III_of_the_United_Kingdom&quot;&gt;King George III&lt;/a&gt;, the monarch whose various taxes and slights against colonial Americans eventually provoked the &lt;a href=&quot;https://en.wikipedia.org/wiki/American_Revolutionary_War&quot;&gt;Revolutionary War&lt;/a&gt;. It sat along a major highway, &lt;a href=&quot;http://en.wikipedia.org/wiki/Three_Notch%27d_Road&quot;&gt;Three Notch’d Road&lt;/a&gt;, that led from the state capitol of Richmond to the Great Appalachian Valley; today, the cross-country Interstate 64 highway follows in its footsteps.&lt;/p&gt;
+
+&lt;p&gt;In 1819, Thomas Jefferson founded what is now one of the highest-rated national public universities, the &lt;a href=&quot;http://www.virginia.edu&quot;&gt;University of Virginia&lt;/a&gt;. UVA is a major nexus of activity in the regional startup and business market, and it’s the largest employer the area. Among many other interesting people, UVA has matriculated the poet Edgar Allen Poe, seven NASA astronauts, artist Georgia O’Keefe, writer and comedian Tina Fey, journalist Katie Couric, and U.S. President Woodrow Wilson.&lt;/p&gt;
+
+&lt;p&gt;In the 20th century, the area’s culture and commerce gradually began to rise around three big areas: agriculture and food, technology, and healthcare. The rise of the University of Virginia as an affordable, public, high-quality research institution also helped attract more citizens. During the 1970s through 1990s, the City undertook a series of ambitious public-works renovations to build the &lt;a href=&quot;https://en.wikipedia.org/wiki/Downtown_Mall&quot;&gt;Downtown Mall&lt;/a&gt;, which today is one of the largest pedestrian malls in the US.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-its-like-living-here&quot;&gt;What it’s like living here&lt;/h1&gt;
+
+&lt;p&gt;Charlottesville is somewhere in between a large town and a small city, with a population of about 50,000 people spread over 10 square miles. Despite the modest scale, it seems to have the influence, amenities, and prestige of cities many times its size.&lt;/p&gt;
+
+&lt;p&gt;Charlottesville consistently wins accolades like &lt;a href=&quot;https://www.google.com/search?q=charlottesville+best+place+to+live+in+america&quot;&gt;“best place to live in America”&lt;/a&gt;, &lt;a href=&quot;https://www.google.com/search?q=charlottesville+happiest+city&quot;&gt;“happiest city in America”&lt;/a&gt;, and &lt;a href=&quot;http://www.cntraveler.com/galleries/2014-10-07/best-college-towns-for-people-who-aren-t-in-college/6&quot;&gt;“best college town for people who aren’t in college”&lt;/a&gt;. It’s pretty nice here!&lt;/p&gt;
+
+&lt;h2 id=&quot;people&quot;&gt;People&lt;/h2&gt;
+
+&lt;p&gt;It’s a challenge to generalize broadly about Charlottesville residents. They tend to be from all walks of life, status, and birthplace. While there’s a sizable contingent of people who lived and grew up nearby, the majority were attracted by jobs or the University. The median income, wealth, and education for Charlottesville residents is above the national average in all cases, and Virginia as a state scores well on these metrics relative to other states. Similarly, &lt;a href=&quot;http://www.nytimes.com/interactive/2014/08/13/upshot/where-people-in-each-state-were-born.html?abt=0002&amp;amp;abg=1#Virginia&quot;&gt;most people who live in Virginia were not born in Virginia&lt;/a&gt;, and that’s especially true in Charlottesville.&lt;/p&gt;
+
+&lt;p&gt;Charlottesville is a predominantly liberal city situated in a broader rural region, Virginia’s &lt;a href=&quot;https://en.wikipedia.org/wiki/Virginia&#39;s_5th_congressional_district&quot;&gt;Fifth Congressional District&lt;/a&gt;, that skews conservative. This is evident in a lot of election results, for example, where Charlottesville will tend to vote for the more progressive candidate in a contested race, while the broader district votes for the more conservative candidate.&lt;/p&gt;
+
+&lt;h2 id=&quot;climate-and-location&quot;&gt;Climate and location&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;//s3.amazonaws.com/assets.jxf.me/images/entries/000007/blue-ridge-mountains-fall.jpeg&quot; alt=&quot;Blue Ridge Mountains&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;Blue Ridge Mountains in the fall. The scenic &lt;a href=&quot;http://www.nps.gov/shen/planyourvisit/driving-skyline-drive.htm&quot;&gt;Skyline Drive&lt;/a&gt; winds through the trees.&lt;/p&gt;
+
+&lt;p&gt;Charlottesville forms a triangle with Washington, DC two hours away to the northeast and Richmond, VA one hour away to the east. Outside the city, the scenery rapidly becomes more rural and less developed, with mountains to the west and forests, farms, and vineyards to the south and east. The Blue Ridge Mountains and skiing at Wintergreen and the surrounding area are thirty minutes by car; Atlantic beaches are three hours.&lt;/p&gt;
+
+&lt;p&gt;Weather is very pleasant. There’s about 220 days of sunshine per year, so it’s much more likely to be sunny than not, and there’s usually a light west-to-east wind coming from the mountains.&lt;/p&gt;
+
+&lt;table class=&quot;rotated-text full-width small&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;property&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;muted--3x&quot;&gt;San Francisco, CA&lt;/span&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;muted--3x&quot;&gt;New York, NY&lt;/span&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;muted--3x&quot;&gt;Washington, DC&lt;/span&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Charlottesville, VA&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;annual total precipitation (in)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;20.7&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;49.9&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;39.7&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;46.7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;annual snowfall (in)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt; 1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;25.1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;14.5&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;16.3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;annual sunshine (days)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;259&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;212&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;203&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;219&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mean February humidity (%)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;84&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;60&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;61&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;66&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mean February temperature (°F)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;60&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;42&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;47&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;51&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mean August humidity (%)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;75&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;66&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;69&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;72&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mean August temperature (°F)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;68&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;80&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;87&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;77&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;annual days above 85°F highs&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;15&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;37&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;42&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;annual days below 30°F lows&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;78&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;84&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;113&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Summers are warm and sometimes on the humid side, albeit milder than Virginia as a whole. Typical summer temperatures are in the &lt;a href=&quot;http://www.usa.com/charlottesville-va-weather.htm&quot;&gt;high 70s&lt;/a&gt;. Very brief summer thunderstorms are common, and then it’s quickly back to sunshine again.&lt;/p&gt;
+
+&lt;p&gt;Winters are milder, with infrequent snows. Over the last 20 years, snowfall has varied considerably; a typical year sees zero to three snowfalls of 6” or more each. Occasionally there is zero or minimal snowfall in a year.&lt;/p&gt;
+
+&lt;p&gt;Extreme weather is rare. Occasionally Atlantic hurricanes make landfall near Charlottesville, but it’s far enough inland that the brunt of the storms are mitigated. On very rare occasions, Charlottesville has been subjected to powerful storms known as &lt;a href=&quot;https://en.wikipedia.org/wiki/Derecho&quot;&gt;derechos&lt;/a&gt; that inflict substantial damage.&lt;/p&gt;
+
+&lt;h2 id=&quot;things-to-do&quot;&gt;Things to do&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Food:&lt;/strong&gt; Charlottesville is chock-full of highly-rated excellent restaurants and eateries that place a premium on high-quality local ingredients. Local restaurants run the range from 3 AM burger joints to world-class eateries, and have routinely garnered high praise from national reviewers. A few local venues and their chefs have won awards at the national or international level, including Hamilton’s, Peter Chang’s China Grill, Ivy Inn, Citizen Burger, Fossett’s, and Bodo’s Bagels.&lt;/p&gt;
+
+    &lt;p&gt;Every Saturday morning is the &lt;a href=&quot;http://www.charlottesville.org/Index.aspx?page=757&quot;&gt;City Market&lt;/a&gt;, a pop-up bazaar that lasts a few hours and frequented by street vendors, farmers, potters, artisans, and so on. It’s a great way to sample excellent local food. Charlottesville has a large faction of specialty coffee enthusiasts; &lt;a href=&quot;http://mudhouse.com/&quot;&gt;Mudhouse&lt;/a&gt;, &lt;a href=&quot;http://javajavacafe.com/&quot;&gt;Java Java&lt;/a&gt;, &lt;a href=&quot;http://gritcoffee.com/&quot;&gt;Grit Cafe&lt;/a&gt;, and several other locations all make top-quality brews.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Shopping:&lt;/strong&gt; Charlottesville is home to three large shopping districts: Fashion Square Mall, Barracks Road Shopping Center, and the Shops at Stonefield. All have large anchor department-store tenants and chain eateries. Grocery needs are supplied by Whole Foods, Trader Joe’s, Harris Teeter, Food Lion, Kroger, and a number of other chains. A Costco will open at the end of 2015 in Stonefield.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Entertainment:&lt;/strong&gt; Charlottesville is home to a wide range of venues; John Paul Jones Arena (15,000 people), the Paramount Theater (1,000 people), and the Pavilion (5,000 people) are the biggest, and they consistently draw performers both large and small. During the off season, the University of Virginia’s Scott Stadium also hosts the bigger events that are part of large national tours (e.g., &lt;a href=&quot;http://www.c-ville.com/First_glimpse_at_U2s_Claw_stage_at_Scott_Stadium_PHOTO/&quot;&gt;U2&lt;/a&gt;, &lt;a href=&quot;http://www.virginia.edu/topnews/releases2005/concert-may-10-2005.html&quot;&gt;Rolling Stones&lt;/a&gt;). There’s also a fourteen-screen IMAX cineplex, a 20,000 square foot indoor trampoline park, a &lt;a href=&quot;http://www.goochlanddriveintheater.com/&quot;&gt;renovated drive-in movie theater&lt;/a&gt;, and various other interesting spots.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Culture:&lt;/strong&gt; The Charlottesville area has a number of museums, public classes, and festivals. The nationally popular &lt;a href=&quot;http://virginiafilmfestival.org/&quot;&gt;Virginia Film Festival&lt;/a&gt; and &lt;a href=&quot;http://vabook.org/&quot;&gt;Virginia Festival of the Book&lt;/a&gt; are both hosted in Charlottesville, as is the &lt;a href=&quot;http://tomtomfest.com/&quot;&gt;Tom Tom Founders Fest&lt;/a&gt;. The museums and historic sites of Thomas Jefferson’s &lt;a href=&quot;http://www.monticello.org/site/visit&quot;&gt;Monticello&lt;/a&gt;, &lt;a href=&quot;http://ashlawnhighland.org/&quot;&gt;Ash Lawn-Highland&lt;/a&gt;, the &lt;a href=&quot;http://vmfa.museum/&quot;&gt;Virginia Museum of Fine Arts&lt;/a&gt;, Fan Mountain Astronomical Observatory, and &lt;a href=&quot;http://www.kluge-ruhe.org/&quot;&gt;Kluge-Ruhe Aboriginal Art Museum&lt;/a&gt; are all within an hour’s drive. Public adult-education and general-interest classes are offered by &lt;a href=&quot;http://www.pvcc.edu/&quot;&gt;Piedmont Virginia Community College&lt;/a&gt;, the &lt;a href=&quot;http://virginia.edu&quot;&gt;University of Virginia&lt;/a&gt;, and the &lt;a href=&quot;http://mcguffeyartcenter.com/art-classes/&quot;&gt;McGuffey Art Center&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Breweries:&lt;/strong&gt; The craft brewing scene is in full swing in and around Charlottesville; a few breweries have national acclaim. Because of a quirk in the alcohol regulations of Virginia, many breweries that don’t serve food let you bring your own food in (as long as you buy their beer).&lt;/p&gt;
+
+    &lt;p&gt;This results in a number of such breweries being interesting local meetup spots for friends or groups; you bring your own pizza and the beer’s already waiting for you. The most convenient ones to Charlottesville are &lt;a href=&quot;http://southstreetbrewery.com/&quot;&gt;South Street Brewery&lt;/a&gt;, &lt;a href=&quot;http://threenotchdbrewing.com/&quot;&gt;Three Notch’d&lt;/a&gt;, and &lt;a href=&quot;http://championbrewingcompany.com/&quot;&gt;Champion Brewery&lt;/a&gt;. Farther out are &lt;a href=&quot;http://dbbrewingcompany.com/&quot;&gt;Devil’s Backbone&lt;/a&gt;, &lt;a href=&quot;https://www.wildwolfbeer.com/&quot;&gt;Wild Wolf&lt;/a&gt;, and &lt;a href=&quot;http://www.bluemountainbrewery.com/&quot;&gt;Blue Mountain Brewery&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Wineries:&lt;/strong&gt; There are &lt;a href=&quot;http://www.visitcharlottesville.org/visitors/things-to-do/vineyards-and-breweries/&quot;&gt;several dozen wineries&lt;/a&gt; with tastes and portfolios to suit almost anyone. Charlottesville also has two area cideries, &lt;a href=&quot;https://www.albemarleciderworks.com/&quot;&gt;Albemarle Cider Works&lt;/a&gt; and &lt;a href=&quot;http://castlehillcider.com/&quot;&gt;Castle Hill Cider&lt;/a&gt;, that put out consistently great offerings.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Nightlife:&lt;/strong&gt; There’s a very lively bar scene on the Downtown Mall, particularly when the free live concert series &lt;a href=&quot;http://www.thenteloswirelesspavilion.com/events-tickets/fridays-after-five-line-up&quot;&gt;Fridays After Five&lt;/a&gt; is in full swing. During the summer, vineyards often have summer concerts and picnic nights. For a different sort of nightlife, the University’s Observatory offers starlight viewings every other Monday. Options for dance clubs are minimal; &lt;a href=&quot;http://clubr2.com/Rapture/club_r2.html&quot;&gt;R2&lt;/a&gt; and &lt;a href=&quot;http://escafe.com/&quot;&gt;Escafe&lt;/a&gt; (LGBTQ-friendly) are the biggest choices.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Nature:&lt;/strong&gt; Charlottesville is next door to &lt;a href=&quot;http://www.nps.gov/shen/index.htm&quot;&gt;Shenandoah National Park&lt;/a&gt;, a sprawling rectangle of over 300 square miles that stretches along the Blue Ridge Mountains. There are dozens of great trails, but set aside time for the strenuous hike and rock scrambles of an &lt;a href=&quot;http://www.hikingupward.com/SNP/OldRag/&quot;&gt;Old Rag Mountain&lt;/a&gt; day hike. Charlottesville also the Rivanna Trail, an extensive network of hiking and biking paths that &lt;a href=&quot;http://www.rivannatrails.org/Interactive-Map&quot;&gt;almost-loops&lt;/a&gt; around the city’s perimeter.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Recreational sports:&lt;/strong&gt; Baseball, kickball, and soccer are popular sports in the city’s social leagues, which range from very competitive to laid-back. There are also sports leagues of a less traditional kind, including kickball, ultimate frisbee, and flip-cup.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;internet&quot;&gt;Internet&lt;/h2&gt;
+
+&lt;p&gt;Perhaps the most important reference point for prospective technological citizens: Internet service is pretty good. It’s primarily provided by three mutual competitors: &lt;a href=&quot;https://ting.com/internet&quot;&gt;Ting Gigabit&lt;/a&gt; (1,000/1,000 Mb/s, no hard caps), Comcast (105/10 Mb/s, no hard caps), and Embarq DSL (10/1 Mb/s, no hard caps). Ting has a limited rollout to about 3,000 homes at the moment, but is expected to reach about 10,000 homes by the end of 2015, mostly in the &lt;a href=&quot;https://www.google.com/maps/place/North+Downtown,+Charlottesville,+VA&quot;&gt;North Downtown&lt;/a&gt;, &lt;a href=&quot;https://www.google.com/maps/place/Martha+Jefferson,+Charlottesville,+VA&quot;&gt;Martha Jefferson&lt;/a&gt;, &lt;a href=&quot;https://www.google.com/maps/place/Locust+Grove,+Charlottesville,+VA&quot;&gt;Locust Grove&lt;/a&gt;, and &lt;a href=&quot;https://www.google.com/maps/place/Belmont,+Charlottesville,+VA&quot;&gt;Belmont&lt;/a&gt; districts.&lt;/p&gt;
+
+&lt;h1 id=&quot;cost-of-living&quot;&gt;Cost of living&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;//s3.amazonaws.com/assets.jxf.me/images/entries/000007/charlottesville-downtown-mall.jpeg&quot; alt=&quot;Downtown Mall&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;Charlottesville’s Downtown Mall on a quiet winter evening.&lt;/p&gt;
+
+&lt;p&gt;Charlottesville has an extremely competitive cost of living compared to a number of major cities. This is especially true when measured against the nearest metropolitan counterpart, the Northern Virginia pan-urban area, but holds up for several different metrics.&lt;/p&gt;
+
+&lt;style type=&quot;text/css&quot;&gt;
+table .best {
+  color: limegreen;
+  font-weight: bold;
+}
+
+table .bad {
+  color: orange;
+  font-weight: bold;
+}
+
+table .very-bad {
+  color: crimson;
+  font-weight: bold;
+}
+&lt;/style&gt;
+
+&lt;table class=&quot;rotated-text full-width small&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;property (national = 1×)&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;muted--3x&quot;&gt;San Francisco, CA&lt;/span&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;muted--3x&quot;&gt;New York, NY&lt;/span&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;muted--3x&quot;&gt;Washington, DC&lt;/span&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Charlottesville, VA&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;goods and services&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1.1×&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;bad&quot;&gt;1.5×&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;best&quot;&gt;1.0×&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1.1×&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;groceries&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1.2×&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;bad&quot;&gt;1.5×&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1.1×&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;best&quot;&gt;1.0×&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;health care&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1.1×&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1.1×&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1.0×&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;best&quot;&gt;1.0×&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;housing&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;very-bad&quot;&gt;3.4×&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;very-bad&quot;&gt;2.3×&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;very-bad&quot;&gt;2.1×&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;best&quot;&gt;1.4×&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;transportation&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1.1×&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1.3×&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1.0×&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;best&quot;&gt;1.0×&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;utilities&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1.0×&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;bad&quot;&gt;1.4×&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1.0×&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;best&quot;&gt;0.9×&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;overall cost of living&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;very-bad&quot;&gt;1.8×&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;bad&quot;&gt;1.7×&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;bad&quot;&gt;1.3×&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;best&quot;&gt;1.1×&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Sources: &lt;a href=&quot;http://www.areavibes.com/&quot;&gt;AreaVibes cost of living summaries&lt;/a&gt; rounded to two significant figures, &lt;a href=&quot;http://www.census.gov/programs-surveys/acs/technical-documentation/pums.html&quot;&gt;US Census Bureau ACS PUMS&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;quality-of-life&quot;&gt;Quality of life&lt;/h1&gt;
+
+&lt;p&gt;Charlottesville’s general quality of life is excellent, especially given the low cost of living. About 90% of Charlottesville residents rated it an “excellent” or “good” place to live, according to the 2014 National Community Survey.&lt;/p&gt;
+
+&lt;table class=&quot;rotated-text full-width small&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;property&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;muted--3x&quot;&gt;San Francisco, CA&lt;/span&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;muted--3x&quot;&gt;New York, NY&lt;/span&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;muted--3x&quot;&gt;Washington, DC&lt;/span&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Charlottesville, VA&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;weekly commute time (hours)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;bad&quot;&gt;4:57&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;bad&quot;&gt;6:18&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;very-bad&quot;&gt;4:49&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;best&quot;&gt;1:26&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;monthly rent, 1 BR apartment&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$3,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$3,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$2,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;best&quot;&gt;$1,100&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;marginal state income tax rate at $100,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;9.3%&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;6.7%&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;8.5%&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;best&quot;&gt;5.8%&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;general sales tax rate&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;8.8%&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;8.9%&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5.8%&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;best&quot;&gt;5.3%&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;walkability score at median rent&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;71&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;89&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span class=&quot;best&quot;&gt;96&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;95&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;major-concerns&quot;&gt;Major concerns&lt;/h2&gt;
+
+&lt;p&gt;While most residents give Charlottesville high marks across the board relative to similar cities, it’s not without complaints. When Charlottesville citizens express concerns, the majority of them fall into one of three big areas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Traffic and parking.&lt;/strong&gt; Peak traffic spikes very high during specific weekends – football games, the University of Virginia graduation and move-in weeks, and major John Paul Jones Arena or Pavilion concerts. While Charlottesville has a rush hour, it doesn’t last very long, usually about 30 to 45 minutes in the mornings and evenings. Free parking is in very limited supply near the Downtown Mall, especially during big events, when you’ll almost always have to use one of the nearby parking garages.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Affordable housing and homelessness.&lt;/strong&gt; Although Charlottesville has low overall cost of living, it’s much higher than the surrounding rural areas, and there aren’t a lot of entry-level or mid-level jobs for people outside of white-collar positions. This has created steady upward pressure on rents, which makes it difficult for younger, less-skilled, or lower-paid workers to establish a foothold. This, in turn, exacerbates an existing homelessness problem. Additionally, the city also prefers a “slow burn” approach to growth, and actively tries to encourage dense construction that favors family-size units within city limits – this makes single-person housing more expensive, and/or forces them to live with roommates in larger units.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Safety.&lt;/strong&gt; Charlottesville’s crime rate is &lt;a href=&quot;www.city-data.com/crime/crime-Charlottesville-Virginia.html&quot;&gt;about 10% below than the national average&lt;/a&gt; on a per-capita basis. However, a number of high-profile crime cases have hit Charlottesville in the past few years, drawing unwanted national media coverage. Some of these come from reported incidents at the University of Virginia, which generates a higher than average quantity of nonviolent crimes like theft, vandalism, and public drunkenness. The overall crime rate is also on the decline, having steadily trended downwards every year in the last two decades. 96% of Charlottesville residents say they feel safe in their neighborhoods.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Sources: &lt;a href=&quot;https://www.zumper.com/blog/2015/03/zumper-us-rent-report-february-2015/&quot;&gt;Zumper&lt;/a&gt;, &lt;a href=&quot;http://taxfoundation.org/article/state-and-local-sales-tax-rates-2015&quot;&gt;Tax Foundation&lt;/a&gt;, &lt;a href=&quot;http://www.census.gov/programs-surveys/acs/technical-documentation/pums.html&quot;&gt;US Census Bureau ACS PUMS&lt;/a&gt;, &lt;a href=&quot;http://www.charlottesville.org/Index.aspx?page=3401&quot;&gt;National Community Survey&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;challenges&quot;&gt;Challenges&lt;/h2&gt;
+
+&lt;p&gt;There are also some secondary problems that may be of particular interest to younger professionals moving here:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Dating is tough.&lt;/strong&gt; A significant fraction of the twentysomething dating pool is at the University. That means that there may be an implicit time bomb attached to any relationships you strike up if you date a student: once your prospective partner’s graduation date approaches, there’s a choice to make.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;No coherent vision from the City.&lt;/strong&gt; A secondary complaint from a lot of professionals is that the city doesn’t offer any kind of idea of what the future is like for technology. The city doesn’t directly fund any major technology initiatives, doesn’t particularly encourage economic development of technology-industry firms any more than others, and so on. The absence of any signals about the local government’s intent, coupled with limited opportunities for advancement in tech fields that aren’t directly related to or supporting software development, can make staying in Charlottesville a career-hurting move compared to a city more favorably inclined to technologists.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;technology-jobs-and-community&quot;&gt;Technology jobs and community&lt;/h1&gt;
+
+&lt;p&gt;Charlottesville is a regional hub for technology jobs, and employs approximately &lt;a href=&quot;http://www.bls.gov/oes/current/oes_16820.htm#00-0000&quot;&gt;13,000 people&lt;/a&gt; in the technical, software, and hardware domains. These positions across a range of different companies, from multinational conglomerates like SRA and Northrop Grumman to small, newly-funded startup outfits.&lt;/p&gt;
+
+&lt;h2 id=&quot;major-technology-employers&quot;&gt;Major technology employers&lt;/h2&gt;
+
+&lt;p&gt;The most visible Charlottesville employer is the &lt;a href=&quot;http://www.virginia.edu&quot;&gt;University of Virginia&lt;/a&gt; and the associated &lt;a href=&quot;http://uvahealth.com/&quot;&gt;University of Virginia Health System&lt;/a&gt;. Together they employ over 15,000 people.&lt;/p&gt;
+
+&lt;p&gt;Other interesting technology employers of note include (but are certainly not limited to):&lt;/p&gt;
+
+&lt;ul class=&quot;small&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.archemedx.com/&quot;&gt;ArcheMedX&lt;/a&gt;, healthcare informatics and e-learning provider for clinical professionals.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.borrowedandblue.com/&quot;&gt;Borrowed and Blue&lt;/a&gt;, wedding marketplace startup connecting vendors with couples.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ccri.com&quot;&gt;CCRi&lt;/a&gt;, software engineering and data science company.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cfainstitute.org/pages/index.aspx&quot;&gt;CFA Institute&lt;/a&gt;, global nonprofit for investment professionals that provides the &lt;a href=&quot;http://en.wikipedia.org/wiki/Chartered_Financial_Analyst&quot;&gt;CFA accreditation&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.crutchfield.com&quot;&gt;Crutchfield&lt;/a&gt;, national audio electronics retailer that was one of the first Internet retailers.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://datamininglab.com/&quot;&gt;Elder Research&lt;/a&gt;, a data science company whose CEO wrote &lt;a href=&quot;http://amzn.to/1MvjO53&quot;&gt;one of the definitive texts&lt;/a&gt; on data mining.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fireeye.com/&quot;&gt;FireEye&lt;/a&gt;, public company offering network threat forensics and malware protection.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.geautomation.com/&quot;&gt;General Electric Intelligent Platforms&lt;/a&gt;, industrial engineering venture of General Electric.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://opensourceconnections.com&quot;&gt;Open Source Connections&lt;/a&gt;, search relevance&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.psikick.com/&quot;&gt;PsiKick&lt;/a&gt;, designs ultra-low-power wireless chips with widespread industrial and commercial applications.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.quantitative.com/&quot;&gt;Quantitative Investment Management&lt;/a&gt;, one of the world’s largest managed-futures hedge funds.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.relayfoods.com&quot;&gt;Relay Foods&lt;/a&gt;, online grocery delivery and shopping service.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.roomkey.com/about.html&quot;&gt;RoomKey&lt;/a&gt;, hotel search engine operated as a joint venture among several hotel chains.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/SNL_Financial&quot;&gt;SNL Financial&lt;/a&gt;, business intelligence and financial information provider.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ting.com/about&quot;&gt;Ting&lt;/a&gt;, nascent gigabit Internet and mobile provider deploying fiber into Charlottesville.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://uphex.com&quot;&gt;UpHex&lt;/a&gt;, analytics monitoring and reporting startup for businesses.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vividcortex.com/&quot;&gt;VividCortex&lt;/a&gt;, SaaS provider of performance management tools purpose-built for databases.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.willowtreeapps.com/&quot;&gt;WillowTree Apps&lt;/a&gt;, small mobile-apps development firm and winner of multiple &lt;a href=&quot;http://webbyawards.com/winners/2015/&quot;&gt;Webby awards&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;job-diversity&quot;&gt;Job diversity&lt;/h2&gt;
+
+&lt;p&gt;Here’s a list of statistically-significant phrases for the Charlottesville job market – phrases which are more likely to appear in a Charlottesville technology job posting than the nationwide average.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;technology phrase/keyword&lt;/th&gt;
+      &lt;th&gt;likelihood above national mean&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Epic&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;color: steelblue&quot;&gt;█████████████&lt;/span&gt; 13 ×&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;robotics&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;color: steelblue&quot;&gt;███████████&lt;/span&gt; 11 ×&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;sensors&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;color: steelblue&quot;&gt;██████████&lt;/span&gt; 10 ×&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;biomedical&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;color: steelblue&quot;&gt;████████&lt;/span&gt; 7 ×&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Ruby&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;color: steelblue&quot;&gt;████▌&lt;/span&gt; 4.5 ×&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Go&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;color: steelblue&quot;&gt;███▌&lt;/span&gt; 3.5 ×&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Python&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;color: steelblue&quot;&gt;██▌&lt;/span&gt; 2.5 ×&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;.NET&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;color: steelblue&quot;&gt;██&lt;/span&gt; 2 ×&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Notice it’s top-heavy on sensors and medical applications; the top-ranking term, &lt;a href=&quot;http://en.wikipedia.org/wiki/Epic_Systems&quot;&gt;Epic&lt;/a&gt;, is a healthcare software provider. Charlottesville has an outsize funding presence in biomedical startups and applications, owing to the influence of the University of Virginia in this domain.&lt;/p&gt;
+
+&lt;h2 id=&quot;startups&quot;&gt;Startups&lt;/h2&gt;
+
+&lt;p&gt;The startup community in Charlottesville is still very nascent but steadily growing over the last decade or so. There have been some outsize superstars, like &lt;a href=&quot;https://en.wikipedia.org/wiki/Reddit&quot;&gt;Reddit&lt;/a&gt;; Steve Huffman and Alexis Ohanian met at UVA and built the site that would eventually become Reddit here in Charlottesville. There have also been some spectacular failures from the 1999 dotcom bubble, like &lt;a href=&quot;https://en.wikipedia.org/wiki/Value_America&quot;&gt;Value America&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Official statistics aren’t kept by the city on this, but my estimate is that there are at least 100 startup businesses employing a total of about 1,000 people, where “startup” means “a company whose primary goal is to search for a business model”. There are a number of demonstrably successful startups with good traction and broader publicity outside the Virginia area, including &lt;a href=&quot;https://www.relayfoods.com&quot;&gt;Relay Foods&lt;/a&gt;, &lt;a href=&quot;http://www.borrowedandblue.com/&quot;&gt;Borrowed and Blue&lt;/a&gt;, and &lt;a href=&quot;http://www.vividcortex.com&quot;&gt;VividCortex&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;capital-sources&quot;&gt;Capital sources&lt;/h2&gt;
+
+&lt;p&gt;While there is some capital for startups available, Charlottesville doesn’t have a large capital base. Still, it’s possible to fund a compelling business idea without needing to extend a hand to VCs that might be further afield, but the bar is somewhat higher than it might be in Silicon Valley or another hub. Startup funding comes from one of four primary sources:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Angel/seed funds.&lt;/strong&gt; There are a handful of local seed-stage funds that provide capital to launch businesses, but the quality and expertise they can bring to the table vary substantially.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Individual angels.&lt;/strong&gt; A small number of high-net-worth individuals who are also sophisticated investors play a significant role in startup funding in the area. Warm introductions, a reputation that precedes you, or an idea with strong traction are prerequisites for getting in the door.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Family offices.&lt;/strong&gt; Assets controlled by family wealth-management offices are occasionally a local source for new startup capital. One office in particular has done a number of technology deals.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Government entities.&lt;/strong&gt; The CIT GAP Funds, which are funded with state income tax revenue and run as a quasi-private institution, serve as a de facto form of seed capital. As of 2014, CIT has invested about $13M across about 100 portfolio companies, of which about 15 have been acquired or gone public. Student entrepreneurs have some additional options in the form of seed funds at the University, like the &lt;a href=&quot;http://virginiaventurefund.squarespace.com/&quot;&gt;Virginia Venture Fund&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;aside&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.washingtonpost.com/business/capitalbusiness/center-for-innovative-technology-fund-is-among-regions-most-active-angel-investors/2014/04/25/6aa9be50-ca3c-11e3-a75e-463587891b57_story.html&quot;&gt;“Center for Innovative Technology fund is among region’s most active angel investors”&lt;/a&gt;, Washington Post, April 27, 2014.&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;h2 id=&quot;meetups&quot;&gt;Meetups&lt;/h2&gt;
+
+&lt;p&gt;Charlottesville has a relatively diverse technical community. Local or regional meetups are hosted for a number of major languages – Ruby, Python, .NET, and so on. Charlottesville technologists seem to be polyglots more often than not, perhaps motivated by the diversity of the technical jobs in the area. A general software-technologist group focusing on software craftspersonship, &lt;a href=&quot;https://groups.google.com/forum/#!forum/becraft&quot;&gt;beCraft&lt;/a&gt;, is well-attended. There are also less structured and more social meetups like First Wednesdays and &lt;a href=&quot;http://www.charlottesvillewomenintech.com/&quot;&gt;Charlottesville Women in Tech&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Charlottesville doesn’t have a code school or a boot camp, but there are small group-learning classes in various contexts, like that offered by &lt;a href=&quot;http://railsschool.org&quot;&gt;Rails School&lt;/a&gt; or the frequent meetups hosted by the &lt;a href=&quot;http://centerforopenscience.org/&quot;&gt;Center for Open Science&lt;/a&gt;. Our neighboring city, Richmond, is larger and offers many more options for meetups within a reasonable drive.&lt;/p&gt;
+
+&lt;h2 id=&quot;conferences&quot;&gt;Conferences&lt;/h2&gt;
+
+&lt;p&gt;Twice a year there are two larger software conferences: beSwarm, a day-long informal unconference focused on showing things you’ve built or learned, and beCamp, a more general two-day technology unconference that covers broader topics. Other technology conferences also take place in Charlottesville, like &lt;a href=&quot;http://eduiconf.org/&quot;&gt;edUi&lt;/a&gt;, which targets web professionals working in educational environments.&lt;/p&gt;
+
+&lt;h1 id=&quot;transportation&quot;&gt;Transportation&lt;/h1&gt;
+
+&lt;p&gt;Charlottesville residents enjoy some of the best commutes in the country; the mean is below 20 minutes, and 28% of Charlottesville’s labor force walks to work. Getting around town is pretty easy.&lt;/p&gt;
+
+&lt;h2 id=&quot;traffic&quot;&gt;Traffic&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;//s3.amazonaws.com/assets.jxf.me/images/entries/000007/charlottesville-major-roads-map.png&quot; alt=&quot;map of major roads in Charlottesville&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;Routes in blue include Charlottesville’s highest-volume roads.&lt;/p&gt;
+
+&lt;p&gt;The major arteries through and around the city are West Main Street, Route 250, Interstate 64, and Route 29. Traffic in Charlottesville is light on average, but most problematic on these arteries. If you live and work somewhere in the boundaries of the City, you can expect your commute to be 15 minutes or less on a typical day if you drive, or under 40 minutes if you walk and use public transport. Rush hours are brief but intense, usually dissipating in under an hour.&lt;/p&gt;
+
+&lt;h2 id=&quot;walking&quot;&gt;Walking&lt;/h2&gt;
+
+&lt;p&gt;Charlottesville is very pedestrian-friendly; crosswalks are frequent, clearly marked, and well-maintained. An eight-block district of the city, the Downtown Mall, is pedestrians-only; vehicles are not permitted except at two crossings. In general, police are not shy about ticketing cars for failing to yield to pedestrians, which carries a fine of up to $500 and is a moving violation.&lt;/p&gt;
+
+&lt;p&gt;Charlottesville is one of a small handful of cities in the US to receive a &lt;a href=&quot;http://www.walkfriendly.org/communities/list.cfm&quot;&gt;“Gold Level” award&lt;/a&gt; from Walk Friendly Communities, which rates cities according to their walkability.&lt;/p&gt;
+
+&lt;p&gt;In the city proper, you can expect sidewalks or mixed-use paths on most major roads and in suburban neighborhoods, with the exception of Route 250 and Interstate 64, which are both high-traffic corridors.&lt;/p&gt;
+
+&lt;h2 id=&quot;public-transportation&quot;&gt;Public transportation&lt;/h2&gt;
+
+&lt;p&gt;Charlottesville’s public transport consists of a network of ten paid bus lines and a free trolley that travels between the University and the Downtown Mall districts. &lt;a href=&quot;http://www.charlottesville.org/Index.aspx?page=667&quot;&gt;Fares&lt;/a&gt; for the bus lines are usually cheap:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$0.75 per trip&lt;/li&gt;
+  &lt;li&gt;$1.50 day pass, unlimited rides for the day&lt;/li&gt;
+  &lt;li&gt;$20.00 monthly pass, unlimited rides for the month&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Coverage is generally excellent; most of the city is within five blocks of a bus station. The downside is that some routes are very long and it can be inconvenient if you get on at a point which is far away from your destination. Some routes have a loop which takes 90 minutes or more to complete, meaning it could take you that long to get where you want to go.&lt;/p&gt;
+
+&lt;h2 id=&quot;private-transportation&quot;&gt;Private transportation&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.uber.com/cities/charlottesville-va&quot;&gt;Uber&lt;/a&gt; is available in Charlottesville, especially on weekend nights and for traveling to and from the airport. Surge pricing generally doesn’t kick in except during right around 2:00 AM, the latest that bars can legally close in Virginia, or during big events like football games and UVA’s graduation. Uber’s &lt;a href=&quot;https://www.uber.com/cities/charlottesville-va&quot;&gt;Charlottesville fares&lt;/a&gt; are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;base fare:&lt;/em&gt; $2.75 per trip&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;time fare:&lt;/em&gt; $0.25 per minute&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;distance fare:&lt;/em&gt; $1.50 per mile&lt;/li&gt;
+  &lt;li&gt;plus a $1 Safe Rides fee&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Charlottesville has a number of taxi providers. While taxi drivers must be licensed drivers by state law, there is no state or local taxi authority, and taxis are free to set their own rates.&lt;/p&gt;
+
+&lt;h2 id=&quot;biking&quot;&gt;Biking&lt;/h2&gt;
+
+&lt;p&gt;Most of Charlottesville’s major roads (but not the highways or Interstate 64) have dedicated bike lanes. Cycling advocacy organizations have in general been pushing for more bike space, and Charlottesville scores well on various bicycle-friendly metrics. Charlottesville is rated &lt;a href=&quot;http://bikeleague.org/bfa/profile?url=http://apply.bikeleague.org/bfc-award-p151104-formId-286-id-43&quot;&gt;“Silver Level”&lt;/a&gt; by the League of American Bicyclists.&lt;/p&gt;
+
+&lt;p&gt;If you prefer to stay off-road, recreational cycling on trails is widely available within a short distance from the city at &lt;a href=&quot;http://www.singletracks.com/bike-trails/walnut-creek.html&quot;&gt;Walnut Creek&lt;/a&gt;, &lt;a href=&quot;http://www.singletracks.com/bike-trails/mint-springs-valley-park.html&quot;&gt;Mint Springs&lt;/a&gt;, and &lt;a href=&quot;http://www.singletracks.com/bike-trails/preddy-creek.html&quot;&gt;Preddy Creek&lt;/a&gt;. Inside the city, the best options are &lt;a href=&quot;http://www.singletracks.com/bike-trails/mcintire-park.html&quot;&gt;McIntire Park&lt;/a&gt; and &lt;a href=&quot;http://www.singletracks.com/bike-trails/observatory-hill.html&quot;&gt;Observatory Hill&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;trains&quot;&gt;Trains&lt;/h2&gt;
+
+&lt;p&gt;Amtrak provides northbound service between Charlottesville (CVS) and Union Station (WAS) in Washington, DC, and southbound service towards Lynchburg, VA (LYH). Travel time is about 2.5 hours, roughly 15% faster than traveling by car without any traffic. From Union Station, Amtrak’s Acela train stops at Baltimore, Philadelphia, New York, New Haven, and Boston.&lt;/p&gt;
+
+&lt;h2 id=&quot;planes&quot;&gt;Planes&lt;/h2&gt;
+
+&lt;p&gt;Charlottesville has a regional airport with about 200 flights per day to various destinations, of which approximately 70% are general commercial aviation (the rest are private air taxi services or military flights).&lt;/p&gt;
+
+&lt;p&gt;If you’re going anywhere else in the US, you’ll probably take a short flight to a nearby international airport, like Washington Dulles (IAD) or Atlanta (ATL) first. Otherwise, the airports with direct flights from Charlottesville are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Charlotte, NC (CLT) via US Airways&lt;/li&gt;
+  &lt;li&gt;Atlanta, GA	(ATL) via Delta&lt;/li&gt;
+  &lt;li&gt;Washington, DC (IAD) via United&lt;/li&gt;
+  &lt;li&gt;Philadelphia, PA (PHL) via US Airways&lt;/li&gt;
+  &lt;li&gt;Chicago, IL	(ORD) via American Eagle&lt;/li&gt;
+  &lt;li&gt;New York, NY (LGA) via Delta, American Eagle&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;you-too-perhaps&quot;&gt;You too, perhaps?&lt;/h1&gt;
+
+&lt;p&gt;Making the choice about where to live is both difficult and deeply personal. While there are many objectively great reasons to live in Charlottesville, perhaps the biggest one for me is completely subjective: it just feels like home.&lt;/p&gt;
+
+&lt;p&gt;I’ve loved living here, and would be hard-pressed to trade the experience for anywhere else. I hope you’ll visit and feel the same way, too!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Acknowledgements.&lt;/strong&gt; Thank you to:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Kyle Redinger for his excellent &lt;a href=&quot;https://www.reddit.com/r/CharlottesvilleTech/comments/399rny/what_startup_capital_options_are_there_for/cs1ocia&quot;&gt;summary comment&lt;/a&gt; on the startup environment; and&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://waldo.jaquith.org/&quot;&gt;Waldo Jaquith&lt;/a&gt; and &lt;a href=&quot;http://beingspencer.com/&quot;&gt;Spencer Ingram&lt;/a&gt; for looking over my shoulder on this article&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;Any errors or omissions are entirely my own.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 01 Jul 2015 06:00:00 -0400</pubDate>
+        <link>http://jxf.me/entries/charlottesville-technologist-guide/</link>
+        <guid isPermaLink="true">http://jxf.me/entries/charlottesville-technologist-guide/</guid>
+        
+        <category>post</category>
+        
+        <category>technologists</category>
+        
+        <category>charlottesville</category>
+        
+      </item>
+    
+      <item>
+        <title>Finding Out What Changed During Debian/Ubuntu Package Upgrades</title>
+        <description>&lt;p&gt;Like many Linux distributions, Debian comes with a package management and distribution system called &lt;em&gt;apt&lt;/em&gt; (Advanced Package Tool). While apt is  a very useful feature of Debian systems, upgrading packages can be a little daunting. Here’s what a recent &lt;code class=&quot;shell highlighter-rouge&quot;&gt;apt-get upgrade&lt;/code&gt; looked like for me:&lt;/p&gt;
+
+&lt;div class=&quot;shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ψ sudo apt-get upgrade
+[sudo] password for jxf:
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+Calculating upgrade... Done
+The following packages have been kept back:
+  linux-headers-generic linux-signed-generic
+  linux-signed-image-generic lxc-docker postgresql-client-common
+  postgresql-common
+The following packages will be upgraded:
+  atom libdrm-intel1 libdrm-intel1:i386 libdrm-nouveau2
+  libdrm-nouveau2:i386 libdrm-radeon1 libdrm-radeon1:i386 libdrm2
+  libdrm2:i386 libicu52 libtasn1-6 libtasn1-6:i386 linux-libc-dev
+  oxideqt-codecs-extra steam-launcher
+15 upgraded, 0 newly installed, 0 to remove and 6 not upgraded.
+Need to get 61.3 MB of archives.
+Do you want to continue? [Y/n]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Notice that a number of important-looking packages changed: &lt;a href=&quot;https://01.org/linuxgraphics/community/libdrm&quot;&gt;graphics driver middleware&lt;/a&gt;, &lt;a href=&quot;http://en.wikipedia.org/wiki/C_standard_library&quot;&gt;libc&lt;/a&gt;, and &lt;a href=&quot;https://atom.io/&quot;&gt;the text editor I use to write this blog&lt;/a&gt;. But it’s hard to know whether we should install these changes or not, and what the urgency on them is.&lt;/p&gt;
+
+&lt;p&gt;What if the updates are critical security fixes in libc? We might want to install them immediately. Conversely, what if the new graphics driver introduced features that disrupted the framerate on our favorite games? We might want to hold off.&lt;/p&gt;
+
+&lt;p&gt;With the apt-get interface, we know &lt;em&gt;whether&lt;/em&gt; something has been updated, but we don’t know &lt;em&gt;what&lt;/em&gt; the updates are. Can we do better?&lt;/p&gt;
+
+&lt;h1 id=&quot;what-changed&quot;&gt;What changed?&lt;/h1&gt;
+
+&lt;p&gt;Enter &lt;em&gt;apt-listchanges&lt;/em&gt;, a wonderful tool by &lt;a href=&quot;https://twitter.com/sandrotosi&quot;&gt;Sandro Tosi&lt;/a&gt; and &lt;a href=&quot;http://cascardo.info/&quot;&gt;Thadeu Lima de Souza Cascardo&lt;/a&gt;. Each apt package usually ships with two files that describe interesting human-readable details about the package:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a &lt;a href=&quot;https://www.debian.org/doc/manuals/maint-guide/dreq.en.html#changelog&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;debian/changelog&lt;/code&gt;&lt;/a&gt; file that describes recent changes made to the package, usually of a technical nature&lt;/li&gt;
+  &lt;li&gt;a &lt;a href=&quot;https://www.debian.org/doc/manuals/maint-guide/dother.en.html#news&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;debian/NEWS&lt;/code&gt;&lt;/a&gt; file that describes user-friendly updates about the package&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For example, if we download a recent Firefox nightly package:&lt;/p&gt;
+
+&lt;div class=&quot;shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;apt-get download firefox
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;and run &lt;code class=&quot;highlighter-rouge&quot;&gt;apt-listchanges&lt;/code&gt; on it:&lt;/p&gt;
+
+&lt;div class=&quot;shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;apt-listchanges --which=changelogs firefox
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;we’ll get this output:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;firefox (40.0~a2~hg20150520r262219-0ubuntu1~umd1~trusty) trusty; urgency=medium
+
+  * Refresh patches
+    - update debian/patches/unity-menubar.patch
+    - update debian/patches/dont-include-hyphenation-patterns.patch
+    - update debian/patches/allow-lockPref-everywhere.patch
+
+ -- Chris Coulson &amp;lt;chris.coulson@canonical.com&amp;gt;  Wed, 20 May 2015 17:17:16 +0100
+
+firefox (39.0~a2~hg20150429r255253-0ubuntu1) vivid; urgency=medium
+
+  * Refresh patches
+    - update debian/patches/unity-menubar.patch
+    - update debian/patches/ubuntu-ua-string-changes.patch
+  * Drop patches fixed upstream
+    - remove debian/patches/add-non-skia-fallback.patch
+    - update debian/patches/series
+  * Bundle our checkout of compare-locales in a different location, given
+    that the Mozilla repo now contains a different version of it in the
+    location we used previously
+    - update debian/build/rules.mk
+    - update debian/build/create-tarball.py
+
+ -- Chris Coulson &amp;lt;chris.coulson@canonical.com&amp;gt;  Tue, 31 Mar 2015 19:32:34 +0100
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;using-apt-listchanges&quot;&gt;Using apt-listchanges&lt;/h1&gt;
+
+&lt;p&gt;It would be nice if we could get this list whenever we installed a package. Fortunately, apt-listchanges does just that for us, too!&lt;/p&gt;
+
+&lt;p&gt;First we’ll install the package:&lt;/p&gt;
+
+&lt;div class=&quot;shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install apt-listchanges
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;After installation, there’s a configuration step which asks you how you’d like to view the changes and make some other choices; I find the &lt;code class=&quot;highlighter-rouge&quot;&gt;pager&lt;/code&gt; mode is most convenient for viewing. If you want to revisit your configuration choices, you can run &lt;code class=&quot;shell highlighter-rouge&quot;&gt;dpkg-reconfigure apt-listchanges&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;After the configuration is done your preferences will be saved in &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/apt/listchanges.conf&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now that we’ve got that, let’s install a package!&lt;/p&gt;
+
+&lt;div class=&quot;shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install firefox
+[...]
+Do you want to continue? [Y/n]
+Reading changelogs... Done
+
+firefox (40.0~a2~hg20150520r262219-0ubuntu1~umd1~trusty) trusty; urgency=medium
+  * Refresh patches
+    - update debian/patches/unity-menubar.patch
+    - update debian/patches/dont-include-hyphenation-patterns.patch
+    - update debian/patches/allow-lockPref-everywhere.patch
+
+ -- Chris Coulson &amp;lt;chris.coulson@canonical.com&amp;gt;  Wed, 20 May 2015 17:17:16 +0100
+apt-listchanges: Do you want to continue? [Y/n] y
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Notice the second prompt for apt-listchanges; this is one of the configuration settings you can choose. Here, you’ll get a chance to review what changed before you decide to pull the trigger.&lt;/p&gt;
+
+&lt;p&gt;In short, apt-listchanges is an excellent addition to your Debian package-management workflow and highly recommended.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 22 May 2015 04:00:00 -0400</pubDate>
+        <link>http://jxf.me/entries/better-apt-ubuntu/</link>
+        <guid isPermaLink="true">http://jxf.me/entries/better-apt-ubuntu/</guid>
+        
+        <category>snippet</category>
+        
+        <category>package-management</category>
+        
+      </item>
+    
+      <item>
+        <title>The Infinity Zoo: What is Infinity?</title>
+        <description>&lt;blockquote&gt;
+  &lt;div style=&quot;white-space: pre&quot;&gt;To see a world in a grain of sand,
+  And Heaven in a wild flower,
+Hold Infinity in the palm of your hand,
+  And Eternity in an hour.&lt;/div&gt;
+
+  &lt;p&gt;William Blake, “Auguries of Innocence”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Infinity is an idea that has fascinated humans for a long time. To some it can seem inscrutable. For others, it symbolizes the mystical or spiritual. For mathematicians, it’s a tool that’s essential to working with and understanding the behavior of many things – although it’s been a point of strong historical controversy.&lt;/p&gt;
+
+&lt;p&gt;But what &lt;em&gt;is&lt;/em&gt; infinity, exactly? It turns out there are many kinds and instances of infinity – a veritable zoo of infinities! In this post, we’ll try to do a survey of the different kinds of infinity, and explore some of the possibilities that are enabled by having it.&lt;/p&gt;
+
+&lt;h1 id=&quot;actual-and-potential-infinity&quot;&gt;Actual and potential infinity&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;//s3.amazonaws.com/assets.jxf.me/images/entries/000005/toronto-skyscraper.jpg&quot; alt=&quot;a perspective shot of a building in Toronto stretching into the sky&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;A tower in Toronto’s financial district stretches high into the evening sky. &lt;a href=&quot;https://flic.kr/p/nDw3D3&quot;&gt;Source.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;People have been grappling with the philosophy of infinity for centuries, and mathematics is no exception. The ancients, especially Indian, Greek, and Arab mathematicians, readily entertained the notion of two kinds of infinity. One kind was called &lt;em&gt;potential infinity&lt;/em&gt;; the Greeks called it &lt;a href=&quot;http://en.wikipedia.org/wiki/Apeiron_%28cosmology%29&quot;&gt;apeiron&lt;/a&gt; (ἄπειρον, “without end”). The other kind was called &lt;em&gt;actual infinity&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//s3.amazonaws.com/assets.jxf.me/images/entries/000005/chart-entry-potential-infinity.png&quot; alt=&quot;diagram describing potential infinity&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;Potential infinity allows a process to be repeated as many times as you would like – for example, adding a new number to a list – but no matter when you stop, the result is always finite.&lt;/p&gt;
+
+&lt;p&gt;Essentially, a potential infinity describes two things: a bag that holds items, and a process that adds items to the bag which can be repeated indefinitely.&lt;/p&gt;
+
+&lt;p&gt;You may keep adding items to the bag as long you like via the process. But you’ll never exhaust the supply of elements you can add – it has no end. If you do stop at some point, you will always have a finite number of items in the bag. In other words, the &lt;em&gt;potential&lt;/em&gt; infinity is never realized into true infinity, so a crisis is averted.&lt;/p&gt;
+
+&lt;p&gt;But true, &lt;em&gt;actual infinity&lt;/em&gt; eluded their grasp somewhat. An &lt;em&gt;actual infinity&lt;/em&gt;, in their view, was like a bag that contains not merely &lt;em&gt;many&lt;/em&gt; items, but &lt;em&gt;infinitely many&lt;/em&gt; – an unlimited, unbounded number. This was a somewhat radical idea. Plato, for example, objected strongly to actual infinities – how could something be so big that it contained everything, and yet fit inside the Universe?&lt;/p&gt;
+
+&lt;p&gt;Actual infinity was difficult to grasp, and controversial from the beginning. It took two millenia before the notion of actual infinity as a real, useful property began to take root in mainstream mathematics.&lt;/p&gt;
+
+&lt;h1 id=&quot;cdots--problems&quot;&gt;9999&lt;script type=&quot;math/tex&quot;&gt;\cdots&lt;/script&gt; problems&lt;/h1&gt;
+
+&lt;p&gt;To see why it was so controversial, let’s reflect for a moment on the meanings of infinity.&lt;/p&gt;
+
+&lt;p&gt;Sometimes we use infinity to mean something like “an incomprehensibly big quantity”, like the number of stars in the sky, grains of sand on a beach, or atoms in the Universe. These are indeed very big numbers, in the sense that it would take you a long time to count them out, but they aren’t &lt;em&gt;infinite&lt;/em&gt;. They are large – for example, the number of atoms in the Universe is about &lt;script type=&quot;math/tex&quot;&gt;10^{80}&lt;/script&gt; – but nevertheless they are finite. For mathematicians, the unsatisfactory imprecision of phrases like “big number” or “a long time” renders them useless for making rigorous statements about the world. This use of the word “infinite” is a meaningless one.&lt;/p&gt;
+
+&lt;p&gt;Another problem is that there seem to be many kinds of infinities. The single word “infinity” fails to capture the diversity and depth of these concepts, much like the word “number” fails to capture the many different kinds of numbers. Even the ancients already distinguished at least two kinds of infinities, the actual and potential infinities. There are certainly many more numbers than the kind that can be written down using only the digits zero through nine, as we’ll see later. And if infinity can be said to be a number at all, it probably a number with a conventional representation.&lt;/p&gt;
+
+&lt;p&gt;Finally, the abstract nature of infinity can also be difficult to connect to everyday experiences. There are a multitude of reasons why this might be so, but one candidate hypothesis is that our evolution has not required us to regularly confront infinities in order to survive. The things we interact with are typically very finite – scarce, small in quantity, usually able to be touched and held and seen. So it is perhaps not surprising that humans don’t deal with the notion of infinity well.&lt;/p&gt;
+
+&lt;p&gt;Yet, while problematic, these issues aren’t wholly intractable. It’s not only &lt;em&gt;possible&lt;/em&gt; to talk about infinity, it’s a &lt;em&gt;necessity&lt;/em&gt; for some parts of mathematics. But where can we begin?&lt;/p&gt;
+
+&lt;h1 id=&quot;infinity-means-a-lot-of-things&quot;&gt;Infinity means a lot of things&lt;/h1&gt;
+
+&lt;p&gt;One place to start the discussion is to think about some flavors of infinity. Let’s imagine the following quantities:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the number of digits after the decimal point in &lt;script type=&quot;math/tex&quot;&gt;.123123123\cdots&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;the value of &lt;script type=&quot;math/tex&quot;&gt;\sqrt{2+\sqrt{2+\sqrt{2+\cdots\strut}}}&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;the length of the sequence &lt;script type=&quot;math/tex&quot;&gt;0, 1, 2, 3, \cdots&lt;/script&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;almost-infinities&quot;&gt;Almost infinities&lt;/h1&gt;
+
+&lt;p&gt;These are all, at a cursory glance, things that might seem to be infinite. But a closer look will reveal distinctions between them.&lt;/p&gt;
+
+&lt;h2 id=&quot;infinitely-repeating-digits--overline123-&quot;&gt;“Infinitely” repeating digits: &lt;script type=&quot;math/tex&quot;&gt;.\overline{123}&lt;/script&gt;&lt;/h2&gt;
+
+&lt;p&gt;There certainly appears to be something infinite about a string of digits that &lt;a href=&quot;http://en.wikipedia.org/wiki/Repeating_decimal&quot;&gt;repeats forever&lt;/a&gt;. But notice that the number &lt;script type=&quot;math/tex&quot;&gt;.\overline{123}&lt;/script&gt; is equal to &lt;script type=&quot;math/tex&quot;&gt;\frac{123}{999}&lt;/script&gt;, which in turn can be reduced to &lt;script type=&quot;math/tex&quot;&gt;\frac{123}{999} = \frac{41}{333}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;So this apparent infinity is really just a quirk of how we represented the number, and not anything intrinsic to the number itself. For example, in base 10, &lt;script type=&quot;math/tex&quot;&gt;\frac{1}{3}&lt;/script&gt; is the repeating decimal &lt;script type=&quot;math/tex&quot;&gt;.\overline{3}_{10}&lt;/script&gt;. But in base 12 it becomes &lt;script type=&quot;math/tex&quot;&gt;(\frac{1}{3})_{10} = 0.4_{12}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;The fact that we can write a number down at all and pinpoint it precisely on the number line means that we know its exact value, so this doesn’t seem like a very interesting kind of infinity.&lt;/p&gt;
+
+&lt;h2 id=&quot;infinitely-nested-structures--sqrt2sqrt2sqrt2cdots-&quot;&gt;“Infinitely” nested structures: \( \sqrt{2+\sqrt{2+\sqrt{2+\cdots}}} \)&lt;/h2&gt;
+
+&lt;p&gt;What about \( \sqrt{2+\sqrt{2+\sqrt{2+\cdots\strut}}} \)? An infinitely recursing expression sure sounds like it’s infinite. This cannot be waved away as a trick of representation, as we could with the previous example. There is a structure which must be untangled.&lt;/p&gt;
+
+&lt;p&gt;Can this expression have a defined value? Let’s suppose for a moment that it can, and we’ll call this value &lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt;. Then&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;S = \sqrt{2+\sqrt{2+\sqrt{2+\cdots\strut}}}&lt;/script&gt;
+
+&lt;p&gt;When we square both sides, we get:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;S^2 = 2 + \sqrt{2+\sqrt{2+\cdots\strut}}&lt;/script&gt;
+
+&lt;p&gt;But notice that this includes &lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt; too:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{eqnarray}
+  S^2 &amp; = &amp; 2 + \underbrace{\sqrt{2+\sqrt{2+\cdots\strut}}}_{S} \\
+  S^2 &amp; = &amp; 2 + S                                               \\
+  S^2 - S - 2 &amp; = &amp; 0
+\end{eqnarray} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;This is a &lt;a href=&quot;http://en.wikipedia.org/wiki/Quadratic_equation&quot;&gt;quadratic equation&lt;/a&gt; with respect to &lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt; and can be factored:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;0 = (S + 1)(S - 2)&lt;/script&gt;
+
+&lt;p&gt;yielding the roots &lt;script type=&quot;math/tex&quot;&gt;S = \{2, -1\}&lt;/script&gt;; if we assume that square roots can only be positive, then &lt;script type=&quot;math/tex&quot;&gt;S = 2&lt;/script&gt;, so&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;2 = \sqrt{2+\sqrt{2+\sqrt{2+\cdots\strut}}}&lt;/script&gt;
+
+&lt;p&gt;Again, our attempt at infinity has yielded a very finite number. It’s clear that merely repeating something indefinitely or recursing indefinitely doesn’t necessarily mean we’ll get something that looks like infinity.&lt;/p&gt;
+
+&lt;h2 id=&quot;infinitely-long-sequences-the-length-of--0-1-2-3-cdots-&quot;&gt;“Infinitely” long sequences: the length of &lt;script type=&quot;math/tex&quot;&gt;0, 1, 2, 3, \cdots&lt;/script&gt;&lt;/h2&gt;
+
+&lt;p&gt;Our third example, the length of &lt;script type=&quot;math/tex&quot;&gt;0, 1, 2, 3, \cdots&lt;/script&gt;, looks more promising. Unlike our repeating-decimal example, there doesn’t seem to be an obvious way we can simply change the problem’s representation to wind up with something finite. This sequence of natural numbers increases slowly but surely, upwards forever without bound.&lt;/p&gt;
+
+&lt;aside&gt;The natural numbers have their name because they are what we would use to count things, which is perhaps the most &quot;natural&quot; use for numbers. Conveniently, each number describes both its position in the natural numbers and the count of the things it would label.&lt;/aside&gt;
+
+&lt;p&gt;Is this infinity, at last? And if so, is it just the integer that goes at the end of the natural number line, as shown below?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//s3.amazonaws.com/assets.jxf.me/images/entries/000005/chart-entry-infinity-number-line.png&quot; alt=&quot;diagram showing the integers with infinity as a point on the line&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A little thinking will show this idea can’t work. Suppose we assume that &lt;script type=&quot;math/tex&quot;&gt;\infty&lt;/script&gt; can be defined as “the largest natural number” and we can place it on the number line somewhere.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;We know that we can always add one to a natural number &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; to get the next natural number – its successor, &lt;script type=&quot;math/tex&quot;&gt;\mathcal{S}(n)&lt;/script&gt;. For example, &lt;script type=&quot;math/tex&quot;&gt;\mathcal{S}(496) = 496 + 1 = 497&lt;/script&gt;.&lt;/li&gt;
+  &lt;li&gt;Since &lt;script type=&quot;math/tex&quot;&gt;\infty&lt;/script&gt; is a natural number, we can take its successor &lt;script type=&quot;math/tex&quot;&gt;\mathcal{S}(\infty) = \infty + 1&lt;/script&gt;.&lt;/li&gt;
+  &lt;li&gt;That would create a new number &lt;script type=&quot;math/tex&quot;&gt;\infty&#39; = \infty + 1&lt;/script&gt;, so &lt;script type=&quot;math/tex&quot;&gt;\infty&#39; &gt; \infty&lt;/script&gt;. But we just said &lt;script type=&quot;math/tex&quot;&gt;\infty&lt;/script&gt; was the largest natural number!&lt;/li&gt;
+  &lt;li&gt;That’s a contradiction. So our assumption was false – an object representing “the point on the number line representing the largest natural number” is, in some sense, incompatible with the idea of a number line which can be extended indefinitely.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;By the same token, we can see that infinity can’t be the largest integer, the largest rational number, the largest real number, and so on.&lt;/p&gt;
+
+&lt;p&gt;So the definition of infinity as “the largest natural number” doesn’t work very well. &lt;script type=&quot;math/tex&quot;&gt;\infty&lt;/script&gt; here seems more like it’s not on the number line at all. It’s just an extreme, unattainable limit:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//s3.amazonaws.com/assets.jxf.me/images/entries/000005/chart-entry-infinity-number-line-infinity-end.png&quot; alt=&quot;diagram showing the integers with infinity as an extremum&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;infinity-and-numbers-properties&quot;&gt;Infinity and numbers: properties&lt;/h1&gt;
+
+&lt;p&gt;Our earlier attempts at trying to wrangle infinity into a conventional number failed; infinity is too different from those numbers to be represented this way. But there’s another way to think about the infinite: we can talk about the &lt;em&gt;properties&lt;/em&gt; we want to describe.&lt;/p&gt;
+
+&lt;p&gt;One property of infinity that seems worth capturing is the idea of &lt;em&gt;size&lt;/em&gt;: infinity seems like it should be indefinitely large, larger than anything else. Another is the idea of &lt;em&gt;ordering&lt;/em&gt;: infinity seems like it should come last, after everything else.&lt;/p&gt;
+
+&lt;aside&gt;Ordinal and cardinal numbers are relevant for finite quantities too, but in that case, their ideas coincide, which isn&#39;t very interesting. That is, the ordinal number &quot;5&quot; describes a set with five things that has a particular order, and the cardinal number &quot;5&quot; represents a set with five things. Over natural numbers, they would describe the same set: \(\{0, 1, 2, 3, 4\}\).&lt;/aside&gt;
+
+&lt;p&gt;We can represent these two properties by using two special kinds of numbers: &lt;em&gt;cardinal&lt;/em&gt; and &lt;em&gt;ordinal&lt;/em&gt; numbers.&lt;/p&gt;
+
+&lt;h2 id=&quot;cardinal-numbers&quot;&gt;Cardinal numbers&lt;/h2&gt;
+
+&lt;p&gt;Imagine we have a &lt;em&gt;set&lt;/em&gt;, a mathematical collection of unique elements. One property of sets we’re often interested in measuring is their &lt;em&gt;size&lt;/em&gt;, or &lt;em&gt;cardinality&lt;/em&gt;. So we’d like to ask the question, “how many objects are there in this set?”. The answer to that question is always a &lt;em&gt;cardinal number&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The cardinality &lt;script type=&quot;math/tex&quot;&gt;\vert S \vert&lt;/script&gt; of a finite set &lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt; is the number of items in the set. For instance, if &lt;script type=&quot;math/tex&quot;&gt;S = \{\mathtt{blue, sunshine, puppy}\}&lt;/script&gt; then its cardinality &lt;script type=&quot;math/tex&quot;&gt;\vert S \vert = 3&lt;/script&gt;. Likewise the cardinality of the empty set &lt;script type=&quot;math/tex&quot;&gt;\vert \{\} \vert = 0&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;When we count things, we’re labeling each item with a specific name from the set of cardinal numbers: “one”, “two”, “three”, and so on. This matches an item in the set we’re counting with the name of a cardinal number. The cardinal number we stop at after matching all the items is the size of the set.&lt;/p&gt;
+
+&lt;p&gt;When we ask for the cardinality of an infinite set, like the natural numbers &lt;script type=&quot;math/tex&quot;&gt;\mathbb{N}&lt;/script&gt;, the same rules apply: we get the cardinality by matching all the items in the size of the set. The answer is also a cardinal number.&lt;/p&gt;
+
+&lt;h2 id=&quot;cardinality-of-infinite-sets&quot;&gt;Cardinality of infinite sets&lt;/h2&gt;
+
+&lt;p&gt;What happens when we ask about the cardinality of an infinite set – say, the natural numbers &lt;script type=&quot;math/tex&quot;&gt;\mathbb{N}&lt;/script&gt;? Since this set has an infinite number of elements, the cardinality we want to assign to it can’t be a natural number. (If it were, then we’d just wind up back in the number-line problem we saw before.) Instead, it has to be a different, special kind of number.&lt;/p&gt;
+
+&lt;p&gt;The special numbers that mathematicians use to refer to the cardinalities of infinite sets are called the &lt;em&gt;aleph numbers&lt;/em&gt;, and they belong to the set &lt;script type=&quot;math/tex&quot;&gt;\aleph = \{\aleph_{0}, \aleph_{1}, \aleph_{2}, \cdots\}&lt;/script&gt;. The first and smallest member of this set is &lt;script type=&quot;math/tex&quot;&gt;\aleph_{0} = \vert\mathbb{N}\vert&lt;/script&gt;: this is, in effect, the smallest kind of infinity.&lt;/p&gt;
+
+&lt;p&gt;The way to determine cardinality of a set relative to another is to match the two sets up against each other. If we are able to pair each element of one set with another, with no unpaired elements, then we know that the sets have the same cardinality. This kind of pairing relationship is called a &lt;em&gt;bijection&lt;/em&gt;. For example, if &lt;script type=&quot;math/tex&quot;&gt;S = \{\mathtt{blue, sunshine, puppy}\}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;T = \{\mathtt{apple, orange, banana}\}&lt;/script&gt;, then we can show &lt;script type=&quot;math/tex&quot;&gt;\vert S \vert = \vert T \vert&lt;/script&gt; by noticing that&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;S \times T = \{(\mathtt{blue}, \mathtt{apple}), (\mathtt{sunshine}, \mathtt{orange}), (\mathtt{banana}, \mathtt{puppy})\}&lt;/script&gt;
+
+&lt;p&gt;A counterintuitive result of this is that infinite sets which seem completely different in size can have the same cardinality, because we can often find a bijection between them. For example, the even natural numbers &lt;script type=&quot;math/tex&quot;&gt;\{0, 2, 4, 6, \cdots\}&lt;/script&gt; have the same cardinality as all natural numbers &lt;script type=&quot;math/tex&quot;&gt;\{0, 1, 2, 3, \cdots\}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;At first, this may be impossible to believe: how can a set with some of its elements missing be the same size as the original set? Such are the consequences of being infinite: things no longer behave the way you might expect! Objects certainly don’t behave this way in the real world.&lt;/p&gt;
+
+&lt;p&gt;To see why it’s true that the even natural numbers &lt;script type=&quot;math/tex&quot;&gt;2\mathbb{N}&lt;/script&gt; have the same cardinality as the natural numbers &lt;script type=&quot;math/tex&quot;&gt;\mathbb{N}&lt;/script&gt;, imagine that our mapping &lt;script type=&quot;math/tex&quot;&gt;\mathbb{N} \overset{f}{\mapsto} \mathbb{N}&lt;/script&gt; is the function &lt;script type=&quot;math/tex&quot;&gt;f(n) = 2n&lt;/script&gt;. Now we’ve defined a relationship between every natural number and every even number:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//s3.amazonaws.com/assets.jxf.me/images/entries/000005/chart-entry-set-cardinality.png&quot; alt=&quot;diagram showing a mapping of natural numbers to even natural numbers&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;If we can define a bijection between any two sets, like we do here, we know they must be the same cardinality.&lt;/p&gt;
+
+&lt;p&gt;Since we were able to pair each element of one set with the other with no left-over elements, the sets must have the same cardinality. And since &lt;script type=&quot;math/tex&quot;&gt;\vert \mathbb{N} \vert = \aleph_{0}&lt;/script&gt;, then it must be true that &lt;script type=&quot;math/tex&quot;&gt;\vert 2\mathbb{N} \vert = \aleph_{0}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;A similar approach applies for almost any other infinite subset of the natural numbers you can name. In general we can just set &lt;script type=&quot;math/tex&quot;&gt;f(n)&lt;/script&gt; to be “the &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;sup&gt;th&lt;/sup&gt; element of the other set”, and we can get a bijection.&lt;/p&gt;
+
+&lt;h2 id=&quot;ordinal-numbers&quot;&gt;Ordinal numbers&lt;/h2&gt;
+
+&lt;aside&gt;
+  &lt;p&gt;Sometimes mathematicians drop the hyphen and write &lt;em&gt;wellordering&lt;/em&gt; or &lt;em&gt;wellorder&lt;/em&gt;, making it one word. We’ll keep it here for clarity.&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Whereas cardinality and cardinal numbers describe the &lt;em&gt;size&lt;/em&gt; of sets, we can also talk about the &lt;em&gt;order&lt;/em&gt; of sets, too. Ordinal numbers describe a particular kind of ordering of the elements in sets, called a &lt;em&gt;well-ordering&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;For an ordering to be a well-ordering, it must have two properties:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Orderable:&lt;/strong&gt; For any two elements &lt;script type=&quot;math/tex&quot;&gt;a, b \in S; a \neq b&lt;/script&gt;, exactly one of the following is true: &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+a &lt; b %]]&gt;&lt;/script&gt; or &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+b &lt; a %]]&gt;&lt;/script&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Least element:&lt;/strong&gt; There is a least element in &lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Just because a set satisfies the first property doesn’t mean it will satisfy the second. For example, there is no smallest real number in &lt;script type=&quot;math/tex&quot;&gt;\mathbb{R}&lt;/script&gt;, so the real numbers are orderable, but not well-ordered. Nevertheless, well-orderings are a very useful way to think about many kinds of sets.&lt;/p&gt;
+
+&lt;h2 id=&quot;building-the-ordinals&quot;&gt;Building the ordinals&lt;/h2&gt;
+
+&lt;p&gt;Conveniently, if you order the natural numbers, you get a well-ordering. Mathematicians usually like to start from simple building blocks to construct more interesting ideas, so this seems like a good place to start building the ordinals. The most common way to construct the ordinals is to build them one at a time, starting from zero.&lt;/p&gt;
+
+&lt;p&gt;Each element in the sequence of ordinals corresponds to an &lt;em&gt;order type&lt;/em&gt;: a description of how the items in the set are ordered. The first ordinal is zero, the order type of the empty set:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;0_{\mathtt{ord}} \equiv \emptyset&lt;/script&gt;
+
+&lt;p&gt;The second ordinal is constructed by taking the previous ordinal and adding it to a set that contains that ordinal. In this case, that means taking the union of the ordinal &lt;script type=&quot;math/tex&quot;&gt;0_{\mathtt{ord}}&lt;/script&gt; and a set containing it, or &lt;script type=&quot;math/tex&quot;&gt;\{0_{\mathtt{ord}}\}&lt;/script&gt;. And since &lt;script type=&quot;math/tex&quot;&gt;0_{\mathtt{ord}} = \emptyset&lt;/script&gt;, the empty set, that means we have &lt;script type=&quot;math/tex&quot;&gt;\emptyset \cup \{\emptyset\}&lt;/script&gt;, so we wind up with just &lt;script type=&quot;math/tex&quot;&gt;\{\emptyset\}&lt;/script&gt;:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;1_{\mathtt{ord}} \equiv 0_{\mathtt{ord}} \cup \{0_{\mathtt{ord}}\} = \{0_{\mathtt{ord}}\} = \{\emptyset\}&lt;/script&gt;
+
+&lt;p&gt;All the subsequent finite ordinals are constructed in a similar way:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{eqnarray}
+  2_{\mathtt{ord}} &amp; \equiv &amp; 1_{\mathtt{ord}} \cup \{1_{\mathtt{ord}}\} = \{0_{\mathtt{ord}}, 1_{\mathtt{ord}}\} &amp; = &amp; \{\emptyset, \{\emptyset\}\} \\
+  3_{\mathtt{ord}} &amp; \equiv &amp; 2_{\mathtt{ord}} \cup \{2_{\mathtt{ord}}\} = \{0_{\mathtt{ord}}, 1_{\mathtt{ord}}, 2_{\mathtt{ord}}\} &amp; = &amp; \{\emptyset, \{\emptyset\}, \{\{\emptyset\}\}\} \\
+  4_{\mathtt{ord}} &amp; \equiv &amp; 3_{\mathtt{ord}} \cup \{3_{\mathtt{ord}}\} = \{0_{\mathtt{ord}}, 1_{\mathtt{ord}}, 2_{\mathtt{ord}}, 3_{\mathtt{ord}}\} &amp; = &amp; \cdots \\
+  5_{\mathtt{ord}} &amp; \equiv &amp; 4_{\mathtt{ord}} \cup \{4_{\mathtt{ord}}\} = \{0_{\mathtt{ord}}, 1_{\mathtt{ord}}, 2_{\mathtt{ord}}, 3_{\mathtt{ord}}, 4_{\mathtt{ord}}\} &amp; = &amp; \cdots \\
+\end{eqnarray} %]]&gt;&lt;/script&gt;
+
+&lt;aside&gt;
+  &lt;p&gt;By convention, we generally don’t write the &lt;code class=&quot;highlighter-rouge&quot;&gt;ord&lt;/code&gt; subscript, so ordinals look like natural numbers without more context.&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Just as cardinal numbers are the possible answers to the question, “How many elements are in this set?”, the ordinal numbers are the possible answers to “What is the order type of this set?” The order type describes the arrangement of the items in the set as a sequence. An order type of 3, for example, means that we expect to see 3 elements in the set:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the smallest element&lt;/li&gt;
+  &lt;li&gt;the second smallest element&lt;/li&gt;
+  &lt;li&gt;the largest element&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We could label those three elements as a sequence &lt;script type=&quot;math/tex&quot;&gt;(0, 1, 2)&lt;/script&gt;. The cardinality of the set for this sequence would be &lt;script type=&quot;math/tex&quot;&gt;\vert S \vert = 3&lt;/script&gt;, so the order type is the same as the set’s size. In other words, the ordinality and cardinality of finite sets are always the same. That’s not very interesting. It’s only when we consider infinite sets that they become useful.&lt;/p&gt;
+
+&lt;h2 id=&quot;ordering-the-ordinals&quot;&gt;Ordering the ordinals&lt;/h2&gt;
+
+&lt;p&gt;We’re beginning to get the tools we need to wrangle the infinities into our grasp. With one more piece we’ll have everything we need: understanding the infinite ordinals.&lt;/p&gt;
+
+&lt;p&gt;We can order the ordinals by saying that &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+i_{\mathtt{ord}} &lt; j_{\mathtt{ord}} %]]&gt;&lt;/script&gt; if and only if &lt;script type=&quot;math/tex&quot;&gt;i_{\mathtt{ord}} \in j_{\mathtt{ord}}\&lt;/script&gt;. Remember, before we saw that ordinals are actually sets comprising all the previous ordinals; for instance, &lt;script type=&quot;math/tex&quot;&gt;3_{\mathtt{ord}} = \{0_{\mathtt{ord}}, 1_{\mathtt{ord}}, 2_{\mathtt{ord}}\}&lt;/script&gt;. So our ordering is obtained by looking to see whether an ordinal is already contained in another ordinal; if it is, then it’s a lesser ordinal.&lt;/p&gt;
+
+&lt;aside&gt;
+  &lt;p&gt;Remember, well-orderings only need a &lt;em&gt;least&lt;/em&gt; element, not a greatest one.&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;The first &lt;em&gt;infinite ordinal&lt;/em&gt; is what we get when we consider the set of all finite ordinals. This is the order type of a sequence which is well-ordered but doesn’t have a final element:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(0, 1, 2, \cdots)&lt;/script&gt;
+
+&lt;aside&gt;
+  &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt; is the Greek lowercase letter “omega”, so we usually just say “omega” when we’re reading it out loud. You may have already seen the uppercase version, &lt;script type=&quot;math/tex&quot;&gt;\Omega&lt;/script&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;We call this ordinal &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt;. The next ordinal is, perhaps not surprisingly, &lt;script type=&quot;math/tex&quot;&gt;\omega + 1&lt;/script&gt;, and we define it just like we did all the previous ordinals:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\omega + 1 \equiv \omega \cup \{\omega\} = \{0_{\mathtt{ord}}, 1_{\mathtt{ord}}, 2_{\mathtt{ord}}, \cdots, \omega\}&lt;/script&gt;
+
+&lt;p&gt;This corresponds to an ordering that looks like &lt;script type=&quot;math/tex&quot;&gt;(0, 1, 2, \cdots, \omega)&lt;/script&gt;, where an infinite number of elements are in the &lt;script type=&quot;math/tex&quot;&gt;\cdots&lt;/script&gt;. Notice that because &lt;script type=&quot;math/tex&quot;&gt;\cdots&lt;/script&gt; is &lt;em&gt;infinitely long&lt;/em&gt;, there is no one ordinal that comes just before &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt;. But &lt;em&gt;every&lt;/em&gt; finite ordinal &lt;script type=&quot;math/tex&quot;&gt;k_{\mathtt{ord}}&lt;/script&gt; comes before &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt;, no matter what finite value you pick for &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;!&lt;/p&gt;
+
+&lt;p&gt;In effect, &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt; comes at the end of an infinite sequence of elements which lead up to it, which then ends that sequence. As a result, we call it a &lt;em&gt;limit ordinal&lt;/em&gt;. The subsequent limit ordinals can be likewise defined:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{eqnarray}
+  \omega + 1 &amp; \equiv &amp; \omega \cup \{\omega\} &amp; = &amp; \{0_{\mathtt{ord}}, 1_{\mathtt{ord}}, 2_{\mathtt{ord}}, \cdots, \omega\} \\
+  \omega + 2 &amp; \equiv &amp; (\omega + 1) \cup \{\omega + 1\} &amp; = &amp; \{0_{\mathtt{ord}}, 1_{\mathtt{ord}}, 2_{\mathtt{ord}}, \cdots, \omega, \omega + 1\} \\
+  \omega + 3 &amp; \equiv &amp; (\omega + 2) \cup \{\omega + 2\} &amp; = &amp; \{0_{\mathtt{ord}}, 1_{\mathtt{ord}}, 2_{\mathtt{ord}}, \cdots, \omega, \omega + 2\} \\
+\end{eqnarray} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;If we extend this infinitely, we can get another limit ordinal: &lt;script type=&quot;math/tex&quot;&gt;2\omega&lt;/script&gt;. This is all the ordinals up to &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt;, and then &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt; more limit ordinals!&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;2\omega \equiv \omega + \omega = \{\underbrace{0_{\mathtt{ord}}, 1_{\mathtt{ord}}, 2_{\mathtt{ord}}, \cdots}_{\omega \text{ finite ordinals}}, \underbrace{\omega, \omega + 1, \omega + 2, \cdots}_{\omega \text{ limit ordinals}}\}&lt;/script&gt;
+
+&lt;p&gt;Then we can likewise define &lt;script type=&quot;math/tex&quot;&gt;2\omega + 1&lt;/script&gt;, then &lt;script type=&quot;math/tex&quot;&gt;2\omega + 2&lt;/script&gt;, and so on:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{eqnarray}
+  2\omega + 1 &amp; \equiv &amp; \{0_{\mathtt{ord}}, 1_{\mathtt{ord}}, 2_{\mathtt{ord}}, \cdots, \omega, \omega + 1, \omega + 2, \cdots, 2\omega\} \\
+  2\omega + 2 &amp; \equiv &amp; \{0_{\mathtt{ord}}, 1_{\mathtt{ord}}, 2_{\mathtt{ord}}, \cdots, \omega, \omega + 1, \omega + 2, \cdots, 2\omega, 2\omega + 1\} \\
+  2\omega + 3 &amp; \equiv &amp; \{0_{\mathtt{ord}}, 1_{\mathtt{ord}}, 2_{\mathtt{ord}}, \cdots, \omega, \omega + 1, \omega + 2, \cdots, 2\omega, 2\omega + 1, 2\omega + 2\} \\
+\end{eqnarray} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;This again continues until we get &lt;script type=&quot;math/tex&quot;&gt;3\omega&lt;/script&gt;, then again for &lt;script type=&quot;math/tex&quot;&gt;4\omega&lt;/script&gt;, and so on:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{eqnarray}
+  3\omega \equiv 2\omega + \omega &amp; = &amp; \{\underbrace{0_{\mathtt{ord}}, 1_{\mathtt{ord}}, 2_{\mathtt{ord}}, \cdots}_{2\omega \text{ ordinals}}, \underbrace{2\omega, 2\omega + 1, 2\omega + 2, \cdots}_{\omega \text{ ordinals}}\} \\
+  \\
+  4\omega \equiv 3\omega + \omega &amp; = &amp; \{\underbrace{0_{\mathtt{ord}}, 1_{\mathtt{ord}}, 2_{\mathtt{ord}}, \cdots}_{3\omega \text{ ordinals}}, \underbrace{3\omega, 3\omega + 1, 3\omega + 2, \cdots}_{\omega \text{ ordinals}}\}
+\end{eqnarray} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;If we keep going, we can also define another limit ordinal, &lt;script type=&quot;math/tex&quot;&gt;\omega^2&lt;/script&gt;:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\omega^2 = \omega \cdot \omega = \underbrace{\omega + \omega + \cdots}_{\omega \text{ additions}}&lt;/script&gt;
+
+&lt;p&gt;This is starting to get a little dizzying, but we can continue this even further with &lt;script type=&quot;math/tex&quot;&gt;\omega^\omega&lt;/script&gt;:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\omega^\omega = \underbrace{\omega \cdot \omega \cdot \omega \cdots}_{\omega \text{ products}}&lt;/script&gt;
+
+&lt;p&gt;The chain continues indefinitely, forever and ever, on without end. Each successive limit ordinal describes a new structure – a new way of ordering all the elements in the set you’re considering.&lt;/p&gt;
+
+&lt;p&gt;And here’s the most important part: the cardinality of all the limit ordinals, from &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt; to &lt;script type=&quot;math/tex&quot;&gt;\omega^\omega&lt;/script&gt; and beyond, is exactly the same as the cardinality of the natural numbers, &lt;script type=&quot;math/tex&quot;&gt;\aleph_0&lt;/script&gt;. Given an infinite number of elements, there are an infinite number of ways to structure and order them!&lt;/p&gt;
+
+&lt;h1 id=&quot;a-infinite-zoo-of-infinities&quot;&gt;A infinite zoo of infinities&lt;/h1&gt;
+
+&lt;p&gt;The choice of infinite structure we make – the choice of what to consider important when arranging elements, and what rules we choose to follow and break – is the source of a lot of counterintuitive ideas about infinity. Our notion of “size”, as represented in cardinality, is &lt;em&gt;only one notion&lt;/em&gt; out of the &lt;em&gt;infinite&lt;/em&gt; possible ways to define it. And cardinality ignores many properties of structure that we consider important in our everyday experiences.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//s3.amazonaws.com/assets.jxf.me/images/entries/000005/chart-entry-cardinality-line-plane.png&quot; alt=&quot;the cardinality of the line and the plane are the same&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;The cardinality of any line and any plane are the same, since we can construct a bijection between any point on the line and any point on the plane.&lt;/p&gt;
+
+&lt;p&gt;For example, the number of points on a line is the same as the number of points on a plane. This an idea that seems impossible at first: the plane has more dimensions than the line. Not only does the line fit into the plane, it does so infinitely many times. But this is exactly the kind of structure that doesn’t need to be preserved in comparing cardinalities. The bijection between a line and a point cares only about whether the mapping is possible at all, and not whether it comports with our notions of how reality works. And the bijection does, in fact, exist; see &lt;a href=&quot;http://en.wikipedia.org/wiki/Space-filling_curve&quot;&gt;space-filling curves&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So there isn’t just “an infinity”, &lt;script type=&quot;math/tex&quot;&gt;\infty&lt;/script&gt;; this is a very restricted view of what infinity can be. Infinity is &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;\aleph_0&lt;/script&gt;, and their infinite continuations – each with their own special properties, each containing an infinity unto themselves. For each and every way we can imagine that there might be an endless sequence of something, there is an infinity associated with that idea.&lt;/p&gt;
+
+&lt;p&gt;Infinity is really, really, really, &lt;script type=&quot;math/tex&quot;&gt;\cdots&lt;/script&gt;, really big.&lt;/p&gt;
+
+&lt;h1 id=&quot;further-reading-and-references&quot;&gt;Further reading and references&lt;/h1&gt;
+
+&lt;p&gt;For more information, you can read up on &lt;a href=&quot;http://mathworld.wolfram.com/InfiniteSet.html&quot;&gt;infinite sets&lt;/a&gt;, &lt;a href=&quot;http://en.wikipedia.org/wiki/Transfinite_number&quot;&gt;transfinite numbers&lt;/a&gt;, the &lt;a href=&quot;http://en.wikipedia.org/wiki/Continuum_hypothesis&quot;&gt;continuum hypothesis&lt;/a&gt;, and &lt;a href=&quot;http://en.wikipedia.org/wiki/Georg_Cantor#Set_theory&quot;&gt;Georg Cantor’s work on set theory&lt;/a&gt;. The explanation of the construction of limit ordinals is borrowed heavily from Niel de Beaudrap’s very excellent &lt;a href=&quot;http://philosophy.stackexchange.com/a/6355&quot;&gt;explanation&lt;/a&gt; in Philosophy StackExchange and is worth a thorough read.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 24 Apr 2015 04:00:00 -0400</pubDate>
+        <link>http://jxf.me/entries/the-infinity-zoo/</link>
+        <guid isPermaLink="true">http://jxf.me/entries/the-infinity-zoo/</guid>
+        
+        <category>post</category>
+        
+        <category>math</category>
+        
+        <category>numbers</category>
+        
+      </item>
+    
+      <item>
+        <title>Solving the &quot;Cheryl&#39;s Birthday&quot; Problem with Prolog</title>
+        <description>&lt;p&gt;The “Cheryl’s Birthday” problem has attracted a lot of press, with &lt;a href=&quot;http://www.cnn.com/2015/04/15/living/feat-cheryl-birthday-math-problem-goes-viral/&quot;&gt;CNN&lt;/a&gt;, the &lt;a href=&quot;http://www.washingtonpost.com/news/morning-mix/wp/2015/04/14/when-is-cheryls-birthday-the-math-problem-that-stumped-the-internet/&quot;&gt;Washington Post&lt;/a&gt;, &lt;a href=&quot;http://www.slate.com/articles/video/video/2015/04/cheryl_s_birthday_answer_singapore_logic_math_problem_solved_video.html&quot;&gt;Slate&lt;/a&gt;, and the &lt;a href=&quot;http://www.telegraph.co.uk/education/educationnews/11534378/When-is-Cheryls-birthday-The-tricky-math-problem-that-has-everyone-stumped.html&quot;&gt;Telegraph&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/search?q=%23cherylsbirthday&quot;&gt;countless others&lt;/a&gt; weighing in.&lt;/p&gt;
+
+&lt;p&gt;There’s plenty of explanations that give a good overview of the problem and show you how to work out the solution to the problem via a series of logical deductions. But what if we could just ask a computer to find the answer for us?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//s3.amazonaws.com/assets.jxf.me/images/entries/000004/cheryl.jpg&quot; alt=&quot;chocolate cake with the text &#39;Happy Birthday, Cheryl&#39; written in frosting&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;the-problem&quot;&gt;The problem&lt;/h1&gt;
+
+&lt;p&gt;To briefly recap, the problem statement is as follows:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Albert and Bernard have just met Cheryl. “When is your birthday?” Albert asked Cheryl. Cheryl thought for a moment and said, “I won’t tell you, but I’ll give you some clues”. She wrote down a list of ten dates:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;May 15, May 16, May 19&lt;/li&gt;
+    &lt;li&gt;June 17, June 18&lt;/li&gt;
+    &lt;li&gt;July 14, July 16&lt;/li&gt;
+    &lt;li&gt;August 14, August 15, August 17&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;“One of these is my birthday,” she said.&lt;/p&gt;
+
+  &lt;p&gt;Cheryl whispered in Albert’s ear the month, and only the month, of her birthday. To Bernard, she whispered the day, and only the day. “Can you figure it out now?” she asked Albert.&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Albert:&lt;/strong&gt; “I don’t know when your birthday is, but I know Bernard doesn’t know, either.”&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Bernard:&lt;/strong&gt; “I didn’t know originally, but now I do.”&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Albert:&lt;/strong&gt; “Well, now I know, too!”&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;When is Cheryl’s birthday?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The heart of the problem are the statements exchanged by Albert and Bernard. Initially, neither Albert and Bernard know when Cheryl’s birthday is, but through deduction they mutually arrive at a unique, correct answer.&lt;/p&gt;
+
+&lt;p&gt;This must mean that, somehow, the set of possibilities offered by Cheryl satisfies some set of properties that make it possible for Albert and Bernard to arrive at the answer. If we can write these properties down into a form that a computer can understand, we can have these deductions done for us. Wouldn’t that be nice?&lt;/p&gt;
+
+&lt;p&gt;Enter &lt;a href=&quot;http://en.wikipedia.org/wiki/Prolog&quot;&gt;Prolog&lt;/a&gt;! It’s pretty rare that I ever pick it up, but this seemed like a great excuse to try it out again. Let’s see where we get!&lt;/p&gt;
+
+&lt;h1 id=&quot;prolog&quot;&gt;Prolog&lt;/h1&gt;
+
+&lt;aside&gt;If you want to install Prolog yourself and follow along, follow the directions &lt;a href=&quot;http://www.swi-prolog.org/build/&quot;&gt;here&lt;/a&gt;. You can load Prolog programs with &lt;code class=&quot;shell&quot;&gt;prolog -e x.pl&lt;/code&gt;.&lt;/aside&gt;
+
+&lt;p&gt;Prolog belongs to a relatively rare breed of &lt;em&gt;logic programming languages&lt;/em&gt;, in contrast to &lt;em&gt;imperative&lt;/em&gt; programming languages. Broadly, imperative languages require that your program take the form of a series of explicit instructions that describe what to do. For example, an imperative program to find the smallest element in a list might take a form like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;smallest(list):
+  * Declare `result`.
+  * Set `result` to the first element of `list`.
+  * For each element `e` in `list`:
+    * Set `result` to be `e`, if `e` is smaller than `result`.
+  * Answer: `result`.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;With &lt;em&gt;logic&lt;/em&gt; languages, however, you describe a set of facts and ask whether there is a consistent conclusion that can be reached from those facts. The logic-programming version of the same program might be something like:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;smallest(list):
+  * Answer: the element `e` in `list` such that for all other
+      elements `E`, `e` &amp;lt;= `E`.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is an interesting inversion of responsibilities relative to imperative programs: instead of &lt;em&gt;telling a computer what to do&lt;/em&gt;, we say &lt;em&gt;what the answer has to look like&lt;/em&gt;. Then the computer is free to decide how to arrive at the answer.&lt;/p&gt;
+
+&lt;aside&gt;&lt;code&gt;;&lt;/code&gt; is disjunction in Prolog, similar to the &lt;code&gt;or&lt;/code&gt; keyword elsewhere; &lt;code&gt;,&lt;/code&gt; is conjunction, like &lt;code&gt;and&lt;/code&gt;.&lt;/aside&gt;
+
+&lt;p&gt;All Prolog programs adopt this approach. We describe a series of true statements, then ask Prolog to evaluate a question to see if there is an answer that is consistent with everything we described. Those statements can take the form of either &lt;em&gt;facts&lt;/em&gt; or &lt;em&gt;rules&lt;/em&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Facts are true statements in the universe of the program, like “grass is green”, “Bob is a person”, or “Alice is Bob’s sister”. In Prolog, we might express these as &lt;code class=&quot;highlighter-rouge&quot;&gt;green(grass)&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;person(bob)&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;sibling(alice, bob)&lt;/code&gt;, respectively.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rules tell you how to evaluate a set of circumstances to decide if they’re true or not. For example, we might define a rule like &lt;code class=&quot;highlighter-rouge&quot;&gt;parent(X, Y) :- mother(X, Y); father(X, Y).&lt;/code&gt;; this could be used to express the rule “X is Y’s parent if (a) X is Y’s mother, or (b) X is Y’s father”. Facts are like rules whose body is just the predicate &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s about it. Let’s see if we can use Prolog to help us solve Cheryl’s birthday.&lt;/p&gt;
+
+&lt;h1 id=&quot;getting-to-an-answer&quot;&gt;Getting to an answer&lt;/h1&gt;
+
+&lt;p&gt;Doing anything useful in Prolog is about constructing the correct set of facts and rules to describe the universe you want to talk about. Our task is to represent the problem statements as facts or rules so that we can arrive at the correct answer.&lt;/p&gt;
+
+&lt;h2 id=&quot;cheryls-list-of-birthdays&quot;&gt;Cheryl’s list of birthdays&lt;/h2&gt;
+
+&lt;p&gt;First, Cheryl says that her birthday is one of the previously mentioned ten distinct possibilities. To represent this in Prolog, we’ll just enumerate them as individual facts:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;candidate_birthday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;&#39;May&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;candidate_birthday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;&#39;May&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;candidate_birthday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;&#39;May&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;19&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/*&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; ... &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;*/&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;candidate_birthday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;&#39;August&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;17&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If we wanted to cut down on the repetition, we can also write this as a &lt;em&gt;rule&lt;/em&gt; instead of a series of facts. The rule is that a month and a day are a candidate birthday if they belong to the set of candidate birthdays:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;candidate_birthday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:-&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;member&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+      &lt;span class=&quot;ss&quot;&gt;&#39;May&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&#39;May&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&#39;May&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;19&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;ss&quot;&gt;&#39;June&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;17&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&#39;June&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;ss&quot;&gt;&#39;July&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&#39;July&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;ss&quot;&gt;&#39;August&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&#39;August&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&#39;August&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;17&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The rule form is nicer if we have a lot of birthdays to check, since we can just add an element to the list.&lt;/p&gt;
+
+&lt;p&gt;Next, we have the dialogue between Albert and Bernard:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Albert:&lt;/strong&gt; “I don’t know when your birthday is, but I know Bernard doesn’t know, either.”&lt;br /&gt;
+&lt;strong&gt;Bernard:&lt;/strong&gt; “I didn’t know originally, but now I do.”&lt;br /&gt;
+&lt;strong&gt;Albert:&lt;/strong&gt; “Well, now I know, too!”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We’ll need to transform each of these three statements into Prolog to find the answer.&lt;/p&gt;
+
+&lt;h2 id=&quot;first-statement-alberts-stumped-but-knows-bernard-is-too&quot;&gt;First statement: Albert’s stumped, but knows Bernard is too&lt;/h2&gt;
+
+&lt;p&gt;We’re looking for a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;month, day&amp;gt;&lt;/code&gt; combination that makes it possible for each of the three statements to be true, so we should use some rules to represent that. We’ll start with Albert’s first statement.&lt;/p&gt;
+
+&lt;p&gt;We know that the final answer must be one of the days Cheryl named, so let’s start with that constraint:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;s1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):-&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;candidate_birthday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;cm&quot;&gt;/*&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; ... &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;*/&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Next, we know that Albert knows the month but not the day of Cheryl’s birthday, so he only has one half of the answer. However, even if Albert didn’t know the day, he could know the answer if his month only had one possible day. But since every month has at least two possible choices for the day, he doesn’t know the answer. So it must be the case that Albert’s month has two or more choices for the day:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;s1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):-&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;candidate_birthday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;findall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;candidate_birthday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt;
+  &lt;span class=&quot;cm&quot;&gt;/*&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; ... &lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;*/&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;findall&lt;/code&gt; predicate produces a list that satisfies all the constraints of the goal, the second parameter. In this case the predicate is true if the list of candidate birthdays has two or more elements. The &lt;code class=&quot;highlighter-rouge&quot;&gt;[...]&lt;/code&gt; syntax denotes a list, while underscores mean “an arbitrary result”, so &lt;code class=&quot;highlighter-rouge&quot;&gt;[_ , _]&lt;/code&gt; means “a list with exactly two results”.&lt;/p&gt;
+
+&lt;p&gt;Adding the list constructor &lt;code class=&quot;highlighter-rouge&quot;&gt;|&lt;/code&gt; here means “the rest of the list”, so &lt;code class=&quot;highlighter-rouge&quot;&gt;[_, _ | _]&lt;/code&gt; means “a list with exactly two results, followed by zero or more results”. So the overall effect is what we want: only candidate birthday months that have at least two elements.&lt;/p&gt;
+
+&lt;p&gt;This accounts for the first half of Albert’s statement – that he didn’t know what Cheryl’s birthday was, because there is not yet a unique answer. We also need to account for the second half of Albert’s statement: Albert knows Bernard doesn’t know the answer, either. The only way Albert could know that is if Bernard had a unique answer. And Bernard could only have a unique answer if his day uniquely determined his month.&lt;/p&gt;
+
+&lt;p&gt;There are two unique dates: the 19th only appears in May, and the 18th only appears in June. Albert therefore doesn’t have May or June; if he did, Bernard could be holding either 18 or 19, and thus have a unique answer. But since Albert doesn’t have May or June, he knows Bernard can’t deduce the answer yet. So Albert knows that he holds a month which does not decide the day. We can write a rule that represents this idea:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;month_has_deciding_day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):-&lt;/span&gt;
+    &lt;span class=&quot;ss&quot;&gt;candidate_birthday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;ss&quot;&gt;findall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;M&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;candidate_birthday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;M&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]).&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;and then we can invoke the negation of the rule to finish off Albert’s first statement:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;s1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):-&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;candidate_birthday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;findall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;candidate_birthday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;not&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;month_has_deciding_day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)).&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This leaves us with five possible answers – the dates in July and August. We can ask Prolog to verify this for us at the console:&lt;/p&gt;
+
+&lt;div class=&quot;shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ prolog -e cheryl.pl
+
+?- s1(Month, Day).
+Month = &#39;July&#39;,
+Day = 14 ;
+Month = &#39;July&#39;,
+Day = 16 ;
+Month = &#39;August&#39;,
+Day = 14 ;
+Month = &#39;August&#39;,
+Day = 15 ;
+Month = &#39;August&#39;,
+Day = 17.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;second-statement-bernard-was-stumped-but-now-he-isnt&quot;&gt;Second statement: Bernard was stumped, but now he isn’t&lt;/h2&gt;
+
+&lt;p&gt;Bernard now says he knows the answer. He knows that Albert must hold a month which doesn’t decide the day – so he knows Albert is holding July or August. Since he knows the answer, it must be because every date uniquely decides a month at this point. Therefore, Bernard can’t be holding 14, because that could be either July or August.&lt;/p&gt;
+
+&lt;p&gt;So our rule must therefore be able to determine the month at this point:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;s2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):-&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;candidate_birthday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;findall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;s1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]).&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This rule returns true if the month and day of a given birthday are in the candidate list and if they uniquely determine the month after taking into account the first statement. Only three possible dates remain at this point: July 16, August 15, and August 17 – the remaining dates which uniquely determine their month. We can verify this at the console:&lt;/p&gt;
+
+&lt;div class=&quot;shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ prolog -e cheryl.pl
+
+?- s2(Month, Day).
+Month = &#39;July&#39;,
+Day = 16 ;
+Month = &#39;August&#39;,
+Day = 15 ;
+Month = &#39;August&#39;,
+Day = 17.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;third-statement-alberts-got-it-too&quot;&gt;Third statement: Albert’s got it too&lt;/h2&gt;
+
+&lt;p&gt;We’re getting close! We just need to show that Albert can deduce the answer too. Since Albert holds the month, he could only know the answer for sure if his month uniquely determines the day:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;s3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):-&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;candidate_birthday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;findall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;s2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]).&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This rule returns true if the month and day of a given birthday are in the candidate list, and if they uniquely determine the day after taking into account the second statement.&lt;/p&gt;
+
+&lt;p&gt;Albert can’t be holding August, therefore, because that wouldn’t uniquely determine the day – it could be either August 15 or August 17. So he must be holding July, which in turn means that Cheryl’s birthday must be July 16. And, indeed, that’s what we get:&lt;/p&gt;
+
+&lt;div class=&quot;shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;?- s3(Month, Day).
+Month = &#39;July&#39;,
+Day = 16 .
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Fantastic! Logic programming isn’t suitable for everything, but it unquestionably shines at solving constraint-based problems like this one.&lt;/p&gt;
+
+&lt;h1 id=&quot;additional-resources&quot;&gt;Additional resources&lt;/h1&gt;
+
+&lt;p&gt;You can see the GitHub repository for our script &lt;a href=&quot;https://github.com/fj/cheryls-birthday-prolog/&quot;&gt;here&lt;/a&gt; if you’d like to experiment with things yourself. It is borrowed almost completely from &lt;a href=&quot;https://github.com/perng&quot;&gt;Charles Perng&lt;/a&gt;’s &lt;a href=&quot;https://github.com/perng/prolog_collection/blob/master/cheryls_birthday.pl&quot;&gt;version&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And finally, if you’d like to read more about Prolog, there are a lot of great resources around the web. The one that helped me the most was &lt;a href=&quot;http://www.learnprolognow.org/&quot;&gt;Learn Prolog Now!&lt;/a&gt; by &lt;a href=&quot;http://www.patrickblackburn.org/&quot;&gt;Patrick Blackburn&lt;/a&gt;, &lt;a href=&quot;http://www.let.rug.nl/bos/&quot;&gt;Johan Bos&lt;/a&gt;, and &lt;a href=&quot;http://cs.union.edu/~striegnk/&quot;&gt;Kristina Striegnitz&lt;/a&gt;. You can also check out the very excellent IRC channel, which is &lt;code class=&quot;highlighter-rouge&quot;&gt;##prolog&lt;/code&gt; on &lt;a href=&quot;https://freenode.net/&quot;&gt;Freenode&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Happy hacking, friends.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 Apr 2015 04:00:00 -0400</pubDate>
+        <link>http://jxf.me/entries/cheryls-birthday/</link>
+        <guid isPermaLink="true">http://jxf.me/entries/cheryls-birthday/</guid>
+        
+        <category>post</category>
+        
+        <category>prolog</category>
+        
+        <category>experiments</category>
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+        <title>Fully-Featured Custom Collections in Jekyll</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll&lt;/a&gt; is a popular static site generator written in Ruby and in wide use. A major selling point for Jekyll adoption is that it provides some excellent defaults out of the box, heavily geared towards the assumption that you’re writing a blog. It does this largely by taking a convention-over-configuration approach; the defaults are designed to be sensible choices for the majority of its users. However, like many convention-over-configuration systems, it can be tough to make it behave the way you want as soon as you step outside of the prescribed boundaries.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jekyllrb.com/img/logo-2x.png&quot; alt=&quot;Jekyll logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Because it’s so easy to get started with Jekyll, it feels frustrating when you’re eventually hamstrung by framework limitations. Unfortunately, while knee-deep in writing this site, I found myself in exactly that situation with respect to Jekyll’s collections. I wanted to make my own custom collections, but very few of the features available to the default collections are available to the custom collections.&lt;/p&gt;
+
+&lt;h1 id=&quot;jekylls-default-collections&quot;&gt;Jekyll’s default collections&lt;/h1&gt;
+
+&lt;p&gt;Jekyll ships with two types of collections by default:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Posts&lt;/em&gt; are static files that live in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory by default and have the form &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;YYYY&amp;gt;-&amp;lt;MM&amp;gt;-&amp;lt;DD&amp;gt;-&amp;lt;title&amp;gt;.&amp;lt;extension&amp;gt;&lt;/code&gt;. Jekyll steers people towards the use of posts in blog environments thanks to comfortable defaults, and for that reason, most people write up their blog’s entries as posts since it’s the best fit. In your Liquid templates, the list of posts is available via &lt;code class=&quot;highlighter-rouge&quot;&gt;site.posts&lt;/code&gt;, which is sorted in reverse chronological order.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Pages&lt;/em&gt; are static input files that get processed and mapped to correspondingly named output files. For example, if you have &lt;code class=&quot;highlighter-rouge&quot;&gt;contact.markdown&lt;/code&gt; as an input file, it’ll get mapped to &lt;code class=&quot;highlighter-rouge&quot;&gt;contact.html&lt;/code&gt; in the output folder. In your Liquid templates, you can get the list of pages by iterating over the &lt;code class=&quot;highlighter-rouge&quot;&gt;site.pages&lt;/code&gt; collection.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;limitations-of-default-collections&quot;&gt;Limitations of default collections&lt;/h1&gt;
+
+&lt;p&gt;Pages and posts suffice for most use cases. However, these have some limitations.&lt;/p&gt;
+
+&lt;h2 id=&quot;inflexible-post-filename-formats&quot;&gt;Inflexible post filename formats&lt;/h2&gt;
+
+&lt;p&gt;First, every post file must be named according to the format string &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;YYYY&amp;gt;-&amp;lt;MM&amp;gt;-&amp;lt;DD&amp;gt;-&amp;lt;title&amp;gt;.&amp;lt;extension&amp;gt;&lt;/code&gt;. Any post which doesn’t have this form is invalid and throws an error.&lt;/p&gt;
+
+&lt;p&gt;I found this to be an obnoxious limitation because I don’t usually finish a post on the same day I start it. That means that the filename I make the post with reflects the day I started the post, not the day I finished the post. You can override the date that Jekyll actually outputs by using &lt;code class=&quot;highlighter-rouge&quot;&gt;date&lt;/code&gt; in your &lt;a href=&quot;http://jekyllrb.com/docs/frontmatter/&quot;&gt;YAML front matter&lt;/a&gt;, but then there’s no point in also having a date in the filename, since it’s redundant and never used.&lt;/p&gt;
+
+&lt;h2 id=&quot;inconsistent-domain-model-of-posts-and-pages&quot;&gt;Inconsistent domain model of posts and pages&lt;/h2&gt;
+
+&lt;p&gt;Pages don’t have access to most of the Liquid attributes that posts do. This means that your templates must special-case pages and posts to a degree that requires a lot of repetition. In my layouts, a post is merely a page that has some extra metadata shown, so I wanted to avoid special-casing things if I could.&lt;/p&gt;
+
+&lt;p&gt;The crux of the issue can be found in the Jekyll code for &lt;a href=&quot;https://github.com/jekyll/jekyll/blob/0d1586a5c471d322a79177e3e9c2f5813c697c32/lib/jekyll/post.rb#L9-L28&quot;&gt;posts&lt;/a&gt; and &lt;a href=&quot;https://github.com/jekyll/jekyll/blob/0d1586a5c471d322a79177e3e9c2f5813c697c32/lib/jekyll/page.rb#L10-L17&quot;&gt;pages&lt;/a&gt;. Posts get fourteen attributes to work with:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;no&quot;&gt;ATTRIBUTES_FOR_LIQUID&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%w[
+  title url dir date id
+  categories tags
+  next previous
+  path
+
+  content
+  excerpt
+  excerpt_separator
+  draft?
+]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;But pages only get a small subset of these, plus a confusing &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; attribute that is distinct from the &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; found on posts.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;no&quot;&gt;ATTRIBUTES_FOR_LIQUID&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%w[
+  content
+  dir
+  name
+  path
+  url
+]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;There is an open issue for &lt;a href=&quot;https://github.com/jekyll/jekyll/issues/3169&quot;&gt;Jekyll 3&lt;/a&gt; discussing the possibility of unifying collections of different kinds, but it’s not yet resolved, so the status quo is still a vast gulf of difference.&lt;/p&gt;
+
+&lt;h2 id=&quot;inconvenient-sorting-defaults&quot;&gt;Inconvenient sorting defaults&lt;/h2&gt;
+
+&lt;p&gt;While most of Jekyll’s defaults are sensible, the sorting defaults can be undesirable. The sort key on a given post is the date of the post, which is either generated from the filename or from the &lt;code class=&quot;highlighter-rouge&quot;&gt;date&lt;/code&gt; attribute. Jekyll sorts posts in ascending date order, so in a list of posts, a post dated January 15 comes after, e.g., one dated January 2, even though January 2 is lexicographically later.&lt;/p&gt;
+
+&lt;p&gt;But for pages, the sort key is the filename, so &lt;code class=&quot;highlighter-rouge&quot;&gt;january-2.html&lt;/code&gt; is sorted after &lt;code class=&quot;highlighter-rouge&quot;&gt;january-15.html&lt;/code&gt;, which is the reverse of how posts behave. So if you want to get away from the special-casing of posts and have everything be a page, you’d have to accept some behavior changes.&lt;/p&gt;
+
+&lt;p&gt;The way this behavior is implemented isn’t very convenient, however. Jekyll recommends using the &lt;a href=&quot;http://jekyllrb.com/docs/templates/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sort&lt;/code&gt; filter&lt;/a&gt; in your Liquid templates. If you want pages to be sorted by, say, their &lt;code class=&quot;highlighter-rouge&quot;&gt;foo&lt;/code&gt; property, you can do:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;p&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;in&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;site.pages&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;|&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;foo&#39;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This requires you to make sure you have a &lt;code class=&quot;highlighter-rouge&quot;&gt;foo&lt;/code&gt; property in your YAML front matter for each page, which can be tedious. If you forget to add this for even a single post, there won’t be any hints or warnings – your site’s ordering will just silently break.&lt;/p&gt;
+
+&lt;h2 id=&quot;no-relative-navigation-available&quot;&gt;No relative navigation available&lt;/h2&gt;
+
+&lt;p&gt;Anything that’s not in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; collection doesn’t get &lt;code class=&quot;highlighter-rouge&quot;&gt;next&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;previous&lt;/code&gt; attributes to it, as we saw before. That means there’s no way to get an ordering over the items in your collection, which is obnoxious if your collection has a natural ordering over some field. For example, you almost always want blog posts to be ordered by their &lt;code class=&quot;highlighter-rouge&quot;&gt;date&lt;/code&gt; field, but you won’t get this ability on your pages.&lt;/p&gt;
+
+&lt;h1 id=&quot;custom-collections-to-the-rescue&quot;&gt;Custom collections to the rescue&lt;/h1&gt;
+
+&lt;p&gt;What do you do if the thing you want to add is neither a page nor a post? You can add &lt;em&gt;custom collections&lt;/em&gt; – Jekyll’s term for a set of things of the same kind, like “blog entries”, “soccer matches”, or “team members”. While Jekyll’s documentation is usually very good, it doesn’t cover how to do this in a manner that retained most of the features of the default collections without having to rewrite it myself.&lt;/p&gt;
+
+&lt;p&gt;To make a custom collection, first &lt;em&gt;decide on a name&lt;/em&gt; for your collection. Then make a folder named &lt;code class=&quot;highlighter-rouge&quot;&gt;_&amp;lt;name&amp;gt;&lt;/code&gt; in your source directory. For instance, if you want to make a collection representing the authors on your site, you might have an &lt;code class=&quot;highlighter-rouge&quot;&gt;authors&lt;/code&gt; collection, so you would want a directory named &lt;code class=&quot;highlighter-rouge&quot;&gt;_authors&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Second, &lt;em&gt;configure the collection&lt;/em&gt; in your project’s &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; under a hash named &lt;code class=&quot;highlighter-rouge&quot;&gt;collections&lt;/code&gt;. Each key in this hash is the name of a collection you’ll use in Jekyll. For example, a minimal &lt;code class=&quot;highlighter-rouge&quot;&gt;authors&lt;/code&gt; collection would look like this in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;collections&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;authors&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If you have other collections, you can add them here too, one collection per key.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;collections&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;authors&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;entries&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;recipes&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If the files in a collection should generate corresponding output files, then add &lt;code class=&quot;highlighter-rouge&quot;&gt;output: true&lt;/code&gt; to each custom collection for which that’s true. For example, if you want to generate a page for each author, your collection can be:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;collections&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;authors&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;At this point, you’ve got a custom collection, but it’s not very useful – it has none of the nice default behavior from &lt;code class=&quot;highlighter-rouge&quot;&gt;posts&lt;/code&gt; that we mentioned before, and it lacks even basic things like being able to sort your collection by date.&lt;/p&gt;
+
+&lt;h1 id=&quot;making-custom-collections-useful&quot;&gt;Making custom collections useful&lt;/h1&gt;
+
+&lt;p&gt;To fix this, I wrote the &lt;a href=&quot;https://github.com/fj/spicy-jekyll&quot;&gt;SpicyJekyll plugin&lt;/a&gt;: this augments your custom collection with five useful behaviors to make them behave more like you might expect:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Orders your collections by &lt;code class=&quot;highlighter-rouge&quot;&gt;date&lt;/code&gt; (or a custom sort key of your own choosing).&lt;/li&gt;
+  &lt;li&gt;Adds &lt;code class=&quot;highlighter-rouge&quot;&gt;next&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;previous&lt;/code&gt; references to your collection’s documents so you can use them in lists or archives.&lt;/li&gt;
+  &lt;li&gt;Checks for a &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; property on each document.&lt;/li&gt;
+  &lt;li&gt;Adds stable, filename-based permalinks that won’t change if you change the title.&lt;/li&gt;
+  &lt;li&gt;Logs what it’s doing to diagnose collection problems if there are any issues.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To use it, just drop it into your plugins directory. Give it a spin on your own custom collections!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Apr 2015 03:00:00 -0400</pubDate>
+        <link>http://jxf.me/entries/custom-collections-jekyll/</link>
+        <guid isPermaLink="true">http://jxf.me/entries/custom-collections-jekyll/</guid>
+        
+        <category>post</category>
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Time Passes</title>
+        <description>&lt;p&gt;Every once in a while, I’ll think about a somewhat morbid and yet universal question: how long do I have left to live? While no one knows for sure when their time will eventually run out, everyone confronts the reality of their ultimate fate &lt;a href=&quot;http://www.theonion.com/articles/world-death-rate-holding-steady-at-100-percent,1670/&quot;&gt;sooner or later&lt;/a&gt;, willingly or not.&lt;/p&gt;
+
+&lt;p&gt;Thanks to its continuous presence in all human lives, people have thought about death quite a bit. One of my favorite ruminations on the subject is Longfellow’s &lt;a href=&quot;http://www.bartleby.com/102/55.html&quot;&gt;&lt;em&gt;Psalm of Life&lt;/em&gt;&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;div style=&quot;white-space: pre&quot;&gt;Art is long, and Time is fleeting,
+  And our hearts, though stout and brave,
+Still, like muffled drums, are beating
+  Funeral marches to the grave.&lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This excerpt, at first glance, sounds rather depressing and hopeless – it suggests that we’re inevitably and inextricably on a track towards doom. But on reading the full poem, we can see that it’s actually an exhortation to make the most of the time we do have, no matter how long or short:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;div style=&quot;white-space: pre&quot;&gt;Lives of great men all remind us
+  We can make our lives sublime,	 
+And, departing, leave behind us	 
+  Footprints on the sands of time.&lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I started reflecting about some other events that have been “footprints in the sands of time”, and like any developer, decided to write a little code to investigate things. Below are the approximate dates of some historical and predicted future events, and how far away we are from them.&lt;/p&gt;
+
+&lt;aside&gt;The dates given are approximations, of course; we don&#39;t know exact values for the first few events in the table.&lt;/aside&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;event&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Δ time (in &lt;a id=&quot;set-countdown-seconds&quot; href=&quot;#&quot;&gt;sec&lt;/a&gt; · &lt;a id=&quot;set-countdown-days&quot; href=&quot;#&quot;&gt;days&lt;/a&gt; · &lt;a id=&quot;set-countdown-years&quot; href=&quot;#&quot;&gt;yr&lt;/a&gt;)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;first humans evolve from primates&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;span id=&quot;cd-first-humans&quot;&gt;·&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;first &lt;a href=&quot;http://en.wikipedia.org/wiki/Clock#Early_mechanical_clocks&quot;&gt;mechanical clock&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;span id=&quot;cd-first-mechanical-clock&quot;&gt;·&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;first &lt;a href=&quot;http://en.wikipedia.org/wiki/Printing_press&quot;&gt;movable-type printing press&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;span id=&quot;cd-first-printing-press&quot;&gt;·&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;first e-mail over &lt;a href=&quot;http://en.wikipedia.org/wiki/ARPANET&quot;&gt;ARPANET&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;span id=&quot;cd-arpanet-first-email&quot;&gt;·&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;since I was born&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;span id=&quot;cd-birthday&quot;&gt;·&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;HTTP 1.0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;span id=&quot;cd-http-1-0&quot;&gt;·&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;September 11th attacks&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;span id=&quot;cd-nine-eleven&quot;&gt;·&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Marty McFly’s arrival in &lt;a href=&quot;http://en.wikipedia.org/wiki/Back_to_the_Future_Part_II&quot;&gt;the future&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;span id=&quot;cd-back-to-the-future&quot;&gt;·&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016 U.S. presidential election&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;span id=&quot;cd-2016-election&quot;&gt;·&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Ray_Kurzweil&quot;&gt;Ray Kurzweil&lt;/a&gt;’s prediction for &lt;a href=&quot;http://en.wikipedia.org/wiki/Technological_singularity&quot;&gt;the Singularity&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;span id=&quot;cd-singularity&quot;&gt;·&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Halley’s comet returns in 21&lt;sup&gt;st&lt;/sup&gt; century&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;span id=&quot;cd-halleys-comet&quot;&gt;·&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;world population reaches 10 billion&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;&lt;span id=&quot;cd-10-billion-people&quot;&gt;·&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;aside&gt;It turns out we have a hard time &lt;a href=&quot;http://jbr.sagepub.com/content/13/5/437.short&quot;&gt;estimating even shorter durations accurately&lt;/a&gt;, like one hour. Success depends on factors like our mood, sleep, health, and attention span.&lt;/aside&gt;
+
+&lt;p&gt;The table is an interesting starting point for getting our bearings, but big stretches of time are tough to internalize for many people. We can usually recall what we were doing a day ago with some fidelity. We can give the general outline of what happened ten days ago, maybe by consulting our calendar.&lt;/p&gt;
+
+&lt;p&gt;But it would be difficult to remember what was happening one hundred days ago. And going back one thousand days – about 2.7 years – is likely to exceed any normal person’s capabilities. You can probably remember big ongoing events, like where you lived and your major relationships and friendships, but little else. These days are lost forever in the mists of time and memory.&lt;/p&gt;
+
+&lt;aside&gt;Drew Houston, the CEO of Dropbox, gave the 2013 MIT &lt;a href=&quot;http://newsoffice.mit.edu/2013/commencement-address-houston-0607&quot;&gt;commencement address&lt;/a&gt;, where he describes coming to the realization that he&#39;s already 9,000 days down at age 24 and resolving to make his life different as a result.&lt;/aside&gt;
+
+&lt;p&gt;To put that in better perspective, citizens in the top one-third of countries by life expectancy can expect a mean lifespan of about &lt;a href=&quot;http://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy&quot;&gt;eighty years&lt;/a&gt;. That’s about 30,000 days. By the time you hit your 27th birthday, you’re down about 10,000 of those days – and we can barely remember the overwhelming majority of them.&lt;/p&gt;
+
+&lt;p&gt;In that milieu, what does 10,000 days mean against your total lifespan? It’s hard to get the same perspective there that we have for a single day or a week. What if we ask a more direct question: how much time do we have left, and how can we visualize that?&lt;/p&gt;
+
+&lt;h2 id=&quot;visualizing-your-lifespan&quot;&gt;Visualizing your lifespan&lt;/h2&gt;
+
+&lt;p&gt;I made this small &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt;&lt;/a&gt; widget to help examine that question. We initially assume you’ll live to the ripe old age of eighty and that you were born on January 1, 1980. Make adjustments below as necessary for your situation.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Each colored horizontal line represents one year of your life.&lt;/li&gt;
+  &lt;li&gt;&lt;em style=&quot;color: red&quot;&gt;Red&lt;/em&gt; years are your past: you can never get them back.&lt;/li&gt;
+  &lt;li&gt;&lt;em style=&quot;color: green&quot;&gt;Green&lt;/em&gt; lines are your future, as yet unwritten.&lt;/li&gt;
+  &lt;li&gt;The pulsing &lt;em style=&quot;color: blue&quot;&gt;blue&lt;/em&gt; dot shows where you are right now at this very moment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt;Your birthday is &lt;input id=&quot;user-birthday&quot; placeholder=&quot;YYYY-MM-DD&quot; value=&quot;1980-01-01&quot; style=&quot;width: 20ex&quot; /&gt;.&lt;/div&gt;
+&lt;div&gt;You expect to live for &lt;input id=&quot;user-lifespan&quot; type=&quot;number&quot; value=&quot;80&quot; max=&quot;150&quot; style=&quot;width: 6ex; text-align: center&quot; /&gt; years.&lt;/div&gt;
+
+&lt;blockquote id=&quot;time-result&quot;&gt;&amp;nbsp;&lt;/blockquote&gt;
+
+&lt;canvas id=&quot;time-result-visualization&quot; width=&quot;400&quot; height=&quot;650&quot; style=&quot;border: 1px solid #ddd&quot;&gt;Your browser doesn&#39;t support canvas elements.&lt;/canvas&gt;
+
+&lt;h2 id=&quot;making-the-most-of-it&quot;&gt;Making the most of it&lt;/h2&gt;
+
+&lt;p&gt;A series of lines feels like too simple a representation for something as complicated and messy as a human life. But I can’t deny that this depiction also mirrors a simple truth: everyone has a finite amount of time alive before they become a husk of inert matter. Everything we will do or have done falls somewhere on one of those thin lines. It’s ultimately up to us to make the most of it.&lt;/p&gt;
+
+&lt;p&gt;And yet, this doesn’t need to be a discouraging idea. Longfellow had something to say about that, too:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;div style=&quot;white-space: pre&quot;&gt;Let us, then, be up and doing,
+  With a heart for any fate;
+Still achieving, still pursuing,
+  Learn to labor and to wait.&lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;script src=&quot;//cdn.rawgit.com/moment/moment/2.9.0/moment.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;//cdn.rawgit.com/fj/8f41692b309f986c2d02/raw/c2845be8668eb838736bcf45a1d6a2b78986c82a/countdown-v2.5.2.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  var eventList = {
+    &quot;cd-first-humans&quot;: &quot;-200000-01-01&quot;,
+    &quot;cd-first-mechanical-clock&quot;: &quot;725-01-01&quot;,
+    &quot;cd-first-printing-press&quot;: &quot;1045-06-01&quot;,
+    &quot;cd-arpanet-first-email&quot;: &quot;1969-10-29&quot;,
+    &quot;cd-birthday&quot;: &quot;1984-09-22&quot;,
+    &quot;cd-http-1-0&quot;: &quot;1996-02-19&quot;,
+    &quot;cd-nine-eleven&quot;: &quot;2001-09-11&quot;,
+    &quot;cd-back-to-the-future&quot;: &quot;2015-10-21&quot;,
+    &quot;cd-2016-election&quot;: &quot;2016-11-08&quot;,
+    &quot;cd-singularity&quot;: &quot;2045-12-31&quot;,
+    &quot;cd-halleys-comet&quot;: &quot;2061-07-28&quot;,
+    &quot;cd-10-billion-people&quot;: &quot;2063-06-17&quot;
+  };
+  
+  function setCountdownDefaultUnits(u) {
+    countdown.DEFAULTS = u;
+    refreshTimers();
+  }
+
+  countdown.setLabels(
+	  &#39; ms| s| min| h| d| w| mo| y|&#39;,
+    &#39; ms| s| min| h| d| w| mo| y|&#39;,
+    &#39; &lt;strong&gt;&amp;middot;&lt;/strong&gt; &#39;,
+    &#39; &lt;strong&gt;&amp;middot;&lt;/strong&gt; &#39;,
+    null,
+    function(n) { return n.toLocaleString() }
+	);
+
+  function findDateForEvent(e) {
+    return eventList[e];
+  }
+  
+  function countdownSuffix(c) {
+    return (c.start &lt; c.end) ? &#39;ago&#39; : &#39;to go&#39;;
+  }
+
+  function countdownForEvent(e, u) {
+    var units = u || countdown.DAYS;
+    
+    var c = countdown(
+      new Date(e),
+      null,
+      units
+    );
+    
+    return c;
+  }
+
+  function setCountdownForEvent(e) {
+    var s = &quot;&quot;;
+    d = findDateForEvent(e);
+    c = countdownForEvent(d, countdown.DEFAULTS);
+    
+    s += c;
+    s += &#39; &#39; + countdownSuffix(c);
+    
+    document.getElementById(e).innerHTML = s;
+  }
+
+  function refreshTimers() {
+    for(var eventName in eventList) {
+      if(eventList.hasOwnProperty(eventName)) {
+        setCountdownForEvent(eventName);
+      }
+    }
+  }
+
+  window.setInterval(refreshTimers, 250);
+  document.getElementById(&#39;set-countdown-seconds&#39;).addEventListener(&#39;click&#39;, function(e) {
+    setCountdownDefaultUnits(countdown.SECONDS);
+    refreshTimers();
+    e.preventDefault();
+  });
+  
+  document.getElementById(&#39;set-countdown-days&#39;).addEventListener(&#39;click&#39;, function(e) {
+    setCountdownDefaultUnits(countdown.DAYS);
+    refreshTimers();
+    e.preventDefault();
+  });
+  
+  document.getElementById(&#39;set-countdown-years&#39;).addEventListener(&#39;click&#39;, function(e) {
+    setCountdownDefaultUnits(countdown.YEARS | countdown.WEEKS);
+    refreshTimers();
+    e.preventDefault();
+  });
+  countdown.DEFAULTS = countdown.DAYS;
+&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  &quot;use strict&quot;;
+
+  var getField = function(id) {
+    return document.getElementById(id);
+  }
+  
+  var refreshCanvas = function() {
+    var timer = inputConverter.getCountdownToDate(inputConverter.getBirthdateFromField());
+    var normalizedWeeks = (timer.start &lt; timer.end) ? (timer.years * 52 + timer.weeks) : 0;
+    
+    // render text
+    textRenderer.render();
+    
+    // draw
+    if (inputConverter.validate()) {
+      console.log(&#39;weeks: &#39; + normalizedWeeks)
+      canvasDrawer.transitionIndex = normalizedWeeks;
+      canvasDrawer.gridRows        = inputConverter.getLifespanFromField();
+      canvasDrawer.render();
+    }
+  };
+
+  [getField(&#39;user-birthday&#39;), getField(&#39;user-lifespan&#39;)].forEach(function(e, idx, arr) {
+    e.addEventListener(&#39;keyup&#39;, refreshCanvas);
+    e.addEventListener(&#39;change&#39;, refreshCanvas);
+  });
+
+  var inputConverter = {
+    validate: function() {
+      return (this.getBirthdateFromField().isValid() &amp;&amp; parseInt(this.getLifespanFromField()) &gt; 0);
+    },
+    
+    getMomentFromField: function(id) {
+      return moment.utc(getField(id).value, &#39;YYYY-MM-DD&#39;, true);
+    },
+    
+    getBirthdateFromField: function() {
+      return this.getMomentFromField(&#39;user-birthday&#39;);
+    },
+    
+    getLifespanFromField: function() {
+      return getField(&#39;user-lifespan&#39;).value;
+    },
+    
+    getDifferenceInUnits: function(u) {
+      return parseInt(moment().diff(this.getBirthdateFromField(), u));
+    },
+    
+    getDeathdate: function() {
+      return moment(this.getBirthdateFromField()).add(this.getLifespanFromField(), &#39;years&#39;);
+    },
+    
+    getCountdownToDate: function(d1) {
+      return countdownForEvent(new Date(d1), countdown.YEARS | countdown.WEEKS);
+    },
+  };
+  
+  var textRenderer = {
+    render: function() {
+      var birthdate = inputConverter.getBirthdateFromField();
+      var lifespan  = inputConverter.getLifespanFromField();
+      var deathdate = inputConverter.getDeathdate();
+      
+      var fmt = function(m) {
+        return m.isValid() ? m.format(&#39;YYYY-MM-DD&#39;) : &#39;{invalid date}&#39;;
+      }
+      
+      var s = &quot;&quot;;
+      if (!birthdate.isValid()) {
+        s += &quot;Enter a valid birthdate (YYYY-MM-DD).&lt;br&gt;&quot;;
+        getField(&#39;time-result&#39;).innerHTML = s;
+        return;
+      }
+      
+      if (birthdate &lt; moment.utc()) {
+        s += &quot;You were born on &lt;strong&gt;&quot; + fmt(birthdate) + &quot;&lt;/strong&gt;.&lt;br&gt;&quot;;
+      } else {
+        s += &quot;You aren&#39;t born yet. You&#39;ll be born on &lt;strong&gt;&quot; + fmt(birthdate) + &quot;&lt;/strong&gt;.&lt;br&gt;&quot;;
+        getField(&#39;time-result&#39;).innerHTML = s;
+        return;
+      }
+      
+      if (deathdate &gt; moment.utc()) {
+        s += &quot;If you live for &lt;strong&gt;&quot; + lifespan + &quot;&lt;/strong&gt; years, you will die on &lt;strong&gt;&quot; + fmt(deathdate) + &quot;&lt;/strong&gt;.&lt;br&gt;&quot;;
+      } else {
+        s += &quot;You already died, on &lt;strong&gt;&quot; + fmt(deathdate) + &quot;&lt;/strong&gt;. RIP, friend.&lt;br&gt;&quot;;
+        getField(&#39;time-result&#39;).innerHTML = s;
+        return;
+      }
+      
+      var timer = inputConverter.getCountdownToDate(fmt(deathdate))
+      s += &quot;You have &lt;strong&gt;&quot; + timer.toString() + &quot;&lt;/strong&gt; remaining.&quot;
+      getField(&#39;time-result&#39;).innerHTML = s;
+    }
+  };
+
+  // canvas drawing
+  var canvasDrawer = {
+    transitionIndex: 0,
+    
+    gridRows: 80,
+    gridCols: 52,
+    boxSize: {x: 5, y: 3},
+    canvasPaddingSpacing: {x: 3, y: 3},
+    minorSpacing: {x: 0, y: 3},
+    majorSpacing: {x: 0, y: 10},
+    minorSpacingFrequency: {x: 1, y: 1},
+    majorSpacingFrequency: {x: 1, y: 5},
+    ySeparatorFrequency: 10,
+    
+    stroke: &quot;rgb(120, 120, 120)&quot;,
+    
+    animateFrame: window.requestAnimationFrame || 
+      window.mozRequestAnimationFrame || 
+      window.webkitRequestAnimationFrame || 
+      window.msRequestAnimationFrame,
+      
+    cancelAnimateFrame: window.cancelAnimationFrame || 
+                window.mozCancelAnimationFrame || 
+                window.webkitCancelAnimationFrame || 
+                window.msCancelAnimationFrame,
+      
+    circleAngle: 0,
+    
+    animating: false,
+    
+    render: function() {
+      if (this.animating) {
+        console.log(&#39;canceling animation &#39; + this.animating);
+        this.cancelAnimateFrame.call(window, this.animating);
+        this.animating = false;
+      }
+      var context = this.getCanvasElement().getContext(&#39;2d&#39;);
+      context.canvas.height = this.getCanvasHeight();
+      this.draw();
+    },
+    
+    draw: function() {
+      var context = this.getCanvasElement().getContext(&#39;2d&#39;);
+      
+      this.clearCanvas(context);
+      this.drawGrid(context);
+      this.drawAnimatedCircleWithAngle(context, this.circleAngle);
+      this.circleAngle += 1;
+      
+      this.animating = this.animateFrame.call(window, this.draw.bind(this));
+    },
+    
+    getCanvasHeight: function() {
+      var spacing = this.calculateBaseSpacing(this.gridCols, this.gridRows);
+      return spacing.y + this.canvasPaddingSpacing.y;
+    },
+    
+    getCanvasElement: function() {
+      return getField(&#39;time-result-visualization&#39;);
+    },
+    
+    countMajorSpacing: function(x_i, y_i) {
+      return {
+        x: Math.floor(x_i / this.majorSpacingFrequency.x),
+        y: Math.floor(y_i / this.majorSpacingFrequency.y),
+      };
+    },
+    
+    countMinorSpacing: function(x_i, y_i) {
+      return {
+        x: Math.floor(x_i / this.minorSpacingFrequency.x),
+        y: Math.floor(y_i / this.minorSpacingFrequency.y),
+      };
+    },
+    
+    spacingSize: function(x_i, y_i) {
+      var minorSpaces = this.countMinorSpacing(x_i, y_i);
+      var majorSpaces = this.countMajorSpacing(x_i, y_i);
+      
+      var xSpacing = this.minorSpacing.x * minorSpaces.x + this.majorSpacing.x * majorSpaces.x;
+      var ySpacing = this.minorSpacing.y * minorSpaces.y + this.majorSpacing.y * majorSpaces.y;
+      
+      return {
+        x: xSpacing,
+        y: ySpacing
+      };
+    },
+    
+    fill: function(index, limit) {
+      var sign = (index &amp;&amp; index !== limit) ? index &lt; limit ? -1 : 1 : 0;
+      
+      switch (sign) {
+        case -1:
+          return &quot;rgba(150, 0, 0, 0.2)&quot;;
+        case 0:
+          return &quot;rgba(100, 100, 100, 0.6)&quot;;
+        case 1:
+          return &quot;rgba(0, 150, 0, 0.5)&quot;;
+        default:
+          return undefined;
+      }
+    },
+    
+    clearCanvas: function(context) {
+      var h = context.canvas.height;
+      var w = context.canvas.width;
+      
+      context.setLineDash([]);
+      context.lineWidth = 1;
+      context.clearRect(0, 0, w, h);
+    },
+    
+    drawPath: function(path) {
+      return path();
+    },
+    
+    horizontalLinePath: function(context, stroke, lineY) {
+      context.beginPath();
+      
+      context.moveTo(0, lineY);
+      context.lineTo(context.canvas.width, lineY);
+      context.setLineDash([4,4]);
+      context.stroke();
+      
+      return context;
+    },
+    
+    rightTextLabelPath: function(context, fill, textY, text) {
+      context.beginPath();
+      
+      context.font = &quot;16px &#39;PTSans&#39;&quot;;
+      context.textAlign = &#39;right&#39;;
+      context.textBaseline = &#39;bottom&#39;;
+      context.fillStyle = fill;
+      var padding = 10;
+      
+      var px = context.canvas.width - padding;
+      var py = textY;
+
+      context.fillText(text + &quot; years&quot;, px, py);
+      
+      return context;
+    },
+    
+    squarePath: function(context, stroke, fill, rect) {
+      context.beginPath();
+      
+      context.rect.apply(context, rect);
+      context.strokeStyle = stroke;
+      context.fillStyle = fill;
+      //context.stroke();
+      context.fill();
+      
+      return context;
+    },
+    
+    calculateSquare: function(x_i, y_i) {
+      var spacing = this.calculateBaseSpacing(x_i, y_i);
+      
+      return [
+        spacing.x,
+        spacing.y,
+        this.boxSize.x,
+        this.boxSize.y
+      ];
+    },
+    
+    calculateCenterBoxSpacing: function(x_i, y_i) {
+      var spacing = this.calculateBaseSpacing(x_i, y_i);
+      
+      return {
+        x: spacing.x + (this.boxSize.x / 2),
+        y: spacing.y + (this.boxSize.y / 2),
+      };
+    },
+    
+    calculateTransitionBoxPosition: function(transitionIndex) {
+      var y_i = Math.floor(transitionIndex / this.gridCols);
+      var x_i = transitionIndex - y_i * this.gridCols - 1;
+      
+      return this.calculateCenterBoxSpacing(x_i, y_i);
+    },
+    
+    calculateLineSpacing: function(x_i, y_i) {
+      var spacing = this.calculateBaseSpacing(x_i, y_i);
+      var previousSpacing = this.calculateBaseSpacing(x_i, y_i - 1);
+      var yMidpoint = ((previousSpacing.y + this.boxSize.y) + (spacing.y)) / 2
+      
+      return {
+        x: spacing.x,
+        y: yMidpoint,
+      };
+    },
+    
+    calculateBaseSpacing: function(x_i, y_i) {
+      var spacingSize = this.spacingSize(x_i, y_i);
+      
+      var xSpacing =
+        this.canvasPaddingSpacing.x + 
+        spacingSize.x +
+        this.boxSize.x * x_i
+      
+      var ySpacing =
+        this.canvasPaddingSpacing.y + 
+        spacingSize.y +
+        this.boxSize.y * y_i
+      
+      return {
+        x: xSpacing,
+        y: ySpacing,
+      };
+    },
+    
+    drawGrid: function(context) {
+      /// Draw a grid of squares on the context, taking into account the spacing parameters previously specified.
+      /// Also draw a line and some text labels at frequencies determined by the ySeparatorFrequency.
+      
+      for (var y = 0; y &lt; this.gridRows; y++) {
+        for (var x = 0; x &lt; this.gridCols; x++) {
+          var fill   = this.fill(y * this.gridCols + x + 1, this.transitionIndex)
+          
+          var sPath = this.squarePath.bind(null, context, this.stroke, fill, this.calculateSquare(x, y));
+          this.drawPath(sPath);
+        }
+        
+        // Make sure we draw an extra line if that would equal the last row.
+        if (y &gt; 0 &amp;&amp; (y + 1) % this.ySeparatorFrequency === 0) {
+          var forY    = y + 1;
+          var spacing = this.calculateLineSpacing(x, forY);
+          
+          var lPath = this.horizontalLinePath.bind(null, context, this.stroke, spacing.y);
+          this.drawPath(lPath);
+          
+          var textPath = this.rightTextLabelPath.bind(null, context, &quot;rgba(150, 150, 150, 1)&quot;, spacing.y, forY.toString());
+          this.drawPath(textPath);
+        }
+      }
+    },
+     
+    drawAnimatedCircleWithAngle: function(context, angle) {
+      /// Draw a circle on the context.
+      /// Use `angle` to vary the size of the circle, by making the radius depend on the angle.
+      
+      var arcSegments = 128.0;
+      var arcFraction = ((angle % arcSegments) / arcSegments) * 2 * Math.PI;
+      
+      var radius = Math.max(this.boxSize.x, this.boxSize.y) + 2 * Math.abs(Math.cos(arcFraction));
+      var p = this.calculateTransitionBoxPosition(this.transitionIndex);
+      
+      
+      // Draw a dot on the center.
+      context.beginPath();
+      context.arc(p.x, p.y, radius, 0, Math.PI * 2);
+      context.closePath();
+      context.fillStyle = &#39;blue&#39;;
+      context.fill();
+    }
+  };
+  
+  refreshCanvas();
+&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 05 Apr 2015 03:00:00 -0400</pubDate>
+        <link>http://jxf.me/entries/time-passes/</link>
+        <guid isPermaLink="true">http://jxf.me/entries/time-passes/</guid>
+        
+        <category>experiment</category>
+        
+        <category>thoughts</category>
+        
+        <category>experiment</category>
+        
+        <category>js</category>
+        
+      </item>
+    
+      <item>
+        <title>In the Beginning</title>
+        <description>&lt;p&gt;It’s probably unusual to start the first post for a blog by talking about one’s past failures, and yet few things seem more appropriate right now.&lt;/p&gt;
+
+&lt;p&gt;My failure to start and commit to any kind of blog has been a recurring thorn in my side. There’s always been a litany of perfectly plausible excuses to draw on:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I don’t have enough time right now&lt;/li&gt;
+  &lt;li&gt;Other things in my life are more important&lt;/li&gt;
+  &lt;li&gt;Building my startup should be my sole and top priority&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The most pernicious lies we tell ourselves always seem to be the most comforting ones.&lt;/p&gt;
+
+&lt;p&gt;After reflecting on why the past attempts failed, I noticed a common theme: I kept starting things off not by writing &lt;em&gt;text&lt;/em&gt;, but by writing &lt;em&gt;software&lt;/em&gt;. The fun part for me was always writing the blog engine, the build pipeline, the database mappings. Each attempt rarely made it to the point where I was actually putting words down instead of code. Inevitably, I’d be sidetracked by self-imposed programming obstacles. The software, it turned out, was the thing I really wanted to build; the blog was just the convenient excuse to do it.&lt;/p&gt;
+
+&lt;p&gt;With the fresh perspective of a new year ahead, I decided it was finally time to take the drastic measures necessary to get myself writing again. One word at a time, one keystroke in front of another – the relentless yet somehow enjoyable slog of putting words on a page that even rank novices like me manage to derive satisfaction from.&lt;/p&gt;
+
+&lt;p&gt;To avoid falling into the same trap as before, I did something that was really hard for me: I didn’t write the blog engine from scratch. I allowed myself a few small fixes, but anything that didn’t get me closer to a single-command publish-to-the-Internet build pipeline was immediately scrapped. Nothing improves productivity so much as eliminating stuff you don’t really need to do.&lt;/p&gt;
+
+&lt;p&gt;The result: this blog, and more importantly, this post! We’ll see how it goes.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Apr 2015 04:00:00 -0400</pubDate>
+        <link>http://jxf.me/entries/in-the-beginning/</link>
+        <guid isPermaLink="true">http://jxf.me/entries/in-the-beginning/</guid>
+        
+        <category>post</category>
+        
+        <category>meta</category>
+        
+      </item>
+    
+  </channel>
+</rss>
